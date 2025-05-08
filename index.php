@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>python</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="typewriter">
+            <h1>Python</h1>
+        </div>
+    </div>
+
+
+    <?php include("header.php") ?>
+
+    <main>
+
+        <!-- Slider Start -->
+        <section class="banner d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ">
+                        <div class="block text-white">
+                            <span class="text-uppercase text-sm letter-spacing">The most powerful Solution</span>
+                            <h1 class="theme_header">Enhancing digital experiences with Python.</h1>
+                            <p class="mb-3 theme_pra_text">
+                            Some truths can hurt and cause problems. They bring unexpected challenges and force us to explain our choices. We often follow what feels right, even if it leads to trouble—because sometimes, we respect or accept the struggle it brings.
+                            </p>
+                            <a href="about.php" target="_blank" class="theme_button">Learn more about Digicon
+                                <i class="fa fa-angle-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="about-item">
+                            <div class="icon">
+                                <i class="ti-light-bulb"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="">Custom Effective Software development</h4>
+                                <p class=" theme_pra_text">Custom effective software development builds tailored, efficient, scalable business solutions.</p>
+                                <a href="cesd.php"> Read More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  mb-4">
+                        <div class="about-item ">
+                            <div class="icon">
+                                <i class="ti-panel"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="">Analyse Your Expenses On Every Device</h4>
+                                <p class=" theme_pra_text">Track and analyze your expenses seamlessly across every connected device.</p>
+                                <a href="#"> Read More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  mb-4">
+                        <div class="about-item ">
+                            <div class="icon">
+                                <i class="ti-headphone-alt"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="">Creating a dedicated IT business growth</h4>
+                                <p class=" theme_pra_text">Build niche IT services, scale smartly, focus on quality delivery.</p>
+                                <a href="#"> Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section process">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="process-block pl-4">
+                            <span class="text-uppercase text-sm letter-spacing">Why choose us</span>
+                            <h2 class="mb-4 mt-3 theme_headerh2">We help you to make work easy</h2>
+                            <p class="mb-4 theme_pra_text">We understand what your business means to you,your requirements considering
+                                trends.Smet nemo excepturi voluptas eligendi .</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-xs-12 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="icon-block text-center mb-4 mb-lg-0">
+                                    <i class="ti-light-bulb"></i>
+                                    <h5>Data analysis</h5>
+                                    <p class="theme_pra_text">A complete web app solution for business</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="icon-block text-center mt-4 mb-4 mb-lg-0">
+                                    <i class="ti-panel"></i>
+                                    <h5>Web Development</h5>
+                                    <p class="theme_pra_text">A complete web app solution for business</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="icon-block text-center">
+                                    <i class="ti-search"></i>
+                                    <h5>Content Mangement</h5>
+                                    <p class="theme_pra_text">A complete web app solution for business</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="icon-block text-center mt-4">
+                                    <i class="ti-rocket"></i>
+                                    <h5>Mobility</h5>
+                                    <p class="theme_pra_text">A complete web app solution for business</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="cta-content bg-white p-5 rounded">
+                            <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span class="text-color-primary">
+                                    Testing</span>
+                            </h3>
+                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from SISAR. Helps to reduce
+                                software development efforts</p>
+
+                            <a href="portfolio.php" class="btn btn-main">Portfolio<i
+                                    class="fa fa-angle-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section portfolio -->
+        <section class="section portfolio pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!</h2>
+                            <p class="theme_pra_text">We have the best experts to elevate your business to the next level, try us and you will
+                                see! We have the best experts to elevate your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row portfolio-gallery">
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
+                                    <p class="text-white-50">Web Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
+                                    <p class="text-white-50">Web Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
+                                    <p class="text-white-50">Web Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
+                                    <p class="text-white-50">Mobile App Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
+                                    <p class="text-white-50">Mobile App Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="project_detail.php">
+                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
+                                <div class="overlay-item"><i class="ti-link"></i></div>
+                                <div class="portfolio-item-content">
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
+                                    <p class="text-white-50">Mobile App Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section Counter -->
+        <section class="section counter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item text-center mb-5 mb-lg-0">
+                            <h2 class="mb-0 "><span class="counter-stat font-weight-bold">1730</span> +</h2>
+                            <p>Project Done</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item text-center mb-5 mb-lg-0">
+                            <h2 class="mb-0 "><span class="counter-stat font-weight-bold">125 </span>M </h2>
+                            <p>User Worldwide</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item text-center mb-5 mb-lg-0">
+                            <h2 class="mb-0 "><span class="counter-stat font-weight-bold">39</span></h2>
+                            <p>Availble Country</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item text-center">
+                            <h2 class="mb-0 "><span class="counter-stat font-weight-bold">14</span></h2>
+                            <p>Award Winner </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section testimonial-modern py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
+                    <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable, and efficient!</p>
+                </div>
+
+                <div class="testimonial-wrapper d-flex align-items-center justify-content-center position-relative">
+                    <button class="prev-btn position-absolute start-0 translate-middle-y">&larr;</button>
+
+                    <div class="testimonial-slider">
+                        <div class="testimonial-card active">
+                            <p class="testimonial-text theme_pra_text">“Amazing experience! The team delivered more than expected.
+                                Highly
+                                recommend.”</p>
+                            <div class="client-info">
+                                <img src="images/team/testimonial1.jpg" alt="John Partho">
+                                <div>
+                                    <h6>Rohan</h6>
+                                    <span>Noida, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text theme_pra_text">“Great work ethic and support. Will work with them again for
+                                sure.”
+                            </p>
+                            <div class="client-info">
+                                <img src="images/team/testimonial2.jpg" alt="Jane Smith">
+                                <div>
+                                    <h6>Nancy</h6>
+                                    <span>Pune, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text theme_pra_text">“Professional, fast, and friendly. A pleasure to work with.”</p>
+                            <div class="client-info">
+                                <img src="images/team/testimonial1.jpg" alt="Ali Khan">
+                                <div>
+                                    <h6>Mohan</h6>
+                                    <span>Noida, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="next-btn position-absolute end-0 translate-middle-y">&rarr;</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <?php include("footer.php") ?>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+
+        window.addEventListener("load", function () {
+            setTimeout(() => {
+                document.getElementById("preloader").style.display = "none";
+                document.getElementById("mainContent").style.display = "block";
+            }, 1000);
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

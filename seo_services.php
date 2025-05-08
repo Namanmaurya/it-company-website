@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>python</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="typewriter">
+            <h1>Python</h1>
+        </div>
+    </div>
+
+
+    <?php include("header.php") ?>
+
+    <main>
+
+        <section class="page-title bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="block text-center">
+                            <span class="text-white">SEO</span>
+                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">SEO Services</h1>
+
+                            <ul class="list-inline breadcumb-nav">
+                                <li class="list-inline-item"><a href="services.php" class="text-white">Services</a></li>
+                                <li class="list-inline-item"><span class="text-white">/</span></li>
+                                <li class="list-inline-item"><a href="seo_services.php" class="text-white-50">SEO</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="seo_about">
+            <div class="container" data-aos="fade-up">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="images\service\seo_img1.avif" alt="About SEO" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="theme_headerh2">About Our SEO Services</h2>
+                        <p>We craft personalized SEO strategies that focus on sustainable growth. Whether you're local
+                            or global, we help you reach the top of search engine results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Included -->
+        <section class="seo_services">
+            <div class="container">
+                <h2 class="theme_headerh2">What’s Included in Our SEO Package</h2>
+                <div class="row g-4" data-aos="fade-up">
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Keyword Research</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">On-Page SEO</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Link Building</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Technical SEO</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Local SEO</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">E-commerce SEO</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Content Optimization</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 h-100 text-center">Analytics Reporting</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="seo_chose_us">
+            <div class="container">
+                <h2 class="theme_headerh2" data-aos="fade-down">Why Choose Us?</h2>
+                <div class="row text-center g-4" data-aos="fade-up">
+                    <div class="col-md-4">
+                        <div class="p-4 border rounded">Transparent Process</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 border rounded">Certified Experts</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 border rounded">Affordable Packages</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Case Studies -->
+        <section class="seo_case_studies">
+            <div class="container">
+                <h2 class="theme_headerh2">Case Studies</h2>
+                <div class="row g-4" data-aos="fade-up">
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="images\service\seo_case_img.jpeg" class="card-img-top" alt="Case Study">
+                            <div class="card-body">
+                                <h5 class="card-title">Local Restaurant</h5>
+                                <p class="card-text">Increased organic traffic by 220% in 3 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="images\service\seo_case_study_eco_img.png" class="card-img-top" alt="Case Study">
+                            <div class="card-body">
+                                <h5 class="card-title">Dressing webiste</h5>
+                                <p class="card-text">Increased organic traffic by 180% in 2 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top" alt="Case Study">
+                            <div class="card-body">
+                                <h5 class="card-title">Grocery Website</h5>
+                                <p class="card-text">Increased organic traffic by 200% in 2 months.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section class="seo_tool">
+            <div class="container">
+                <h2 class="theme_headerh2">Tools We Use</h2>
+                <div class="row text-center g-3" data-aos="zoom-in">
+                    <div class="col-3"><img src="images\service\google_logo_img.png" alt="Google Analytics"
+                            class="img-fluid" width="80"></div>
+                    <div class="col-3"><img src="images\service\sem_lgo_img.png" alt="Semrush" class="img-fluid"
+                            width="80"></div>
+                    <div class="col-3"><img src="images\service\aze_logo_img.png" alt="Ahrefs" class="img-fluid"
+                            width="80"></div>
+                    <div class="col-3"><img src="images\service\moz_seo_img.png" alt="Moz" class="img-fluid" width="80">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Plans -->
+        <section class="seo_pricing">
+            <div class="container">
+                <h2 class="theme_headerh2">Pricing Plans</h2>
+                <div class="row g-4" data-aos="fade-up">
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center p-4">
+                            <h4>Starter Plan</h4>
+                            <p>$299/month</p>
+                            <p>Perfect for local businesses</p>
+                            <a href="#contact" class="btn btn-primary">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center p-4 border border-primary">
+                            <h4>Growth Plan</h4>
+                            <p>$599/month</p>
+                            <p>Best for mid-size companies</p>
+                            <a href="#contact" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center p-4">
+                            <h4>Enterprise Plan</h4>
+                            <p>Custom Pricing</p>
+                            <p>Tailored SEO strategy</p>
+                            <a href="#contact" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="cta-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="cta-text">
+                            <h3>Ready to SEO Services?</h3>
+                            <p>Let’s talk about how we can bring your vision to life.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cta-action">
+                            <a href="contact.php" class="btn-light">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <?php include("footer.php") ?>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+
+        window.addEventListener("load", function () {
+            setTimeout(() => {
+                document.getElementById("preloader").style.display = "none";
+                document.getElementById("mainContent").style.display = "block";
+            }, 1000);
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
