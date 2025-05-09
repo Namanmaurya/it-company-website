@@ -16,9 +16,8 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<style>
-		
 		.footer {
-			background-color:#2a2929;
+			background-color: #2a2929;
 			color: #fff;
 			padding: 40px 0 15px;
 			font-family: "Poppins", sans-serif;
@@ -31,7 +30,7 @@
 		}
 
 		.footer a:hover {
-			color:rgb(3, 66, 237);
+			color: rgb(3, 66, 237);
 
 		}
 
@@ -70,7 +69,7 @@
 		}
 
 		.footer-socials a:hover {
-			color:rgb(10, 87, 241);
+			color: rgb(10, 87, 241);
 		}
 
 		.footer-btm {
@@ -79,15 +78,21 @@
 		}
 
 		.footer-btm .text-color {
-			color:rgb(11, 52, 255);
+			color: rgb(11, 52, 255);
 		}
 
 		/* .widget{
 			text-align: center;
 		} */
 
-		.widget_element{
+		.widget_element {
 			text-align: center;
+		}
+
+		@madia (max-width: 1025px) {
+			.logo h3 {
+				font-size: 26px !important;
+			}
 		}
 
 		@media (max-width: 768px) {
@@ -156,10 +161,11 @@
 						<div class="col-md-4">
 							<div class="widget widget-contact widget_element">
 								<h4 class="text-capitalize mb-4">Get in Touch</h4>
-								<h6><a href="tel:+23-345-67890"> <i
+								<h6 class="footerh6"><a href="tel:+23-345-67890"> <i
 											class="ti-headphone-alt mr-3"></i>Support@mepython.com</a>
 								</h6>
-								<h6><a href="mailto:support@gmail.com"> <i class="ti-mobile mr-3"></i>+91-456-6588</a>
+								<h6 class="footerh6"><a href="mailto:support@gmail.com"> <i
+											class="ti-mobile mr-3"></i>+91-456-6588</a>
 								</h6>
 
 								<ul class="list-inline footer-socials mt-3">

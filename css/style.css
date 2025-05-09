@@ -58,10 +58,10 @@ body {
 }
 
 .theme_headerh1 {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 700;
     color: #222;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .theme_headerh2 {
@@ -224,19 +224,9 @@ body {
 
 }
 
-.banner .block h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 1rem;
-}
 
-.banner .block p {
-    font-size: 1.125rem;
-    color: #555;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-}
+
+
 
 .banner .block span {
     display: inline-block;
@@ -280,27 +270,19 @@ body {
         padding: 2.5rem 2rem;
     }
 
-    .banner .block h1 {
-        font-size: 2.5rem;
-    }
 
-    .banner .block p {
-        font-size: 1.05rem;
-    }
 }
 
 @media (max-width: 767.98px) {
     .banner {
-        padding: 80px 15px;
+        padding: 70px 15px;
     }
 
     .banner .block {
-        padding: 2rem;
+        padding: 25px;
     }
 
-    .banner .block h1 {
-        font-size: 2rem;
-    }
+
 
     .btn-main {
         width: 100%;
@@ -310,31 +292,13 @@ body {
 }
 
 @media (max-width: 575.98px) {
-    .banner .block h1 {
-        font-size: 1.75rem;
-    }
 
-    .banner .block p {
-        font-size: 1rem;
-    }
 
     .btn-main {
         font-size: 0.95rem;
         padding: 0.65rem 1.2rem;
     }
 }
-
-
-@media (max-width: 575.98px) {
-    .banner .block h1 {
-        font-size: 1.5rem;
-    }
-
-    .banner .block p {
-        font-size: 0.9rem;
-    }
-}
-
 
 
 /* Base Section Styling */
@@ -350,7 +314,7 @@ body {
 .about-item {
     background-color: #ffffff;
     border: 1px solid #e5e5e5;
-    padding:20px 20px;
+    padding: 20px 20px;
     border-radius: 8px;
     text-align: center;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
@@ -1179,6 +1143,10 @@ body {
     line-height: 1.6;
 }
 
+.mar_bm{
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -1210,6 +1178,13 @@ body {
     .service-info p {
         font-size: 14px;
     }
+}
+
+@media (max-width: 1024px){
+    .mar_bm{
+        margin-bottom: 20px;
+    }
+
 }
 
 
@@ -1861,7 +1836,7 @@ body {
 }
 
 
-.btn-main {
+/* .btn-main {
     background-color: #007bff;
     color: #fff;
     font-weight: 600;
@@ -1874,7 +1849,7 @@ body {
 
 .btn-main:hover {
     background-color: #0056b3;
-}
+} */
 
 
 @media (max-width: 576px) {
@@ -3611,9 +3586,62 @@ body {
     }
 }
 
-@media (max-width: 321px){
+
+@media (max-width: 769px) {
     .theme_headerh1 {
-        font-size: 2.5rem;
-        
+        font-size: 40px;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 10px;
     }
 }
+
+@media (max-width: 321px) {
+    .theme_headerh1 {
+        font-size: 2.5rem;
+
+    }
+}
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Creates 3D effect */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .flip-card-front {
+    background-color: #2980b9;
+  }
+  
+  .flip-card-back {
+    background-color: #27ae60;
+    transform: rotateY(180deg);
+  }
+  

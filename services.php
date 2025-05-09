@@ -53,15 +53,15 @@
         <section class="section service-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="service-img mb-5 mb-lg-0">
-                            <img src="images/service/service-1.jpg" alt="" class="img-fluid">
+                    <div class="col-lg-6 mar_bm">
+                        <div class="service-img">
+                            <img src="images/service/service-1.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 mar_bm">
                         <a href="cesd.php">
-                            <div class="service-info ">
-                                <span class="text-color font-weight-bold">01</span>
+                            <div class="service-info">
+                                <span class="text-color">01</span>
                                 <h3 class="text-md">
                                     Custom Software development
                                 </h3>
@@ -77,9 +77,9 @@
 
                 <div class="content-padding position-relative">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6 mar_bm">
                             <a href="software_man.php">
-                                <div class="service-info mb-5 mb-lg-0">
+                                <div class="service-info">
                                     <span class="text-color font-weight-bold">02</span>
                                     <h3 class="text-md">
                                         Software Maintenance
@@ -94,24 +94,24 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="service-img">
-                                <img src="images/service/service-3.jpg" alt="" class="img-fluid">
+                                <img src="images/service/service-3.jpg" alt="service_image" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="service-img mb-5 mb-lg-0">
-                            <img src="images/service/service-4.jpg" alt="" class="img-fluid">
+                    <div class="col-lg-6 mar_bm">
+                        <div class="service-img ">
+                            <img src="images/service/service-4.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 mar_bm">
                         <a href="wad.php">
                             <div class="service-info">
-                                <span class="text-color font-weight-bold">03</span>
+                                <span class="text-color">03</span>
                                 <h3 class="text-md">
                                     Web App Development
                                 </h3>
@@ -129,10 +129,10 @@
 
                 <div class="content-padding position-relative">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6 mar_bm">
                             <a href="c_services.php">
-                                <div class="service-info mb-5 mb-lg-0">
-                                    <span class="text-color font-weight-bold">04</span>
+                                <div class="service-info">
+                                    <span class="text-color">04</span>
                                     <h3 class="text-md">
                                         Cloud Services
                                     </h3>
@@ -145,24 +145,24 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="service-img">
-                                <img src="images/service/service-3.jpg" alt="" class="img-fluid">
+                                <img src="images/service/service-3.jpg" alt="service_image" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="service-img mb-5 mb-lg-0">
-                            <img src="images/service/service-4.jpg" alt="" class="img-fluid">
+                    <div class="col-lg-6 mar_bm">
+                        <div class="service-img">
+                            <img src="images/service/service-4.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 mar_bm">
                         <a href="seo_services.php">
                             <div class="service-info">
-                                <span class="text-color font-weight-bold">05</span>
+                                <span class="text-color">05</span>
                                 <h3 class="text-md">
                                     SEO Services
                                 </h3>
@@ -195,14 +195,14 @@
 
                 <div class="case-timeline">
                     <div class="row align-items-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="case-img ">
                                 <img src="images/about/process-3.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
 
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="case-content">
                                 <h4 class="mb-3">Competitive Analysis</h4>
                                 <p class="theme_pra_text">Competitive analysis involves assessing competitors'
@@ -221,7 +221,7 @@
                 <div class="case-timeline">
 
                     <div class="row align-items-center">
-                        <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="col-lg-6 order-2 order-lg-1 mar_bm">
                             <div class="case-content">
                                 <h4 class="mb-3">Making Functional Strategy</h4>
                                 <p class="theme_pra_text">Making a Functional Strategy involves developing specific
@@ -235,7 +235,7 @@
                                 <div class="case-timeline-dot"></div>
                             </div>
                         </div>
-                        <div class="col-lg-6  order-1 order-lg-2">
+                        <div class="col-lg-6  order-1 order-lg-2 mar_bm">
                             <div class="case-img">
                                 <img src="images/about/process-2.jpg" alt="" class="img-fluid">
                             </div>
@@ -246,12 +246,12 @@
                 <div class="case-timeline">
 
                     <div class="row align-items-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="case-img">
                                 <img src="images/about/process-1.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mar_bm">
                             <div class="case-content">
                                 <h4 class="mb-3">Project Outline</h4>
                                 <p class="theme_pra_text">A project outline provides a structured overview of goals,
@@ -270,7 +270,7 @@
 
 
                     <div class="row align-items-center">
-                        <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="col-lg-6 order-2 order-lg-1 mar_bm">
                             <div class="case-content">
                                 <h4 class="mb-3">Final Delivery</h4>
                                 <p class="theme_pra_text">Final delivery marks the completion of a project, where the
@@ -283,7 +283,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6  order-1 order-lg-2">
+                        <div class="col-lg-6  order-1 order-lg-2 mar_bm">
                             <div class="case-img">
                                 <img src="images/about/structure_sass.png" alt="" class="img-fluid">
                             </div>

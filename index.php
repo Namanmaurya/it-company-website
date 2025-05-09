@@ -36,11 +36,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ">
-                        <div class="block text-white">
+                        <div class="block">
                             <span class="text-uppercase text-sm letter-spacing">The most powerful Solution</span>
-                            <h1 class="theme_header">Enhancing digital experiences with Python.</h1>
+                            <h1 class="theme_headerh1">Enhancing digital experiences with Python.</h1>
                             <p class="mb-3 theme_pra_text">
-                            Some truths can hurt and cause problems. They bring unexpected challenges and force us to explain our choices. We often follow what feels right, even if it leads to trouble—because sometimes, we respect or accept the struggle it brings.
+                                Some truths can hurt and cause problems. They bring unexpected challenges and force us
+                                to explain our choices. We often follow what feels right, even if it leads to
+                                trouble—because sometimes, we respect or accept the struggle it brings.
                             </p>
                             <a href="about.php" target="_blank" class="theme_button">Learn more about Digicon
                                 <i class="fa fa-angle-right ml-2"></i>
@@ -61,7 +63,8 @@
                             </div>
                             <div class="content">
                                 <h4 class="">Custom Effective Software development</h4>
-                                <p class=" theme_pra_text">Custom effective software development builds tailored, efficient, scalable business solutions.</p>
+                                <p class=" theme_pra_text">Custom effective software development builds tailored,
+                                    efficient, scalable business solutions.</p>
                                 <a href="cesd.php"> Read More </a>
                             </div>
                         </div>
@@ -74,7 +77,8 @@
                             </div>
                             <div class="content">
                                 <h4 class="">Analyse Your Expenses On Every Device</h4>
-                                <p class=" theme_pra_text">Track and analyze your expenses seamlessly across every connected device.</p>
+                                <p class=" theme_pra_text">Track and analyze your expenses seamlessly across every
+                                    connected device.</p>
                                 <a href="#"> Read More </a>
                             </div>
                         </div>
@@ -87,7 +91,8 @@
                             </div>
                             <div class="content">
                                 <h4 class="">Creating a dedicated IT business growth</h4>
-                                <p class=" theme_pra_text">Build niche IT services, scale smartly, focus on quality delivery.</p>
+                                <p class=" theme_pra_text">Build niche IT services, scale smartly, focus on quality
+                                    delivery.</p>
                                 <a href="#"> Read More </a>
                             </div>
                         </div>
@@ -103,7 +108,8 @@
                         <div class="process-block pl-4">
                             <span class="text-uppercase text-sm letter-spacing">Why choose us</span>
                             <h2 class="mb-4 mt-3 theme_headerh2">We help you to make work easy</h2>
-                            <p class="mb-4 theme_pra_text">We understand what your business means to you,your requirements considering
+                            <p class="mb-4 theme_pra_text">We understand what your business means to you,your
+                                requirements considering
                                 trends.Smet nemo excepturi voluptas eligendi .</p>
                         </div>
                     </div>
@@ -112,7 +118,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="icon-block text-center mb-4 mb-lg-0">
-                                    <i class="ti-light-bulb"></i>
+                                    <i class="fa-solid fa-lightbulb"></i>
                                     <h5>Data analysis</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>
                                 </div>
@@ -120,7 +126,7 @@
 
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="icon-block text-center mt-4 mb-4 mb-lg-0">
-                                    <i class="ti-panel"></i>
+                                    <i class="fa-solid fa-laptop"></i>
                                     <h5>Web Development</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>
                                 </div>
@@ -128,7 +134,7 @@
 
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="icon-block text-center">
-                                    <i class="ti-search"></i>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
                                     <h5>Content Mangement</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>
                                 </div>
@@ -136,7 +142,7 @@
 
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="icon-block text-center mt-4">
-                                    <i class="ti-rocket"></i>
+                                    <i class="fa-solid fa-rocket"></i>
                                     <h5>Mobility</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>
                                 </div>
@@ -146,15 +152,30 @@
                 </div>
             </div>
         </section>
+
+        <!-- <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <h2>Front</h2>
+                </div>
+                <div class="flip-card-back">
+                    <h2>Back</h2>
+                    <p>More information here.</p>
+                </div>
+            </div>
+        </div> -->
+
         <section class="section cta">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="cta-content bg-white p-5 rounded">
-                            <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span class="text-color-primary">
+                            <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span
+                                    class="text-color-primary">
                                     Testing</span>
                             </h3>
-                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from SISAR. Helps to reduce
+                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from SISAR.
+                                Helps to reduce
                                 software development efforts</p>
 
                             <a href="portfolio.php" class="btn btn-main">Portfolio<i
@@ -170,8 +191,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="heading">
-                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!</h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next level, try us and you will
+                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
+                            </h2>
+                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
+                                level, try us and you will
                                 see! We have the best experts to elevate your business.</p>
                         </div>
                     </div>
@@ -184,8 +207,8 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
                                     <p class="text-white-50">Web Development</p>
                                 </div>
@@ -197,8 +220,8 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
                                     <p class="text-white-50">Web Development</p>
                                 </div>
@@ -210,8 +233,8 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
                                     <p class="text-white-50">Web Development</p>
                                 </div>
@@ -223,8 +246,8 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
                                     <p class="text-white-50">Mobile App Development</p>
                                 </div>
@@ -236,8 +259,8 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
                                     <p class="text-white-50">Mobile App Development</p>
                                 </div>
@@ -249,16 +272,34 @@
                         <div class="portflio-item position-relative">
                             <a href="project_detail.php">
                                 <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
                                     <p class="text-white-50">Mobile App Development</p>
                                 </div>
                             </a>
                         </div>
                     </div>
+
+                    <!-- <div class="col-md-4 mb-4">
+                        <a href="project_detail.php">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <i class="fa-solid fa-link"></i>
+                                        <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
+                                        <p class="text-white-50">Mobile App Development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div> -->
                 </div>
             </div>
+            
         </section>
 
 
@@ -298,15 +339,18 @@
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
-                    <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable, and efficient!</p>
+                    <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable, and
+                        efficient!</p>
                 </div>
 
                 <div class="testimonial-wrapper d-flex align-items-center justify-content-center position-relative">
-                    <button class="prev-btn position-absolute start-0 translate-middle-y">&larr;</button>
+                    <button class="prev-btn position-absolute start-0 translate-middle-y"><i
+                            class="fa-solid fa-arrow-left"></i></button>
 
                     <div class="testimonial-slider">
                         <div class="testimonial-card active">
-                            <p class="testimonial-text theme_pra_text">“Amazing experience! The team delivered more than expected.
+                            <p class="testimonial-text theme_pra_text">“Amazing experience! The team delivered more than
+                                expected.
                                 Highly
                                 recommend.”</p>
                             <div class="client-info">
@@ -319,7 +363,8 @@
                         </div>
 
                         <div class="testimonial-card">
-                            <p class="testimonial-text theme_pra_text">“Great work ethic and support. Will work with them again for
+                            <p class="testimonial-text theme_pra_text">“Great work ethic and support. Will work with
+                                them again for
                                 sure.”
                             </p>
                             <div class="client-info">
@@ -332,7 +377,8 @@
                         </div>
 
                         <div class="testimonial-card">
-                            <p class="testimonial-text theme_pra_text">“Professional, fast, and friendly. A pleasure to work with.”</p>
+                            <p class="testimonial-text theme_pra_text">“Professional, fast, and friendly. A pleasure to
+                                work with.”</p>
                             <div class="client-info">
                                 <img src="images/team/testimonial1.jpg" alt="Ali Khan">
                                 <div>
@@ -343,7 +389,8 @@
                         </div>
                     </div>
 
-                    <button class="next-btn position-absolute end-0 translate-middle-y">&rarr;</button>
+                    <button class="next-btn position-absolute end-0 translate-middle-y"><i
+                            class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </section>

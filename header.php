@@ -96,18 +96,18 @@
 
         .dropdown-menu {
             background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+            border-radius: 0px;
+            box-shadow: rgba(202, 33, 33, 0.15) 1.95px 1.95px 2.6px !important;
             display: none;
         }
 
         .dropdown-item {
-            font-size: 15px;
-            font-weight: 500;
-            text-transform: uppercase;
+            font-size: 14px !important;
+            font-weight: 700;
             padding: 10px 20px;
             color: black;
             transition: background-color 0.3s ease;
+            font-family: "Poppins", sans-serif;
         }
 
         .dropdown-item.active {
@@ -133,7 +133,6 @@
                 float: none;
                 width: 100%;
                 margin-top: 0;
-                box-shadow: none;
                 display: block;
             }
 
@@ -177,7 +176,19 @@
                 font-size: 30px !important;
             }
 
-           
+            .theme_mf {
+                margin-left: 0px;
+            }
+
+            .navbar-nav {
+                margin-bottom: 20px !important;
+            }
+
+            .dropdown-menu {
+                text-align: center !important;
+            }
+
+
         }
 
         @media (max-width: 426px) {
@@ -225,7 +236,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse text-center">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav  mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
