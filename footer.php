@@ -153,8 +153,8 @@
 
 								<ul class="list-unstyled footer-menu lh-35">
 									<li><a href="#">Terms & Conditions</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-									<li><a href="#">FAQ</a></li>
+									<li><a href="privacy_policy.php">Privacy Policy</a></li>
+									<li><a href="faq.php">FAQ</a></li>
 								</ul>
 							</div>
 						</div>

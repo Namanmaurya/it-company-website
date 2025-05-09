@@ -59,10 +59,10 @@
 
                         <div class="row">
                             <div class="col-lg-8">
-                                <form id="contact-form" class="contact__form" method="post" action="mail.php">
+                                <form id="contact-form" class="contact__form" method="post">
                                     <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>I Need help in ...</option>
+                                        <select class="form-control" id="exampleFormControlSelect1" name="subject">
+                                            
                                             <option>Custom Software Development </option>
                                             <option>Software Maintenance</option>
                                             <option>Web App Development</option>
@@ -73,15 +73,18 @@
 
                                     <div class="form-group">
                                         <input name="name" id="name" type="text" class="form-control"
-                                            placeholder="Your Name">
+                                            placeholder="Your Name" required
+                                            oninput="this.value = this.value.replace(/[0-9]/g, '')">
                                     </div>
 
                                     <div class="form-group">
-                                        <input name="phone_number" id="phone_number" type="number" class="form-control"
-                                            placeholder="Phone number">
+                                        <input type="tel" name="contact" placeholder="Phone number" class="form-control"
+                                            pattern="\d{10}" maxlength="10" required
+                                            title="Please enter a valid 10-digit contact number"
+                                            oninput="this.value= this.value.replace(/[^0-9]/g, '');">
                                     </div>
 
-                                    
+
 
                                     <div class="form-group">
                                         <input name="email" id="email" type="email" class="form-control"
@@ -210,7 +213,7 @@
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -228,6 +231,36 @@
         });
 
 
+    </script>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            let formData = new FormData(this);
+
+            fetch("mail.php", {
+                method: "POST",
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    Swal.fire({
+                        icon: data.success ? 'success' : 'error',
+                        title: data.success ? 'Success!' : 'Error!',
+                        text: data.message,
+                    });
+                    if (data.success) {
+                        document.getElementById("contact-form").reset();
+                    }
+                })
+                .catch(error => {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error!',
+                        text: 'Something went wrong. Please try again.',
+                    });
+                });
+        });
     </script>
 
 
