@@ -97,7 +97,7 @@
         .dropdown-menu {
             background-color: #ffffff;
             border-radius: 0px;
-            box-shadow: rgba(202, 33, 33, 0.15) 1.95px 1.95px 2.6px !important;
+            box-shadow: rgba(63, 60, 60, 0.15) 1.95px 1.95px 2.6px !important;
             display: none;
         }
 
