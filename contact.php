@@ -62,7 +62,7 @@
                                 <form id="contact-form" class="contact__form" method="post">
                                     <div class="form-group">
                                         <select class="form-control" id="exampleFormControlSelect1" name="subject">
-                                            
+
                                             <option>Custom Software Development </option>
                                             <option>Software Maintenance</option>
                                             <option>Web App Development</option>
@@ -204,6 +204,60 @@
             </div>
         </section>
 
+        <!-- Social Presence Section -->
+
+        <section class="social_presence ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">
+                            Social <b>Presence</b>
+                        </h2>
+                        <div class="social_icons">
+                            <div class="icon">
+                                <a href="https://www.facebook.com/" class="icon facebook"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                                <div class="icon_name">
+                                    <p>Facebook</p>
+                                </div>
+
+                            </div>
+                            <div class="icon">
+                                <a href="https://x.com/i/flow/login" class="icon twitter"><i
+                                        class="fa-brands fa-x-twitter"></i></a>
+                                <div class="icon_name">
+                                    <p>Twitter</p>
+                                </div>
+
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.instagram.com/accounts/login/?hl=en" class="icon instagram"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <div class="icon_name">
+                                    <p>Instagram</p>
+                                </div>
+
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/login/in" class="icon linkedin"> <i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <div class="icon_name">
+                                    <p>Linkedin</p>
+                                </div>
+
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.youtube.com/" class="icon youtube"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                                <div class="icon_name">
+                                    <p>Youtube</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     </main>

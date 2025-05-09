@@ -167,6 +167,27 @@
                 </div>
             </div>
         </section>
+
+        <section id="contact" class="cta-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="cta-text">
+                            <h3>Ready
+                                customize your software?</h3>
+                            <p>Let’s talk about how we can bring your vision to life.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cta-action">
+                            <a href="contact.php" class="btn-light">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+       
     </main>
 
 

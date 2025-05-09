@@ -66,6 +66,7 @@
 
                 <div class="row">
                     <div class="col-md-5 my-3">
+                        <div class="faq_heading"><h2>Software development</h2></div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img1.avif" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -228,6 +229,7 @@
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-5 my-3">
+                        <div class="faq_heading"><h2>Software maintenance</h2></div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img2.jpg" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -235,6 +237,7 @@
 
 
                     <div class="col-md-5 my-3">
+                        <div class="faq_heading"><h2>web application</h2></div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img3.avif" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -388,11 +391,13 @@
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-5 my-3">
+                        <div class="faq_heading"><h2>Cloud services</h2></div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img4.avif" alt="faq_section_img" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-5 my-3">
+                        <div class="faq_heading"><h2>SEO Services</h2></div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img5.jpg" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -501,8 +506,7 @@
 
                             </div>
                             <div class="icon">
-                                <a href="https://x.com/i/flow/login" class="icon twitter"><i
-                                        class="fa-brands fa-twitter"></i></a>
+                                <a href="https://x.com/i/flow/login" class="icon twitter"><i class="fa-brands fa-x-twitter"></i></a>
                                 <div class="icon_name">
                                     <p>Twitter</p>
                                 </div>
