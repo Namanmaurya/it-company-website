@@ -3447,6 +3447,7 @@ body {
     border: 1px solid #ddd;
     padding-bottom: 10px;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .faq-question {
@@ -3459,6 +3460,7 @@ body {
     padding: 15px 15px;
     transition: all 0.3s ease;
     color: #333;
+    
 }
 
 .faq-question:hover {
