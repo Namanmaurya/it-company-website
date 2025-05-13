@@ -44,7 +44,7 @@
                                 to explain our choices. We often follow what feels right, even if it leads to
                                 trouble—because sometimes, we respect or accept the struggle it brings.
                             </p>
-                            <a href="about.php" target="_blank" class="theme_button">Learn more about Digicon
+                            <a href="about.php" class="theme_button">Learn more about Digicon
                                 <i class="fa fa-angle-right ml-2"></i>
                             </a>
                         </div>
@@ -65,7 +65,7 @@
                                 <h4 class="">Custom Effective Software development</h4>
                                 <p class=" theme_pra_text">Custom effective software development builds tailored,
                                     efficient, scalable business solutions.</p>
-                                <a href="cesd.php"> Read More </a>
+                                <a href="cus_effective_soft.php"> Read More </a>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                                 <h4 class="">Analyse Your Expenses On Every Device</h4>
                                 <p class=" theme_pra_text">Track and analyze your expenses seamlessly across every
                                     connected device.</p>
-                                <a href="#"> Read More </a>
+                                <a href="Ana_your_exp.php"> Read More </a>
                             </div>
                         </div>
                     </div>
@@ -90,10 +90,9 @@
                                 <i class="ti-headphone-alt"></i>
                             </div>
                             <div class="content">
-                                <h4 class="">Creating a dedicated IT business growth</h4>
-                                <p class=" theme_pra_text">Build niche IT services, scale smartly, focus on quality
-                                    delivery.</p>
-                                <a href="#"> Read More </a>
+                                <h4 class="">Projects and Case Study</h4>
+                                <p class=" theme_pra_text">Reviewing our project and case study will help you understand the features, goals, and results, making it easier to identify what meets your needs.</p>
+                                <a href="project_and_casestudy.php"> Read More </a>
                             </div>
                         </div>
                     </div>
@@ -151,20 +150,8 @@
                     </div>
                 </div>
             </div>
+
         </section>
-
-        <!-- <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <h2>Front</h2>
-                </div>
-                <div class="flip-card-back">
-                    <h2>Back</h2>
-                    <p>More information here.</p>
-                </div>
-            </div>
-        </div> -->
-
         <section class="section cta">
             <div class="container">
                 <div class="row">
@@ -174,7 +161,8 @@
                                     class="text-color-primary">
                                     Testing</span>
                             </h3>
-                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from SISAR.
+                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from
+                                SISAR.
                                 Helps to reduce
                                 software development efforts</p>
 
@@ -339,7 +327,8 @@
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
-                    <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable, and
+                    <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable,
+                        and
                         efficient!</p>
                 </div>
 
@@ -349,7 +338,8 @@
 
                     <div class="testimonial-slider">
                         <div class="testimonial-card active">
-                            <p class="testimonial-text theme_pra_text">“Amazing experience! The team delivered more than
+                            <p class="testimonial-text theme_pra_text">“Amazing experience! The team delivered more
+                                than
                                 expected.
                                 Highly
                                 recommend.”</p>
@@ -377,7 +367,8 @@
                         </div>
 
                         <div class="testimonial-card">
-                            <p class="testimonial-text theme_pra_text">“Professional, fast, and friendly. A pleasure to
+                            <p class="testimonial-text theme_pra_text">“Professional, fast, and friendly. A pleasure
+                                to
                                 work with.”</p>
                             <div class="client-info">
                                 <img src="images/team/testimonial1.jpg" alt="Ali Khan">

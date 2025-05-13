@@ -16,100 +16,141 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<style>
+		/* Footer base styles */
 		.footer {
-			background-color: #2a2929;
+			background-color: #1e1e2f;
 			color: #fff;
-			padding: 40px 0 15px;
-			font-family: "Poppins", sans-serif;
+			padding: 60px 0 20px;
+			font-family: 'Segoe UI', sans-serif;
 		}
 
-		.footer a {
+		.footer .logo h3 {
 			color: #fff;
+			font-size: 28px;
+			font-weight: 700;
+		}
+
+		.footer p {
+			font-size: 15px;
+			line-height: 1.8;
+			color: #ccc;
+		}
+
+		/* Section title in widgets */
+		.footer h4 {
+			color: #ffffff;
+			font-size: 18px;
+			margin-bottom: 20px;
+			font-weight: 600;
+		}
+
+		.footer ul.footer-menu {
+			padding-left: 0;
+		}
+
+		.footer ul.footer-menu li {
+			list-style: none;
+			margin-bottom: 10px;
+		}
+
+		.footer ul.footer-menu li a {
+			color: #cccccc;
 			text-decoration: none;
 			transition: color 0.3s ease;
 		}
 
-		.footer a:hover {
-			color: rgb(3, 66, 237);
-
+		.footer ul.footer-menu li a:hover {
+			color: #ffffff;
 		}
 
-		.footer .logo h3 {
-			font-size: 28px;
-			font-weight: bold;
-		}
-
-		.footer .theme_pra_text {
-			font-size: 15px;
-			line-height: 1.6;
-		}
-
-		.footer h4 {
-			font-size: 28px;
-			font-weight: bold;
-		}
-
-		.footer-menu {
-			padding-left: 0;
-			list-style: none;
-		}
-
-		.footer-menu li {
+		/* Contact section styles */
+		.widget-contact h6.footerh6 {
+			font-size: 14px;
 			margin-bottom: 10px;
+			color: #cccccc;
+		}
+
+		.widget-contact h6.footerh6 a {
+			color: #cccccc;
+			text-decoration: none;
+		}
+
+		.widget-contact h6.footerh6 a:hover {
+			color: #ffffff;
+		}
+
+		/* Social icons */
+		.footer-socials {
+			padding-left: 0;
 		}
 
 		.footer-socials li {
+			display: inline-block;
 			margin-right: 10px;
 		}
 
-		.footer-socials a {
-			color: #fff;
-			font-size: 18px;
+		.footer-socials li a {
+			color: #cccccc;
+			font-size: 16px;
 			transition: color 0.3s ease;
 		}
 
-		.footer-socials a:hover {
-			color: rgb(10, 87, 241);
+		.footer-socials li a:hover {
+			color: #ffffff;
 		}
 
+		/* Copyright section */
 		.footer-btm {
 			border-top: 1px solid #333;
-			text-align: center;
+			margin-top: 30px;
+			padding-top: 20px;
 		}
 
-		.footer-btm .text-color {
-			color: rgb(11, 52, 255);
+		.footer .copyright {
+			font-size: 14px;
+			color: #aaa;
 		}
 
-		/* .widget{
-			text-align: center;
-		} */
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.footer .logo h3 {
+				font-size: 24px;
+			}
 
-		.widget_element {
-			text-align: center;
-		}
+			.footer h4 {
+				font-size: 16px;
+			}
 
-		@madia (max-width: 1025px) {
-			.logo h3 {
-				font-size: 26px !important;
+			.footer ul.footer-menu li {
+				margin-bottom: 8px;
+			}
+
+			.widget-contact h6.footerh6 {
+				font-size: 13px;
 			}
 		}
 
-		@media (max-width: 768px) {
-
-			.footer .col-md-4,
-			.footer .col-md-2,
-			.footer .col-md-8 {
+		@media (max-width: 576px) {
+			.footer {
+				padding: 40px 0 20px;
 				text-align: center;
+			}
+
+			.footer .row>div {
 				margin-bottom: 30px;
 			}
 
-			.footer .widget {
-				margin-bottom: 20px;
+			.footer ul.footer-menu {
+				line-height: 1.6;
 			}
 
-			.footer-socials {
-				justify-content: center;
+			.footer-socials li a {
+				font-size: 18px;
+			}
+
+			.footer-btm .copyright {
+				font-size: 13px;
+				text-align: center;
 			}
 		}
 	</style>
