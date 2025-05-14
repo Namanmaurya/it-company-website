@@ -110,7 +110,7 @@
                                     <ul class="list-unstyled">
                                         <li>
                                             <h5>Call Us</h5>
-                                            +88 01672 506 744
+                                            +91 5989838989
                                         </li>
                                         <li>
                                             <h5>Email Us</h5>
@@ -118,7 +118,7 @@
                                         </li>
                                         <li>
                                             <h5>Location Map</h5>
-                                            North Main Street,Brooklyn Australia
+                                            Noida , Uttar Pradesh, India
                                         </li>
                                     </ul>
 

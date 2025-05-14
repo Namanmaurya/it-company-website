@@ -153,7 +153,7 @@
                 <div class="row portfolio-gallery">
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_01.php">
                                 <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
                                 <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
@@ -166,7 +166,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_02.php">
                                 <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
                                 <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">
@@ -179,7 +179,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_03.php">
                                 <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
                                 <div class="overlay-item"><i class="ti-link"></i></div>
                                 <div class="portfolio-item-content">

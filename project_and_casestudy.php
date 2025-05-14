@@ -66,7 +66,7 @@
                 <div class="row ">
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative mb-4">
-                            <a href="project_detail.php">
+                            <a href="web_project_01.php">
                                 <img src="images/portfolio/1.jpg" alt="" class="img-fluid w-100">
                                 <div class="overlay-item"><i class="ti-link"></i></div>
 
@@ -81,7 +81,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative mb-4">
-                            <a href="project_detail.php">
+                            <a href="web_project_02.php">
                                 <img src="images/portfolio/2.jpg" alt="" class="img-fluid w-100">
                                 <div class="overlay-item">
                                     <i class="ti-link"></i>
@@ -97,7 +97,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative mb-4">
-                            <a href="project_detail.php">
+                            <a href="web_project_03.php">
                                 <img src="images/portfolio/3.jpg" alt="" class="img-fluid w-100">
 
                                 <div class="overlay-item">
