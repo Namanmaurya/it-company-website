@@ -20,11 +20,16 @@
 
 
     <!-- Preloader -->
-    <div id="preloader">
-        <div class="typewriter">
-            <h1>Python</h1>
-        </div>
-    </div>
+	<div id="preloader">
+		<div class="typewriter">
+			<span>P</span>
+			<span>y</span>
+			<span>t</span>
+			<span>h</span>
+			<span>o</span>
+			<span>n</span>
+		</div>
+	</div>
 
 
     <?php include("header.php") ?>
@@ -257,11 +262,14 @@
 
     <script>
 
-        window.addEventListener("load", function () {
+        window.addEventListener("load", () => {
+
             setTimeout(() => {
-                document.getElementById("preloader").style.display = "none";
-                document.getElementById("mainContent").style.display = "block";
-            }, 1000);
+                const preloader = document.getElementById("preloader");
+                preloader.style.opacity = "0";
+                preloader.style.visibility = "hidden";
+                preloader.style.transition = "opacity 0.5s ease";
+            }, 1200); 
         });
 
 

@@ -22,7 +22,12 @@
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
-            <h1>Python</h1>
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
         </div>
     </div>
 
@@ -91,7 +96,9 @@
                             </div>
                             <div class="content">
                                 <h4 class="">Projects and Case Study</h4>
-                                <p class=" theme_pra_text">Reviewing our project and case study will help you understand the features, goals, and results, making it easier to identify what meets your needs.</p>
+                                <p class=" theme_pra_text">Reviewing our project and case study will help you understand
+                                    the features, goals, and results, making it easier to identify what meets your
+                                    needs.</p>
                                 <a href="project_and_casestudy.php"> Read More </a>
                             </div>
                         </div>
@@ -193,7 +200,7 @@
                 <div class="row portfolio-gallery">
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_01.php">
                                 <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
@@ -206,7 +213,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_02.php">
                                 <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
@@ -219,7 +226,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="web_project_03.php">
                                 <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
@@ -462,11 +469,14 @@
 
     <script>
 
-        window.addEventListener("load", function () {
+        window.addEventListener("load", () => {
+
             setTimeout(() => {
-                document.getElementById("preloader").style.display = "none";
-                document.getElementById("mainContent").style.display = "block";
-            }, 1000);
+                const preloader = document.getElementById("preloader");
+                preloader.style.opacity = "0";
+                preloader.style.visibility = "hidden";
+                preloader.style.transition = "opacity 0.5s ease";
+            }, 1200); 
         });
 
 

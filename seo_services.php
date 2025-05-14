@@ -18,13 +18,18 @@
 
 <body>
 
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
-            <h1>Python</h1>
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
         </div>
     </div>
+
 
 
     <?php include("header.php") ?>
@@ -144,7 +149,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card h-100">
-                            <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top" alt="Case Study">
+                            <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top"
+                                alt="Case Study">
                             <div class="card-body">
                                 <h5 class="card-title">Grocery Website</h5>
                                 <p class="card-text">Increased organic traffic by 200% in 2 months.</p>
@@ -242,13 +248,16 @@
 
     <script src="js/script.js"></script>
 
-    <script>
+ <script>
 
-        window.addEventListener("load", function () {
+        window.addEventListener("load", () => {
+
             setTimeout(() => {
-                document.getElementById("preloader").style.display = "none";
-                document.getElementById("mainContent").style.display = "block";
-            }, 1000);
+                const preloader = document.getElementById("preloader");
+                preloader.style.opacity = "0";
+                preloader.style.visibility = "hidden";
+                preloader.style.transition = "opacity 0.5s ease";
+            }, 1200); 
         });
 
 

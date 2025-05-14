@@ -30,7 +30,17 @@
 
 <body>
 
-
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="typewriter">
+			<span>P</span>
+			<span>y</span>
+			<span>t</span>
+			<span>h</span>
+			<span>o</span>
+			<span>n</span>
+		</div>
+	</div>
 
 	<?php include("header.php") ?>
 
@@ -299,7 +309,7 @@
 			</div>
 		</section>
 
-		
+
 
 
 	</main>
@@ -318,20 +328,24 @@
 
 	<script>
 
-		window.addEventListener("load", function () {
-			setTimeout(() => {
-				document.getElementById("preloader").style.display = "none";
-				document.getElementById("mainContent").style.display = "block";
-			}, 1000);
-		});
-	</script>
+        window.addEventListener("load", () => {
+
+            setTimeout(() => {
+                const preloader = document.getElementById("preloader");
+                preloader.style.opacity = "0";
+                preloader.style.visibility = "hidden";
+                preloader.style.transition = "opacity 0.5s ease";
+            }, 1200); 
+        });
+
+
+    </script>
 
 	<!-- AOS JS -->
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 	<script>
 		AOS.init({
-			duration: 1000,  // animation duration in ms
-			once: true       // animate only once
+			duration: 1000,  
 		});
 	</script>
 
