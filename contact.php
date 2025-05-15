@@ -178,7 +178,7 @@
                             <h4 class="mb-4">Pune Office</h4>
                             <ul class="address-block list-unstyled">
                                 <li>
-                                    <i class="ti-location-pin mr-3"></i>Pune West, India
+                                    <i class="ti-location-pin mr-3"></i>Pune, India
                                 </li>
                                 <li>
                                     <i class="ti-email mr-3"></i>Email: contact@mail.com

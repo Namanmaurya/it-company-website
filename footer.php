@@ -193,7 +193,7 @@
 								<h4 class="text-capitalize mb-4">Support</h4>
 
 								<ul class="list-unstyled footer-menu lh-35">
-									<li><a href="#">Terms & Conditions</a></li>
+									<li><a href="terms_conditions.php">Terms & Conditions</a></li>
 									<li><a href="privacy_policy.php">Privacy Policy</a></li>
 									<li><a href="faq.php">FAQ</a></li>
 								</ul>

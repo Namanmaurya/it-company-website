@@ -234,7 +234,7 @@
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm " id="mainNavbar">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="images/py_logo_02.png" alt="Logo">
+                    <img src="images/py_logo.png" alt="Logo">
                 </a>
 
                 <button class="navbar-toggler" type="button" id="customToggle">
