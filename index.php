@@ -40,7 +40,7 @@
         <section class="banner d-flex align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 ">
+                    <div class="col-md-7 ">
                         <div class="block">
                             <span class="text-uppercase text-sm letter-spacing">The most powerful Solution</span>
                             <h1 class="theme_headerh1">Enhancing digital experiences with Python.</h1>

@@ -97,7 +97,7 @@
         .dropdown-menu {
             background-color: #f8f9fa !important;
             border-radius: 0px;
-           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
             display: none;
             border: none !important;
         }
@@ -234,7 +234,7 @@
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm " id="mainNavbar">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="images/py_logo.png" alt="Logo">
+                    <img src="images/py_logo_02.png" alt="Logo">
                 </a>
 
                 <button class="navbar-toggler" type="button" id="customToggle">

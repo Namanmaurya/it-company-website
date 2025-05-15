@@ -363,23 +363,24 @@
             </div>
         </section>
 
-        <section class="cta-2 bg-light">
-            <div class="container">
-                <div class="cta-block py-5">
-                    <div class="row align-items-center ">
-                        <div class="col-lg-8">
-                            <span class="text-color">For Every type business</span>
-                            <h2 class="mt-2 mb-4 mb-lg-0 theme_headerh2">Entrust your project to our best team of
-                                professionals</h2>
+        <section id="contact" class="cta-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="cta-text">
+                            <h3>Ready to build your custom software?</h3>
+                            <p>Let’s talk about how we can bring your vision to life.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <a href="contact.php" class="btn btn-main btn-round-full float-lg-right">Contact Us</a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="cta-action">
+                            <a href="contact.php" class="btn-light">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
+        </section>
 
     </main>
 
@@ -405,7 +406,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 
