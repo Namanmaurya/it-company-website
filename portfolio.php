@@ -122,7 +122,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative mb-4">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_01.php">
                                 <img src="images/portfolio/4.jpg" alt="" class="img-fluid w-100">
 
                                 <div class="overlay-item">
@@ -139,7 +139,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative  mb-4">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_02.php">
                                 <img src="images/portfolio/5.jpg" alt="" class="img-fluid w-100">
 
                                 <div class="overlay-item">
@@ -156,7 +156,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="portflio-item position-relative mb-4">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_03.php">
                                 <img src="images/portfolio/6.jpg" alt="" class="img-fluid w-100">
 
                                 <div class="overlay-item">

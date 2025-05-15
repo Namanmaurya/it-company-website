@@ -65,7 +65,7 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\seo_case_img.jpeg" class="card-img-top" alt="Project 1">
+                                <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
                                 <h5 class="card-title">Restaurant website</h5>

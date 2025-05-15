@@ -95,10 +95,11 @@
         }
 
         .dropdown-menu {
-            background-color: #ffffff;
+            background-color: #f8f9fa !important;
             border-radius: 0px;
-            box-shadow: rgba(63, 60, 60, 0.15) 1.95px 1.95px 2.6px !important;
+           box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
             display: none;
+            border: none !important;
         }
 
         .dropdown-item {
@@ -110,6 +111,11 @@
             font-family: "Poppins", sans-serif;
         }
 
+        .dropdown-item:hover {
+                color: #007bff !important;
+                background-color: transparent !important;
+            }
+
         .dropdown-item.active {
             background-color: rgb(33, 86, 244);
             color: white
@@ -118,7 +124,7 @@
         @keyframes fadeIn {
             from {
                 opacity: 0;
-                transform: translateY(10px);
+                transform: translateY(-20px);
             }
 
             to {
@@ -143,7 +149,7 @@
             .hover-dropdown:hover .dropdown-menu {
                 display: block;
                 margin-top: 0;
-                animation: fadeIn 0.3s ease-in-out;
+                animation: fadeIn 0.5s ease-in-out;
             }
         }
 

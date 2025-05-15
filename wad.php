@@ -170,7 +170,7 @@
                 <div class="row g-4" data-aos="fade-up">
                     <div class="col-md-4">
                         <div class="card h-100">
-                            <img src="images\service\seo_case_img.jpeg" class="card-img-top" alt="Case Study">
+                            <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Case Study">
                             <div class="card-body">
                                 <h5 class="card-title">Local Restaurant</h5>
                                 <p class="card-text">Increased organic traffic by 220% in 3 months.</p>

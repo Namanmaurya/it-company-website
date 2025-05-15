@@ -32,7 +32,6 @@
 	</div>
 
 
-
     <?php include("header.php") ?>
 
     <main>
@@ -42,13 +41,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
-                            <span class="text-white">Web Development</span>
+                            <span class="text-white">Mobile App Development</span>
                             <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Project Bangalore</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
                                 <li class="list-inline-item"><span class="text-white">/</span></li>
-                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Web
+                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Mobile App
                                         Development</a>
                                 </li>
                             </ul>
@@ -66,11 +65,11 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Project 1">
+                                <img src="images\service\mobile_app_skill.webp" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">Restaurant website</h5>
-                                <p class="card-text">A restaurant website showcases menus, location, hours, and online reservations. It enhances customer experience, promotes special offers, and supports delivery or takeaway orders through user-friendly design.</p>
+                                <h5 class="card-title">SkillSwap— Peer-to-Peer Learning Exchange</h5>
+                                <p class="card-text">A platform where users can teach a skill in exchange for learning another. For example, someone who knows guitar can teach it to someone who can help them learn English.</p>
                                  <a href="#">See Project</a>
                             </div>
                         </div>
@@ -80,11 +79,11 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\seo_case_study_eco_img.png" class="card-img-top" alt="Project 1">
+                                <img src="images\service\mobile_app_jaurnal.avif" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">E-commerce Website</h5>
-                                <p class="card-text">An e-commerce website enables online shopping by displaying products, managing payments, user accounts, and orders. It provides a seamless buying experience with search, filters, and secure checkout.</p>
+                                <h5 class="card-title">DailyMood Journal — Emotion-Based Diary with AI Insights</h5>
+                                <p class="card-text">A journaling app that allows users to log their mood daily using emojis or colors, and optionally write text. The app uses AI to analyze trends and provides emotional well-being insights.</p>
                                     <a href="#">See Project</a>
                             </div>
                         </div>
@@ -94,11 +93,11 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top" alt="Project 1">
+                                <img src="images\service\mobile_app_group.png" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">E-commerce Website</h5>
-                                <p class="card-text">An e-commerce website enables online shopping by displaying products, managing payments, user accounts, and orders. It provides a seamless buying experience with search, filters, and secure checkout.</p>
+                                <h5 class="card-title">EventEase — Micro Event Planner for Small Groups</h5>
+                                <p class="card-text">An app for planning hangouts, study groups, weekend trips, or casual meetups with minimal friction.</p>
                                      <a href="#">See Project</a>
                             </div>
                         </div>

@@ -239,7 +239,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_01.php">
                                 <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
@@ -252,7 +252,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_02.php">
                                 <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
@@ -265,7 +265,7 @@
 
                     <div class="col-md-4 mb-4">
                         <div class="portflio-item position-relative">
-                            <a href="project_detail.php">
+                            <a href="mobile_app_development_03.php">
                                 <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
