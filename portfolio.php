@@ -131,7 +131,7 @@
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
+                                    <p class="text-white-50">Web App Development</p>
                                 </div>
                             </a>
                         </div>
@@ -148,7 +148,7 @@
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
+                                    <p class="text-white-50">Web App Development</p>
                                 </div>
                             </a>
                         </div>
@@ -165,7 +165,7 @@
                                 <div class="portfolio-item-content">
                                     <i class="fa-solid fa-link"></i>
                                     <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
+                                    <p class="text-white-50">Web App Development</p>
                                 </div>
                             </a>
                         </div>

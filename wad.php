@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
     <?php include("header.php") ?>
@@ -163,42 +163,65 @@
             </div>
         </section>
 
-        <!-- Case Studies -->
-        <section class="seo_case_studies">
+        <!-- section portfolio -->
+        <section class="section portfolio pb-0">
             <div class="container">
-                <h2 class="theme_headerh2">Recent Projects</h2>
-                <div class="row g-4" data-aos="fade-up">
-                    <div class="col-md-4">
-                        <div class="card h-100">
-                            <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Case Study">
-                            <div class="card-body">
-                                <h5 class="card-title">Local Restaurant</h5>
-                                <p class="card-text">Increased organic traffic by 220% in 3 months.</p>
-                            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
+                            </h2>
+                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
+                                level, try us and you will
+                                see! We have the best experts to elevate your business.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card h-100">
-                            <img src="images\service\seo_case_study_eco_img.png" class="card-img-top" alt="Case Study">
-                            <div class="card-body">
-                                <h5 class="card-title">Dressing webiste</h5>
-                                <p class="card-text">Increased organic traffic by 180% in 2 months.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card h-100">
-                            <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top"
-                                alt="Case Study">
-                            <div class="card-body">
-                                <h5 class="card-title">Grocery Website</h5>
-                                <p class="card-text">Increased organic traffic by 200% in 2 months.</p>
-                            </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row portfolio-gallery">
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="mobile_app_development_01.php">
+                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
+                                <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
+                                    <p class="text-white-50">Web App Development</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="mobile_app_development_02.php">
+                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
+                                <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
+                                    <p class="text-white-50">Web App Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="portflio-item position-relative">
+                            <a href="mobile_app_development_03.php">
+                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
+                                <div class="portfolio-item-content">
+                                    <i class="fa-solid fa-link"></i>
+                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
+                                    <p class="text-white-50">Web App Development</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </section>
 
         <!-- Testimonials -->
@@ -269,7 +292,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 

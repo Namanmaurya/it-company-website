@@ -189,45 +189,6 @@
                             </a>
                         </div>
                     </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_01.php">
-                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_02.php">
-                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_03.php">
-                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Mobile App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

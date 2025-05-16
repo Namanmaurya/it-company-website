@@ -65,12 +65,12 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Project 1">
+                                <img src="images\service\project_noida_01.png" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">Restaurant website</h5>
-                                <p class="card-text">A restaurant website showcases menus, location, hours, and online reservations. It enhances customer experience, promotes special offers, and supports delivery or takeaway orders through user-friendly design.</p>
-                                 <a href="#">See Project</a>
+                                <h5 class="card-title">Obicule Technologies</h5>
+                                <p class="card-text">Our objective is to provide aspirant companies with quality-focused software products and AI services. We are committed to gaining the trust of our clients by delivering innovative, reliable, and efficient solutions at an affordable cost. Our goal is to empower businesses through technology, enabling them to achieve their full potential and succeed in a competitive market.</p>
+                                 <a href="https://www.obiculetechnologies.com/" target="_black">See Project</a>
                             </div>
                         </div>
                     </div>
@@ -79,12 +79,12 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\seo_case_study_eco_img.png" class="card-img-top" alt="Project 1">
+                                <img src="images\service\project_noida_02.png" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">E-commerce Website</h5>
-                                <p class="card-text">An e-commerce website enables online shopping by displaying products, managing payments, user accounts, and orders. It provides a seamless buying experience with search, filters, and secure checkout.</p>
-                                    <a href="#">See Project</a>
+                                <h5 class="card-title">PSS Technoservices</h5>
+                                <p class="card-text">One of the top Indian companie for IT services is PSS Technoservices Pvt. Ltd. It is established in 2012. We have dedicated staff for expand your business that has experience in creating new idea in all areas. We offer all types of IT services..</p>
+                                    <a href="https://psstspl.com/" target="_black">See Project</a>
                             </div>
                         </div>
                     </div>
@@ -93,12 +93,12 @@
                     <div class="col-md-12">
                         <div class="project_card">
                             <div class="project_card_img">
-                                <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top" alt="Project 1">
+                                <img src="images\service\project_noida_03.png" class="card-img-top" alt="Project 1">
                             </div>
                             <div class="project_card_text">
-                                <h5 class="card-title">E-commerce Website</h5>
+                                <h5 class="card-title">PSS Technoservices</h5>
                                 <p class="card-text">An e-commerce website enables online shopping by displaying products, managing payments, user accounts, and orders. It provides a seamless buying experience with search, filters, and secure checkout.</p>
-                                     <a href="#">See Project</a>
+                                     <a href="https://www.gnksolution.in/index.php" target="_black">See Project</a>
                             </div>
                         </div>
                     </div>

@@ -101,20 +101,10 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="heading feature-list">
-							<h2 class="mb-4 theme_headerh2">Growing Software Company Since 2008</h2>
-							<p class="theme_pra_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
-								earum, eos esse non error
-								facilis ad,
-								maiores eum quae vero libero voluptas! Reprehenderit sunt similique, quae quidem
-								voluptatem
-								odit natus.</p>
+							<h2 class="mb-4 theme_headerh2">Growing Software Company Since 2020</h2>
+							<p class="theme_pra_text">Established in 2020, our IT company specializes in developing high-quality websites and web applications tailored to client needs.</p>
 
-							<p class="theme_pra_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
-								earum, eos esse non error
-								facilis ad,
-								maiores eum quae vero libero voluptas! Reprehenderit sunt similique, quae quidem
-								voluptatem
-								odit natus.</p>
+							<p class="theme_pra_text">With a focus on innovation, performance, and user experience, we deliver scalable digital solutions that drive growth and engagement. Trusted by businesses across industries, we turn ideas into powerful online platforms that make an impact.</p>
 
 
 
