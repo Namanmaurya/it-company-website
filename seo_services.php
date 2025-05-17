@@ -180,7 +180,7 @@
         </section>
 
         <!-- Pricing Plans -->
-        <section class="seo_pricing">
+        <!-- <section class="seo_pricing">
             <div class="container">
                 <h2 class="theme_headerh2">Pricing Plans</h2>
                 <div class="row g-4" data-aos="fade-up">
@@ -207,6 +207,38 @@
                             <p>Tailored SEO strategy</p>
                             <a href="#contact" class="btn btn-primary">Contact Us</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="cloud_testimonials ">
+            <div class="container">
+                <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
+                            <footer class="blockquote-footer">Anil, CTO, abc</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
+                            <footer class="blockquote-footer">Satyam, CEO, abc</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
+                            <footer class="blockquote-footer">Anil, CTO, abc</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
+                            <footer class="blockquote-footer">Satyam, CEO, abc</footer>
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -248,7 +280,7 @@
 
     <script src="js/script.js"></script>
 
- <script>
+    <script>
 
         window.addEventListener("load", () => {
 
@@ -257,7 +289,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 

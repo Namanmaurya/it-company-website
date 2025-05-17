@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
 
@@ -84,7 +84,9 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h3 class="theme_headerh3 mt-5">Cloud Hosting</h3>
-                        <p class="theme_pra_text ">In cloud hosting, your data and applications are distributed across a network of virtual and physical cloud servers. These servers work together to balance the load and maximize uptime.</p>
+                        <p class="theme_pra_text ">In cloud hosting, your data and applications are distributed across a
+                            network of virtual and physical cloud servers. These servers work together to balance the
+                            load and maximize uptime.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="images\service\cloud_hosting_img.webp" alt="cloud hosting">
@@ -94,11 +96,18 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="theme_headerh3 mt-5">Data Backup</h3>
-                        <p class="theme_pra_text">Data Backup refers to the process of making copies of data, files, or databases, and storing them in a safe location to ensure they can be restored in case of data loss, corruption, or system failure. It is an essential part of data protection and disaster recovery plans.</p>
+                        <p class="theme_pra_text">Data Backup refers to the process of making copies of data, files, or
+                            databases, and storing them in a safe location to ensure they can be restored in case of
+                            data loss, corruption, or system failure. It is an essential part of data protection and
+                            disaster recovery plans.</p>
                     </div>
                     <div class="col-md-6">
                         <h3 class="theme_headerh3 mt-5">Disaster Recovery</h3>
-                        <p class="theme_pra_text">Disaster Recovery (DR) refers to the strategies, policies, and procedures that are put in place to recover and protect data, applications, and IT infrastructure in the event of a disaster or disruptive event. The goal of disaster recovery is to minimize downtime, maintain business continuity, and protect critical business data and operations.</p>
+                        <p class="theme_pra_text">Disaster Recovery (DR) refers to the strategies, policies, and
+                            procedures that are put in place to recover and protect data, applications, and IT
+                            infrastructure in the event of a disaster or disruptive event. The goal of disaster recovery
+                            is to minimize downtime, maintain business continuity, and protect critical business data
+                            and operations.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="images\service\di_recovery_img.jpg" alt="Disaster Recovery">
@@ -108,7 +117,11 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="theme_headerh3 mt-5">DevOps Support</h3>
-                        <p class="theme_pra_text">DevOps Support refers to the various tools, practices, and processes that assist in the successful implementation and management of DevOps (Development and Operations) practices. DevOps is a cultural and technical movement that combines software development (Dev) and IT operations (Ops) to deliver software more efficiently, with improved collaboration, automation, and continuous delivery.</p>
+                        <p class="theme_pra_text">DevOps Support refers to the various tools, practices, and processes
+                            that assist in the successful implementation and management of DevOps (Development and
+                            Operations) practices. DevOps is a cultural and technical movement that combines software
+                            development (Dev) and IT operations (Ops) to deliver software more efficiently, with
+                            improved collaboration, automation, and continuous delivery.</p>
                     </div>
                 </div>
             </div>
@@ -138,18 +151,11 @@
             <div class="container">
                 <h2 class="theme_headerh2">Technologies We Use</h2>
                 <div class="row text-center g-3" data-aos="zoom-in">
-                    <div class="col-3"><img
-                            src="images\service\cloud_logo_aws_img.png"
-                            width="80" alt="AWS"></div>
-                    <div class="col-3"><img
-                            src="images\service\cloud_azore_img.png"
-                            width="80" alt="Azure"></div>
-                    <div class="col-3"><img
-                            src="images\service\cloud_google_cloud_logo_img.png" width="80"
-                            alt="GCP"></div>
-                    <div class="col-3"><img
-                            src="images\service\cloud_kubernete_img.png"
-                            width="80" alt="Kubernetes">
+                    <div class="col-3"><img src="images\service\cloud_logo_aws_img.png" width="80" alt="AWS"></div>
+                    <div class="col-3"><img src="images\service\cloud_azore_img.png" width="80" alt="Azure"></div>
+                    <div class="col-3"><img src="images\service\cloud_google_cloud_logo_img.png" width="80" alt="GCP">
+                    </div>
+                    <div class="col-3"><img src="images\service\cloud_kubernete_img.png" width="80" alt="Kubernetes">
                     </div>
                 </div>
             </div>
@@ -157,7 +163,7 @@
 
         <!-- Pricing Plans -->
 
-        <section class="cloud_pricing py-5" id="plans">
+        <!-- <section class="cloud_pricing py-5" id="plans">
             <div class="container">
                 <h2 class="text-center mb-5 theme_headerh2">Flexible Pricing Plans</h2>
                 <div class="row g-4" data-aos="fade-up">
@@ -187,7 +193,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Testimonials -->
 
@@ -195,6 +201,18 @@
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
                 <div class="row g-4">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
+                            <footer class="blockquote-footer">Anil, CTO, abc</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
+                            <footer class="blockquote-footer">Satyam, CEO, abc</footer>
+                        </blockquote>
+                    </div>
                     <div class="col-md-6">
                         <blockquote class="blockquote">
                             <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
@@ -258,7 +276,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 
