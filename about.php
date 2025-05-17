@@ -117,8 +117,7 @@
 						<div class="video-img">
 							<img src="images/about/img-34.png" alt="" class="img-fluid">
 							<a data-video-id="sXoKSD8QJEA" class="video-play"
-								href="https://youtu.be/QyhwSYhX09s?si=CpPZz2ZyJOJdZa5t"><i
-									class="ti-control-play"></i></a>
+								href="https://youtu.be/QyhwSYhX09s?si=CpPZz2ZyJOJdZa5t"><i class="fa-solid fa-play"></i></a>
 						</div>
 					</div>
 				</div>
