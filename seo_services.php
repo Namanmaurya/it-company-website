@@ -178,9 +178,10 @@
                 </div>
             </div>
         </section>
+        
 
         <!-- Pricing Plans -->
-        <!-- <section class="seo_pricing">
+        <!-- <section class="seo_pricing">"
             <div class="container">
                 <h2 class="theme_headerh2">Pricing Plans</h2>
                 <div class="row g-4" data-aos="fade-up">
