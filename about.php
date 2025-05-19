@@ -64,37 +64,7 @@
 			</div>
 		</section>
 
-		<!-- section Counter Start -->
-		<section class="section counter">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">1730</span> +</h2>
-							<p>Project Done</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">125 </span>M </h2>
-							<p>User Worldwide</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">39</span></h2>
-							<p>Availble Country</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">14</span></h2>
-							<p>Award Winner </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+
 
 		<section class="video-block section bg-light">
 			<div class="container">
@@ -102,9 +72,13 @@
 					<div class="col-lg-6">
 						<div class="heading feature-list">
 							<h2 class="mb-4 theme_headerh2">Growing Software Company Since 2020</h2>
-							<p class="theme_pra_text">Established in 2020, our IT company specializes in developing high-quality websites and web applications tailored to client needs.</p>
+							<p class="theme_pra_text">Established in 2020, our IT company specializes in developing
+								high-quality websites and web applications tailored to client needs.</p>
 
-							<p class="theme_pra_text">With a focus on innovation, performance, and user experience, we deliver scalable digital solutions that drive growth and engagement. Trusted by businesses across industries, we turn ideas into powerful online platforms that make an impact.</p>
+							<p class="theme_pra_text">With a focus on innovation, performance, and user experience, we
+								deliver scalable digital solutions that drive growth and engagement. Trusted by
+								businesses across industries, we turn ideas into powerful online platforms that make an
+								impact.</p>
 
 
 
@@ -117,59 +91,67 @@
 						<div class="video-img">
 							<img src="images/about/img-34.png" alt="" class="img-fluid">
 							<a data-video-id="sXoKSD8QJEA" class="video-play"
-								href="https://youtu.be/QyhwSYhX09s?si=CpPZz2ZyJOJdZa5t"><i class="fa-solid fa-play"></i></a>
+								href="https://youtu.be/QyhwSYhX09s?si=CpPZz2ZyJOJdZa5t"><i
+									class="fa-solid fa-play"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="section team">
+		<section class="team-section">
 			<div class="container">
+				<!-- Section Heading -->
 				<div class="row justify-content-center">
-					<div class="col-lg-6">
-						<div class="heading text-center mb-50">
-							<h2 class="mb-4 theme_headerh2">Our Team</h2>
-							<p class="theme_pra_text">Today’s users expect effortless experiences. Don’t let essential
-								people and processes
-								stay
-								stuck in the past. Speed it up, skip the hassles</p>
+					<div class="col-lg-8 text-center">
+						<div class="section-heading">
+							<h2 class=" theme_headerh2">Meet Our Team</h2>
+							<p class="theme_pra_text">
+								Today’s users expect effortless experiences. Don’t let essential people and processes
+								stay stuck in the past. Speed it up, skip the hassles.
+							</p>
 						</div>
 					</div>
 				</div>
 
+				<!-- Team Cards -->
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="team-block mb-5 mb-lg-0">
-							<img src="images/team/03-1.jpg" alt="" class="img-fluid w-100">
-
-							<h4 class="mt-4 mb-0">Satyam Dev</h4>
+					<!-- Team Member -->
+					<div class="col-lg-3 col-md-6">
+						<div class="team-card text-center">
+							<img src="images/team/03-1.jpg" alt="Satyam Dev - Founder"
+								class="img-fluid rounded shadow-sm">
+							<h4 class="mt-3 mb-1">Satyam Dev</h4>
 							<p class="theme_pra_text">Founder</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="team-block mb-5 mb-lg-0">
-							<img src="images/team/01-3.jpg" alt="" class="img-fluid w-100">
-
-							<h4 class="mt-4 mb-0">Anil Yadav</h4>
+					<!-- Team Member -->
+					<div class="col-lg-3 col-md-6 ">
+						<div class="team-card text-center">
+							<img src="images/team/01-3.jpg" alt="Anil Yadav - Marketing Head"
+								class="img-fluid rounded shadow-sm">
+							<h4 class="mt-3 mb-1">Anil Yadav</h4>
 							<p class="theme_pra_text">Marketing Head</p>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="team-block mb-5 mb-lg-0">
-							<img src="images/team/03-1.jpg" alt="" class="img-fluid w-100">
-
-							<h4 class="mt-4 mb-0">Satyam Dev</h4>
+					<!-- Team Member -->
+					<div class="col-lg-3 col-md-6">
+						<div class="team-card text-center">
+							<img src="images/team/03-1.jpg" alt="Satyam Dev - Co-ordinator"
+								class="img-fluid rounded shadow-sm">
+							<h4 class="mt-3 mb-1">Satyam Dev</h4>
 							<p class="theme_pra_text">Co-ordinator</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="team-block">
-							<img src="images/team/01-3.jpg" alt="" class="img-fluid w-100">
 
-							<h4 class="mt-4 mb-0">Anil Yadav</h4>
+					<!-- Team Member -->
+					<div class="col-lg-3 col-md-6 ">
+						<div class="team-card text-center">
+							<img src="images/team/01-3.jpg" alt="Anil Yadav - Senior Developer"
+								class="img-fluid rounded shadow-sm">
+							<h4 class="mt-3 mb-1">Anil Yadav</h4>
 							<p class="theme_pra_text">Senior Developer</p>
 						</div>
 					</div>
@@ -177,6 +159,7 @@
 			</div>
 		</section>
 
+      <!-- award section -->
 
 		<section class="section awards bg-light">
 			<div class="container">
@@ -184,10 +167,9 @@
 					<div class="col-lg-8">
 						<div class="why-content">
 							<h2 class="mb-4 theme_headerh2">Honors and awards</h2>
-							<p class="mb-5 theme_pra_text">Dicta cupiditate, incidunt quia obcaecati itaque cumque,
-								nostrum ipsum est
-								voluptatibus, porro
-								provident a quam quibusdam. Ducimus possimus, nesciunt minima magni aspernatur.</p>
+							<p class="mb-5 theme_pra_text">Driven by desire, things happen—because people are blind to
+								it. It is ours, this very pleasure, granted generously by someone greater. We are
+								capable, even in our ignorance and despite great hardships.</p>
 						</div>
 					</div>
 				</div>
@@ -299,7 +281,37 @@
 		</section>
 
 
-
+		<!-- section Counter Start -->
+		<section class="section counter">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">1730</span> +</h2>
+							<p>Project Done</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">125 </span>M </h2>
+							<p>User Worldwide</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">39</span></h2>
+							<p>Availble Country</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">14</span></h2>
+							<p>Award Winner </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</main>
 
@@ -317,24 +329,24 @@
 
 	<script>
 
-        window.addEventListener("load", () => {
+		window.addEventListener("load", () => {
 
-            setTimeout(() => {
-                const preloader = document.getElementById("preloader");
-                preloader.style.opacity = "0";
-                preloader.style.visibility = "hidden";
-                preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
-        });
+			setTimeout(() => {
+				const preloader = document.getElementById("preloader");
+				preloader.style.opacity = "0";
+				preloader.style.visibility = "hidden";
+				preloader.style.transition = "opacity 0.5s ease";
+			}, 1200);
+		});
 
 
-    </script>
+	</script>
 
 	<!-- AOS JS -->
 	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 	<script>
 		AOS.init({
-			duration: 1000,  
+			duration: 1000,
 		});
 	</script>
 

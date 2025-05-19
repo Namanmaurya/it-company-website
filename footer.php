@@ -181,6 +181,7 @@
 								<h4 class="text-capitalize mb-4">Company</h4>
 
 								<ul class="list-unstyled footer-menu lh-35">
+									<li><a href="index.php">Home</a></li>
 									<li><a href="about.php">About</a></li>
 									<li><a href="services.php">Services</a></li>
 									<li><a href="contact.php">Contact</a></li>

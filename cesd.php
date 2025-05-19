@@ -63,7 +63,7 @@
                     <div class="col-md-12">
                         <div class="text-center mb-4">
                             <h2 class="theme_headerh2">Why Choose Our Custom Software Services?</h2>
-                            <p class="text-muted theme_pra_text">We build scalable, secure, and performance-driven applications.</p>
+                            <p class="text-muted">We build scalable, secure, and performance-driven applications.</p>
                         </div>
                     </div>
                 </div>
@@ -72,19 +72,19 @@
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Tailored Solutions</h5>
-                            <p class="theme_pra_text">Each project is crafted to match your exact business goals and processes.</p>
+                            <p class="text-muted">Each project is crafted to match your exact business goals and processes.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Scalable Architecture</h5>
-                            <p class="theme_pra_text">Future-ready applications built with modular and scalable architecture.</p>
+                            <p class="text-muted">Future-ready applications built with modular and scalable architecture.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Expert Developers</h5>
-                            <p class="theme_pra_text">Our skilled team ensures on-time delivery and top-quality code on time develiver.</p>
+                            <p class="text-muted">Our skilled team ensures on-time delivery and top-quality code on time develiver.</p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class=" theme_headerh2">Our Development Process</h2>
-                    <p class="text-muted theme_pra_text">A streamlined approach for successful project delivery</p>
+                    <p class=" theme_pra_text">A streamlined approach for successful project delivery</p>
                 </div>
 
                 <div class="row justify-content-center g-4 text-center">

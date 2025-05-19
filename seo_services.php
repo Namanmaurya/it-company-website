@@ -105,6 +105,69 @@
             </div>
         </section>
 
+         <section class="cloud_services py-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Keyword Research</h3>
+                        <p class="theme_pra_text ">Keyword research is the process of identifying and analyzing search terms that people enter into search engines. It helps in understanding user intent, improving SEO strategies, and driving targeted traffic. Effective keyword research boosts visibility, content relevance, and ranking, making it essential for digital marketing and content creation success.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_KW_research.avif" alt="cloud hosting">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_on-page-seo.png" alt="Data Backup">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">On-Page SEO</h3>
+                        <p class="theme_pra_text">On-Page SEO refers to optimizing individual web pages to improve search engine rankings and drive relevant traffic. It involves enhancing content, HTML source code, meta tags, headers, URLs, and internal linking. On-page SEO ensures search engines understand the content and users find it valuable, leading to better visibility and engagement.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Link Building</h3>
+                        <p class="theme_pra_text">Link building is the process of acquiring hyperlinks from other websites to your own. It helps search engines discover new pages and improves a site's authority and ranking. High-quality backlinks from reputable sources boost credibility, drive referral traffic, and are essential for successful off-page SEO and overall search engine visibility.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_link_bilding.png" alt="Disaster Recovery">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_tech_seo.png" alt="DevOps Support">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Technical SEO</h3>
+                        <p class="theme_pra_text">Technical SEO involves optimizing a website's infrastructure to help search engines crawl, index, and rank it effectively. It includes improving site speed, mobile-friendliness, XML sitemaps, HTTPS, structured data, and fixing crawl errors. A strong technical SEO foundation ensures better user experience and enhances a website’s performance in search engine results.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Local SEO</h3>
+                        <p class="theme_pra_text">Local SEO focuses on optimizing a website to appear in local search results. It helps businesses promote their products or services to nearby customers. Key elements include Google Business Profile optimization, local keywords, reviews, and NAP consistency (Name, Address, Phone). Local SEO boosts visibility for location-based searches and drives foot traffic.</p>
+                    </div>
+                     <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_local_seo.webp" alt="Disaster Recovery">
+                    </div> 
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_ecomm_seo.webp" alt="DevOps Support">
+                    </div>
+                     <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">E-commerce SEO</h3>
+                        <p class="theme_pra_text">E-commerce SEO is the process of optimizing online stores to improve visibility in search engine results. It involves keyword research, optimizing product pages, meta tags, images, site structure, and user experience. Effective e-commerce SEO drives organic traffic, increases conversions, and helps shoppers easily find products, boosting overall sales and growth.</p>
+                    </div>
+                     <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Content Optimization</h3>
+                        <p class="theme_pra_text">Content optimization is the process of improving web content to make it more relevant, readable, and visible to search engines and users. It involves using target keywords, enhancing structure, adding internal links, optimizing headings and meta tags, and ensuring readability. Optimized content boosts engagement, rankings, and overall SEO performance.</p>
+                    </div>
+                      <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_conte_opt.webp" alt="Disaster Recovery">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\seo_ser_anal_respo.png" alt="DevOps Support">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Analytics Reporting</h3>
+                        <p class="theme_pra_text">Analytics reporting involves collecting, analyzing, and presenting data on website performance. It provides insights into user behavior, traffic sources, conversion rates, and SEO effectiveness. Using tools like Google Analytics, these reports help businesses track goals, measure success, identify areas for improvement, and make data-driven decisions to enhance online strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Why Choose Us -->
         <section class="seo_chose_us">
             <div class="container">
@@ -178,7 +241,7 @@
                 </div>
             </div>
         </section>
-        
+
 
         <!-- Pricing Plans -->
         <!-- <section class="seo_pricing">"
@@ -244,6 +307,8 @@
                 </div>
             </div>
         </section>
+
+
 
 
         <section id="contact" class="cta-section">

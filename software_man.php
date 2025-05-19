@@ -195,7 +195,7 @@
         <!-- Benefits -->
         <section class="benefits">
             <div class="container"> 
-                <h2 class="mb-4 text-center theme_headerh2">Why Choose Us?</h2>
+                <h2 class="text-center theme_headerh2">Why Choose Us?</h2>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <h3 class="theme_headerh3">Fast Response</h3>

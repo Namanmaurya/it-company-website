@@ -166,12 +166,9 @@
                         <div class="cta-content bg-white p-5 rounded">
                             <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span
                                     class="text-color-primary">
-                                    Testing</span>
+                                    Service</span>
                             </h3>
-                            <p class="mb-30 theme_pra_text">An Independent Validation and Testing services from
-                                SISAR.
-                                Helps to reduce
-                                software development efforts</p>
+                            <p class="mb-30 theme_pra_text">Assurance service ensures software quality, reliability, compliance, and performance through systematic testing and process validation.</p>
 
                             <a href="portfolio.php" class="btn btn-main">Portfolio<i
                                     class="fa fa-angle-right ml-2"></i></a>
