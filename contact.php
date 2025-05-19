@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
 
@@ -105,7 +105,7 @@
                                 </form>
                             </div>
 
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 mt-5">
                                 <div class="short-info mt-5 mt-lg-0">
                                     <ul class="list-unstyled">
                                         <li>
@@ -127,7 +127,8 @@
                                             <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a href="https://x.com/i/flow/login?lang=en"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://x.com/i/flow/login?lang=en"><i
+                                                    class="fab fa-twitter"></i></a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -139,23 +140,11 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="google-map mt-90 mb-5 mt-5">
-                            <div id="map" class="responsive-map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85922972517!2d77.23700922661273!3d28.522404037560413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1746422835448!5m2!1sen!2sin"
-                                    style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
+
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 ">
                         <div class="contact-content pl-lg-5 mt-2 mt-lg-0 mb-2 mb-lg-0">
                             <h4 class="mb-4">Noida Office</h4>
 
@@ -209,6 +198,58 @@
                 </div>
             </div>
         </section>
+
+        <section class="office-section container-fluid">
+            <h2 class="theme_headerh2">Our Office Locations</h2>
+            <p class="theme_pra_text">Select a city to view the office location on the map.</p>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs justify-content-center mb-3" id="locationTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="noida-tab" data-bs-toggle="tab" data-bs-target="#noida"
+                        type="button" role="tab" aria-controls="noida" aria-selected="true">
+                        Noida
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pune-tab" data-bs-toggle="tab" data-bs-target="#pune" type="button"
+                        role="tab" aria-controls="pune" aria-selected="false">
+                        Pune
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="bangalore-tab" data-bs-toggle="tab" data-bs-target="#bangalore"
+                        type="button" role="tab" aria-controls="bangalore" aria-selected="false">
+                        Bangalore
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="noida" role="tabpanel" aria-labelledby="noida-tab">
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.815005607811!2d77.31919381505174!3d28.567945182400936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce6338ecb3aad%3A0xf3b912678e47bc1b!2sNoida%20City%20Center!5e0!3m2!1sen!2sin!4v1692581629478!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="tab-pane fade" id="pune" role="tabpanel" aria-labelledby="pune-tab">
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.170924493524!2d73.8499962153353!3d18.520430987395796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2a7c31c195%3A0x23b5bb289024dce9!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1692581672172!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="tab-pane fade" id="bangalore" role="tabpanel" aria-labelledby="bangalore-tab">
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15514.735784503707!2d77.58064333417799!3d12.971598960021161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c60c9001%3A0x1a59b3a18d84b5c2!2sBangalore%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1692581708337!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Social Presence Section -->
 
@@ -290,7 +331,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 

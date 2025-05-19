@@ -141,7 +141,8 @@
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Discovery</h3>
-                        <p class="theme_pra_text ">Discovery is the process of uncovering something new, unknown, or unexpected through exploration, research, observation, or accident. It expands human understanding and opens new possibilities, serving as the foundation for innovation, creativity, and progress across science, art, and everyday life. Throughout history, discoveries have shaped society and continue to drive change by encouraging curiosity, problem-solving, and learning.</p>
+                        <p class="theme_pra_text ">Discovery in software development is the initial phase where project goals, requirements, and constraints are explored through stakeholder interviews, market research, and competitor analysis to understand user needs and business objectives.</p>
+                        <p class="theme_pra_text ">Its importance lies in identifying challenges, assessing technical feasibility, and prioritizing features, ensuring the team has a clear vision to reduce risks and deliver a product that meets user and business expectations.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
@@ -151,13 +152,13 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Planning</h3>
-                        <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps needed to achieve them. It involves organizing resources, managing time, and anticipating potential challenges to ensure successful outcomes.</p>
-                        <p class="theme_pra_text">Effective planning helps guide decision-making, improves efficiency, reduces risks, and provides a roadmap that keeps projects and activities on track toward their objectives.</p>
+                        <p class="theme_pra_text">Planning in software development involves defining the project scope, setting clear objectives, estimating resources, timelines, and costs. </p>
+                        <p class="theme_pra_text">Effective planning ensures that all stakeholders have aligned expectations, helps manage risks, allocates resources efficiently.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Development</h3>
-                        <p class="theme_pra_text">Development is the process of creating, improving, or expanding something over time, whether it’s a product, skill, system, or idea. It involves stages like designing, building, testing, and refining to achieve desired goals.</p>
-                        <p class="theme_pra_text">This process drives progress by turning concepts into tangible results, fostering growth, innovation, and enhanced functionality across various fields such as technology, education, business, and personal growth.</p>
+                        <p class="theme_pra_text">Development is the phase where software engineers write, test, and integrate code based on the design and requirements gathered earlier. This involves building the actual product features, implementing functionality, and fixing bugs.</p>
+                        <p class="theme_pra_text">It transforms plans and designs into a working software application through coding, unit testing, and collaboration among developers, ensuring the software meets the specified requirements and quality standards.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
@@ -167,13 +168,13 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Testing</h3>
-                        <p class="theme_pra_text">Testing is the process of systematically evaluating a product, system, or component to identify defects and ensure it meets specified requirements and quality standards.</p>
-                         <p class="theme_pra_text">It helps verify functionality, reliability, and performance, enabling improvements and reducing the risk of failures before the final release or use.</p>
+                        <p class="theme_pra_text">Testing is the process of evaluating the software to identify defects or bugs and ensure it meets the specified requirements. It involves executing the software in various scenarios to verify functionality, performance, security, and usability.</p>
+                         <p class="theme_pra_text">The goal of testing is to ensure the product is reliable, error-free, and ready for deployment by catching issues early, improving quality, and providing confidence that the software works as intended for end users.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Deployment</h3>
-                        <p class="theme_pra_text">Deployment is the process of releasing and making a software application, system, or product available for use in a live environment.</p>
-                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product operates smoothly for end users, marking the transition from development to practical use.</p>
+                        <p class="theme_pra_text">Deployment is the process of releasing the completed software application to the production environment where end users can access and use it. This step involves installing, configuring, and making the software live.</p>
+                        <p class="theme_pra_text">Effective deployment ensures the software runs smoothly in its intended environment, often including activities like data migration, user training, and post-release monitoring to quickly address any issues.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
