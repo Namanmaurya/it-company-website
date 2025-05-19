@@ -123,7 +123,7 @@
                     <div class="col-lg-7 col-xs-12 col-md-12">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="icon-block text-center mb-4 mb-lg-0">
+                                <div class="icon-block text-center  mb-lg-0">
                                     <i class="fa-solid fa-lightbulb"></i>
                                     <h5>Data analysis</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>

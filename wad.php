@@ -163,6 +163,47 @@
             </div>
         </section>
 
+          <section class="cloud_services py-5 ">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Planning.avif" alt="Data Backup">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Planning</h3>
+                        <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps needed to achieve them. It involves organizing resources, managing time, and anticipating potential challenges to ensure successful outcomes.</p>
+                        <p class="theme_pra_text">Effective planning helps guide decision-making, improves efficiency, reduces risks, and provides a roadmap that keeps projects and activities on track toward their objectives.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Design</h3>
+                        <p class="theme_pra_text">Design is the creative process of planning and shaping the structure, appearance, and functionality of a product, system, or experience.</p>
+                        <p class="theme_pra_text">It combines aesthetics, usability, and practicality to solve problems and meet user needs effectively.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Development</h3>
+                        <p class="theme_pra_text">Development is the process of creating, improving, or expanding something over time, whether it’s a product, skill, system, or idea. It involves stages like designing, building, testing, and refining to achieve desired goals.</p>
+                         <p class="theme_pra_text">This process drives progress by turning concepts into tangible results, fostering growth, innovation, and enhanced functionality across various fields such as technology, education, business, and personal growth.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Deployment</h3>
+                        <p class="theme_pra_text">Deployment is the process of releasing and making a software application, system, or product available for use in a live environment.</p>
+                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product operates smoothly for end users, marking the transition from development to practical use.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
         <!-- section portfolio -->
         <section class="section portfolio pb-0">
             <div class="container">

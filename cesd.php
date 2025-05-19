@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
 
@@ -72,26 +72,28 @@
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Tailored Solutions</h5>
-                            <p class="text-muted">Each project is crafted to match your exact business goals and processes.</p>
+                            <p class="text-muted">Each project is crafted to match your exact business goals and
+                                processes.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Scalable Architecture</h5>
-                            <p class="text-muted">Future-ready applications built with modular and scalable architecture.</p>
+                            <p class="text-muted">Future-ready applications built with modular and scalable
+                                architecture.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card-box">
                             <h5>Expert Developers</h5>
-                            <p class="text-muted">Our skilled team ensures on-time delivery and top-quality code on time develiver.</p>
+                            <p class="text-muted">Our skilled team ensures on-time delivery and top-quality code on time
+                                develiver.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
+        
         <section class="development-section py-5 bg-light">
             <div class="container">
                 <div class="text-center mb-5">
@@ -103,33 +105,80 @@
                     <div class="col-md-2">
                         <div class="process-step animate-step delay-1">
                             <h6 class="fw-semibold">Discovery</h6>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="process-step animate-step delay-2">
                             <h6 class="fw-semibold">Planning</h6>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="process-step animate-step delay-3">
                             <h6 class="fw-semibold"> Development</h6>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="process-step animate-step delay-4">
                             <h6 class="fw-semibold">Testing</h6>
-                            
+
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="process-step animate-step delay-5">
                             <h6 class="fw-semibold">Deployment</h6>
-                            
+
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cloud_services py-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Discovery</h3>
+                        <p class="theme_pra_text ">Discovery is the process of uncovering something new, unknown, or unexpected through exploration, research, observation, or accident. It expands human understanding and opens new possibilities, serving as the foundation for innovation, creativity, and progress across science, art, and everyday life. Throughout history, discoveries have shaped society and continue to drive change by encouraging curiosity, problem-solving, and learning.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Planning.avif" alt="Data Backup">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Planning</h3>
+                        <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps needed to achieve them. It involves organizing resources, managing time, and anticipating potential challenges to ensure successful outcomes.</p>
+                        <p class="theme_pra_text">Effective planning helps guide decision-making, improves efficiency, reduces risks, and provides a roadmap that keeps projects and activities on track toward their objectives.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Development</h3>
+                        <p class="theme_pra_text">Development is the process of creating, improving, or expanding something over time, whether it’s a product, skill, system, or idea. It involves stages like designing, building, testing, and refining to achieve desired goals.</p>
+                        <p class="theme_pra_text">This process drives progress by turning concepts into tangible results, fostering growth, innovation, and enhanced functionality across various fields such as technology, education, business, and personal growth.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Testing</h3>
+                        <p class="theme_pra_text">Testing is the process of systematically evaluating a product, system, or component to identify defects and ensure it meets specified requirements and quality standards.</p>
+                         <p class="theme_pra_text">It helps verify functionality, reliability, and performance, enabling improvements and reducing the risk of failures before the final release or use.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Deployment</h3>
+                        <p class="theme_pra_text">Deployment is the process of releasing and making a software application, system, or product available for use in a live environment.</p>
+                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product operates smoothly for end users, marking the transition from development to practical use.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -141,8 +190,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="heading">
-                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!</h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next level, try us and you will
+                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
+                            </h2>
+                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
+                                level, try us and you will
                                 see! We have the best experts to elevate your business.</p>
                         </div>
                     </div>
@@ -273,7 +324,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 
