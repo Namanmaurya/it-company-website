@@ -34,6 +34,7 @@
 			font-size: 15px;
 			line-height: 1.8;
 			color: #ccc;
+			font-weight: 400;
 		}
 
 		/* Section title in widgets */
@@ -57,6 +58,7 @@
 			color: #cccccc;
 			text-decoration: none;
 			transition: color 0.3s ease;
+			font-weight: 400;
 		}
 
 		.footer ul.footer-menu li a:hover {

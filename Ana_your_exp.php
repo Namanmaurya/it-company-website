@@ -52,22 +52,16 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="why_analyze_img">
-                            <img src="images\service\why_analyze_img.avif" alt="why analyze image">
+                            <img src="images\service\analyze_your_expence.webp" alt="why analyze image">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <h2>Why Should You Analyse Your Expenses?</h2>
-                        <p>Understanding your financial flow helps you save better, reduce debt, and plan for the
-                            future.</p>
-                        <p> <strong>Tracks Spending Habits:</strong> Analyzing expenses reveals where your money goes,
-                            helping you understand spending patterns and make adjustments to improve financial
-                            discipline and savings.</p>
-                        <p><strong>Identifies Wasteful Spending:</strong> Regular expense reviews highlight unnecessary
-                            costs, allowing you to cut back on non-essential purchases and prioritize more meaningful or
-                            necessary expenses.</p>
-                        <p><strong>Improves Budgeting:</strong> With clear insights into your spending, you can create
-                            realistic budgets that reflect your actual needs and help you manage your income more
-                            efficiently.</p>
+                        <p>Analyzing expenses ensures efficient resource allocation, reduces waste, improves ROI, and
+                            helps make data-driven decisions for sustainable software and mobile app development.</p>
+                        <p> <strong>Analyzing expenses allows you to identify unnecessary costs, prioritize features,
+                                improve operational efficiency, and ensure the app stays within budget while maximizing
+                                performance and user value.</p>
 
                     </div>
                 </div>
@@ -119,6 +113,78 @@
                 </div>
             </div>
         </div>
+
+        <!-- mobile_app_pricing-section -->
+
+        <section class="pricing-section text-center">
+            <div class="container">
+                <h2 class="theme_headerh2">Our Pricing Plans for Mobile App Development</h2>
+                <p class="theme_pra_text">Choose the plan that fits your business needs. All plans include expert
+                    consultation, modern UI/UX design, and post-launch support.</p>
+
+                <div class="row g-4">
+                    <!-- Starter Plan -->
+                    <div class="col-md-4">
+                        <div class=" pricing-card">
+                            <h4 class="pri_card-title">Starter Plan</h4>
+                            <h3 class="card_title_h3">$1,999</h3>
+                            <ul class="list-unstyled">
+                                <li>✔ 1 Platform (iOS or Android)</li>
+                                <li>✔ Up to 5 App Screens</li>
+                                <li>✔ Basic UI/UX Design</li>
+                                <li>✔ 2 Revisions</li>
+                                <li>✔ Basic Backend Integration</li>
+                                <li>✔ 2 Weeks Delivery</li>
+                                <li>✔ Email Support</li>
+                            </ul>
+                            <p class="theme_pra_text">✅ Great for startups looking to test an idea!</p>
+                        </div>
+                    </div>
+
+                    <!-- Professional Plan -->
+                    <div class="col-md-4">
+                        <div class=" pricing-card">
+                            <h4 class="pri_card-title">Professional Plan</h4>
+                            <h3 class="card_title_h3">$4,999</h3>
+                            <ul class="list-unstyled">
+                                <li>✔ Both iOS & Android</li>
+                                <li>✔ Up to 12 App Screens</li>
+                                <li>✔ Custom UI/UX Design</li>
+                                <li>✔ 5 Revisions</li>
+                                <li>✔ API & Database Integration</li>
+                                <li>✔ Admin Panel</li>
+                                <li>✔ Push Notifications</li>
+                                <li>✔ 1 Month Delivery</li>
+                                <li>✔ Priority Support</li>
+                            </ul>
+                            <p class="theme_pra_text">⭐ Most popular choice for scaling!</p>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="col-md-4">
+                        <div class="pricing-card">
+                            <h4 class="pri_card-title">Enterprise Plan</h4>
+                            <h3 class="card_title_h3">$9,999+</h3>
+                            <ul class="list-unstyled">
+                                <li>✔ Unlimited Screens</li>
+                                <li>✔ Advanced Custom UI/UX</li>
+                                <li>✔ Scalable Cloud Backend</li>
+                                <li>✔ Custom Admin Dashboard</li>
+                                <li>✔ Real-Time Features</li>
+                                <li>✔ Security & Compliance</li>
+                                <li>✔ Performance Optimization</li>
+                                <li>✔ Dedicated Project Manager</li>
+                                <li>✔ Ongoing Maintenance & Support</li>
+                            </ul>
+                            <p class="theme_pra_text">🚀 Tailored to enterprises or high-growth apps!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
         <section class="ty_of_main">
             <div class="container text-center">
@@ -172,8 +238,6 @@
             </div>
         </section>
 
-
-
         <section id="contact" class="cta-section">
             <div class="container-fluid">
                 <div class="row">
@@ -222,7 +286,7 @@
 
 
     </script>
-    
+
     <script>
         function changeDevice(device) {
             const preview = document.getElementById('devicePreview');

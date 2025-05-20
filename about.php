@@ -222,6 +222,38 @@
 			</div>
 		</section>
 
+		<!-- section Counter Start -->
+		<section class="section counter">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">1730</span> +</h2>
+							<p>Project Done</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">125 </span>M </h2>
+							<p>User Worldwide</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mb-5 mb-lg-0">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">39</span></h2>
+							<p>Availble Country</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center">
+							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">14</span></h2>
+							<p>Award Winner </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="section testimonial-modern py-5">
 			<div class="container">
 				<div class="text-center mb-5">
@@ -331,37 +363,24 @@
 			</div>
 		</section>
 
-
-		<!-- section Counter Start -->
-		<section class="section counter">
-			<div class="container">
+		<section id="contact" class="cta-section">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">1730</span> +</h2>
-							<p>Project Done</p>
+					<div class="col-md-8">
+						<div class="cta-text">
+							<h3>Ready
+								customize your software?</h3>
+							<p>Let’s talk about how we can bring your vision to life.</p>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">125 </span>M </h2>
-							<p>User Worldwide</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center mb-5 mb-lg-0">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">39</span></h2>
-							<p>Availble Country</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="counter-item text-center">
-							<h2 class="mb-0 "><span class="counter-stat font-weight-bold">14</span></h2>
-							<p>Award Winner </p>
+					<div class="col-md-4">
+						<div class="cta-action">
+							<a href="contact.php" class="btn-light">Contact Us</a>
 						</div>
 					</div>
 				</div>
 			</div>
+
 		</section>
 
 	</main>

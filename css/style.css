@@ -13,7 +13,6 @@ body {
     font-weight: 400;
 }
 
-
 .theme_button {
     position: relative;
     display: inline-block;
@@ -57,7 +56,7 @@ body {
     transform: scale(0);
 }
 
-.btn_bg{
+.btn_bg {
     background-color: #2878fb;
 }
 
@@ -175,7 +174,6 @@ body {
     }
 }
 
-
 /* scrollar */
 
 #scrollTopBtn {
@@ -193,7 +191,6 @@ body {
     border-radius: 30%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.4s;
-
 }
 
 #scrollTopBtn i {
@@ -214,22 +211,18 @@ body {
     transform-origin: center;
     border-radius: 30%;
     z-index: -1;
-
 }
 
 #scrollTopBtn:hover {
     border: 1px solid #2878fb;
-
 }
 
 #scrollTopBtn:hover i {
     color: black;
-
 }
 
 #scrollTopBtn:hover::before {
     transform: scale(0);
-
 }
 
 /* Banner Section */
@@ -370,7 +363,6 @@ body {
 
 .about-item a {
     display: inline-block;
-    margin-top: 1rem;
     color: #ffffff;
     background-color: #007bff;
     padding: 0.5rem 1.2rem;
@@ -385,8 +377,6 @@ body {
     background: transparent;
     color: black;
 }
-
-
 
 .video-img {
     position: relative;
@@ -411,15 +401,11 @@ body {
 .video-img .video-play i {
     color: white;
     font-size: 50px;
-
-
 }
 
 .video-img .video-play:hover {
     background-color: transparent;
 }
-
-
 
 @media (max-width: 767.98px) {
     .about-item h4 {
@@ -517,7 +503,6 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(138, 181, 249, 0.15);
     border-bottom: 3px solid #2878fb;
-
 }
 
 .icon-block i {
@@ -553,8 +538,6 @@ body {
         font-size: 1rem;
         margin-bottom: 1rem;
     }
-
-
 }
 
 @media (max-width: 767.98px) {
@@ -566,7 +549,6 @@ body {
         padding-left: 0;
         padding-right: 0;
     }
-
 
     .process-block h2 {
         font-size: 1.75rem;
@@ -581,7 +563,6 @@ body {
     .process-block h2 {
         font-size: 1.5rem;
     }
-
 
     .icon-block i {
         font-size: 2rem;
@@ -758,7 +739,6 @@ body {
     background: transparent;
 }
 
-
 @media (max-width: 991.98px) {
     .portfolio-item {
         width: 48%;
@@ -779,7 +759,6 @@ body {
     }
 }
 
-
 /* mapsection */
 
 .office-section {
@@ -789,16 +768,12 @@ body {
     margin: auto;
 }
 
-
-
-
 .tab-content iframe {
     width: 100%;
     height: 400px;
     border-radius: 8px;
     border: 1px solid #ddd;
 }
-
 
 @media (max-width: 768px) {
     .office-section h2 {
@@ -809,7 +784,6 @@ body {
         font-size: 1rem;
     }
 }
-
 
 @media (max-width: 480px) {
     .tab-content iframe {
@@ -825,7 +799,6 @@ body {
         padding: 25px 10px;
     }
 }
-
 
 /* Counter Section */
 
@@ -1052,7 +1025,6 @@ body {
     padding: 60px 20px;
 }
 
-
 .section-heading h2 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -1100,7 +1072,6 @@ body {
     color: #555;
     margin-bottom: 0;
 }
-
 
 @media (max-width: 991.98px) {
     .team-section {
@@ -1152,13 +1123,10 @@ body {
     }
 }
 
-
-
 /* Awards Section */
 .section.awards {
     padding: 60px 0;
     background-color: #f8f9fa;
-
 }
 
 .why-content h2 {
@@ -1230,8 +1198,6 @@ body {
     background: linear-gradient(135deg, #007BFF, #0056b3);
     transform: rotate(135deg);
     transform-origin: bottom right;
-
-
 }
 
 .service-info::before {
@@ -1333,7 +1299,6 @@ body {
     margin-bottom: 80px;
 }
 
-
 .case-timeline-divider {
     position: absolute;
     left: 0px;
@@ -1382,7 +1347,6 @@ body {
 .order-lg-2 {
     order: 2;
 }
-
 
 @media (max-width: 991.98px) {
 
@@ -1544,7 +1508,6 @@ body {
     margin-top: 10px;
 }
 
-
 .float-lg-right {
     float: none;
 }
@@ -1627,7 +1590,6 @@ body {
     height: 400px;
     border: 0;
 }
-
 
 .contact-content,
 .contact-info {
@@ -1767,7 +1729,6 @@ body {
 .tag-option .float-right a:hover i {
     color: #007bff;
 }
-
 
 .posts-nav {
     border-radius: 10px;
@@ -2034,8 +1995,6 @@ body {
     color: #000000;
 }
 
-
-
 .text-muted {
     font-size: 15px;
     color: #555;
@@ -2054,8 +2013,6 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-right: 3px solid #2878fb;
     border-bottom: 3px solid #2878fb;
-
-
 }
 
 .card-box::after {
@@ -2069,7 +2026,6 @@ body {
     background-color: #2878fb;
 }
 
-
 .card-box::before {
     content: "";
     position: absolute;
@@ -2080,7 +2036,6 @@ body {
     border-radius: 20px;
     background-color: #2878fb;
 }
-
 
 .card-box:hover {
     transform: translateY(-5px);
@@ -2096,7 +2051,6 @@ body {
 .development-section {
     background: #f8f9fa;
 }
-
 
 .development-section h2 {
     font-size: 2.5rem;
@@ -2114,9 +2068,7 @@ body {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     opacity: 0;
     transform: translateY(40px);
-
 }
-
 
 @keyframes fadeInUp {
     0% {
@@ -2173,7 +2125,6 @@ body {
 }
 
 .tech-item:hover {
-
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
@@ -2226,7 +2177,6 @@ body {
 .development_section p {
     font-size: 15px;
     color: #555;
-
 }
 
 .techno_section h2 {
@@ -2236,7 +2186,6 @@ body {
     margin-bottom: 1.5rem;
     color: #000000;
 }
-
 
 @media (max-width: 991.98px) {
     .hero-title {
@@ -2353,7 +2302,6 @@ body {
 .why_soft_main {
     padding: 60px 0;
     background-color: #f9f9f9;
-
 }
 
 .why_soft_main h2 {
@@ -2389,7 +2337,6 @@ body {
     display: block;
     margin: auto;
 }
-
 
 @media (max-width: 768px) {
     .why_soft_main {
@@ -2852,7 +2799,6 @@ body {
 .seo_about {
     padding: 80px 0;
     background-color: #f8f9fa;
-
 }
 
 .seo_about img {
@@ -2948,7 +2894,6 @@ body {
     padding: 30px 20px;
     background: #f8f9fa;
 }
-
 
 @media (max-width: 992px) {
     .seo_services .col-md-3 {
@@ -3223,7 +3168,6 @@ body {
     padding: 60px 0;
 }
 
-
 .cloud_about img {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -3233,7 +3177,6 @@ body {
 .cloud_about img:hover {
     transform: scale(1.02);
 }
-
 
 @media (max-width: 767.98px) {
 
@@ -3423,7 +3366,6 @@ body {
     height: 3px;
     border-radius: 20px;
     background-color: #2878fb;
-
 }
 
 .web_icon-box::after {
@@ -3435,7 +3377,6 @@ body {
     height: 50%;
     border-radius: 20px;
     background-color: #2878fb;
-
 }
 
 .web_icon-box i {
@@ -3618,47 +3559,6 @@ body {
     }
 }
 
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px;
-}
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: white;
-}
-
-.flip-card-front {
-    background-color: #2980b9;
-}
-
-.flip-card-back {
-    background-color: #27ae60;
-    transform: rotateY(180deg);
-}
-
 /* FAQ Page */
 
 .faq_section {
@@ -3706,7 +3606,6 @@ body {
     padding: 15px 15px;
     transition: all 0.3s ease;
     color: #333;
-
 }
 
 .faq-question:hover {
@@ -3975,6 +3874,7 @@ body {
 @media (max-width: 576px) {
     #intro {
         padding: 40px 15px;
+        margin-top: 73px;
     }
 
     #intro .section-title h2 {
@@ -3986,7 +3886,6 @@ body {
         font-size: 0.95rem;
     }
 }
-
 
 /* section2 */
 
@@ -4019,7 +3918,6 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
-
 
 .banefits_cards {
     background: #ffffff;
@@ -4054,9 +3952,6 @@ body {
     margin-top: 8px;
 }
 
-
-
-
 @media (max-width: 767.98px) {
     #benefits .section-title h2 {
         font-size: 2rem;
@@ -4090,7 +3985,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 #stages .section-title {
     text-align: center;
     margin-bottom: 40px;
@@ -4113,7 +4007,6 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
-
 
 #stages .stages_img img {
     width: 100%;
@@ -4239,13 +4132,11 @@ body {
     background-color: #e9ecef;
 }
 
-
 #practices ul li i {
     color: #198754;
 
     font-size: 1.2rem;
 }
-
 
 @media (max-width: 768px) {
     #practices .section-title h2 {
@@ -4377,12 +4268,10 @@ body {
     font-weight: 300;
 }
 
-
 .why_analyze_img img {
     width: 100%;
     height: auto;
 }
-
 
 @media (max-width: 768px) {
     .Why_analyze_exp {
@@ -4442,14 +4331,12 @@ body {
     line-height: 1.6;
 }
 
-
 .responsive_devices img {
     max-width: 100%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
-
 
 @media (max-width: 768px) {
     .responsive_devices {
@@ -4668,8 +4555,6 @@ body {
     text-align: justify;
 }
 
-
-
 /* checkresponsiveness */
 
 .checkresponsiveness {
@@ -4734,10 +4619,111 @@ body {
     max-width: 1200px;
 }
 
+
 @media (max-width: 480px) {
     .checkresponsiveness .device-buttons {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* pricing_section */
+
+.pricing-section {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 30px 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.pricing-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.pri_card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.card_title_h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+
+.pricing-card ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    font-size: 16px;
+    font-weight: 300;
+    color: #484747;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+    .theme_headerh2 {
+        font-size: 2rem;
+    }
+
+    .card_title_h3 {
+        font-size: 1.8rem;
+    }
+
+    .pri_card-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-section {
+        padding: 40px 15px;
+    }
+
+    .pricing-card {
+        padding: 25px 20px;
+    }
+
+    .theme_pra_text {
+        font-size: 0.95rem;
+    }
+
+    .pricing-card ul li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .theme_headerh2 {
+        font-size: 1.75rem;
+    }
+
+    .card_title_h3 {
+        font-size: 1.6rem;
+    }
+
+    .pri_card-title {
+        font-size: 1.2rem;
+    }
+
+    .pricing-card {
+        padding: 20px 15px;
     }
 }
 
