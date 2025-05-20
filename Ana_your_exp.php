@@ -47,7 +47,7 @@
             </div>
         </section>
 
-        <section class="Why_analyze_exp">
+        <section class="Why_analyze_exp scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -59,9 +59,9 @@
                         <h2>Why Should You Analyse Your Expenses?</h2>
                         <p>Analyzing expenses ensures efficient resource allocation, reduces waste, improves ROI, and
                             helps make data-driven decisions for sustainable software and mobile app development.</p>
-                        <p> <strong>Analyzing expenses allows you to identify unnecessary costs, prioritize features,
-                                improve operational efficiency, and ensure the app stays within budget while maximizing
-                                performance and user value.</p>
+                        <p> Analyzing expenses allows you to identify unnecessary costs, prioritize features,
+                            improve operational efficiency, and ensure the app stays within budget while maximizing
+                            performance and user value.</p>
 
                     </div>
                 </div>
@@ -71,7 +71,7 @@
 
 
 
-        <section class="features_section">
+        <section class="features_section scroll-fade-up">
             <div class="container">
                 <h2>Key Features</h2>
                 <div class="row">
@@ -92,7 +92,7 @@
         </section>
 
 
-        <div class="section checkresponsiveness">
+        <div class="section checkresponsiveness scroll-fade-up">
             <div class="container-fluid text-center">
                 <h2 class="theme_headerh2">Access From Any Device</h2>
                 <p class="theme_pra_text">Whether you're on a laptop, tablet, or mobile, your data stays synced and
@@ -108,7 +108,7 @@
                             class="fa-solid fa-desktop"></i></button>
                 </div>
 
-                <div id="devicePreview" class="device-preview mobile">
+                <div id="devicePreview" class="device-preview desktop">
                     <iframe src="https://www.obiculetechnologies.com/" id="previewIframe"></iframe>
                 </div>
             </div>
@@ -116,7 +116,7 @@
 
         <!-- mobile_app_pricing-section -->
 
-        <section class="pricing-section text-center">
+        <section class="pricing-section text-center scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">Our Pricing Plans for Mobile App Development</h2>
                 <p class="theme_pra_text">Choose the plan that fits your business needs. All plans include expert
@@ -158,7 +158,7 @@
                                 <li>✔ Priority Support</li>
                             </ul>
                             <p class="theme_pra_text">⭐ Most popular choice for scaling!</p>
-                            
+
                         </div>
                     </div>
 
@@ -186,7 +186,7 @@
             </div>
         </section>
 
-        <section class="ty_of_main">
+        <section class="ty_of_main scroll-fade-up">
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Website Responsiveness Pricing</h2>
                 <div class="row g-4">
@@ -196,7 +196,7 @@
                                 <i class="fa-solid fa-mobile-screen-button"></i>
                                 <h5>Mobile</h5>
                                 <p class="theme_pra_text">Responsive design for mobile phones (375px)</p>
-                                <h6>₹1,000</h6>
+                                <h6>$1,000</h6>
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                                 <i class="fa-solid fa-tablet-screen-button"></i>
                                 <h5>Tablet</h5>
                                 <p class="theme_pra_text">Responsive layout for tablets (768px)</p>
-                                <h6>₹1,500</h6>
+                                <h6>$1,500</h6>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                                 <i class="fa-solid fa-laptop-code"></i>
                                 <h5>Laptop</h5>
                                 <p class="theme_pra_text">Responsive layout for laptops (1024px)</p>
-                                <h6>₹2,000</h6>
+                                <h6>$2,000</h6>
                             </div>
                         </div>
                     </div>
@@ -226,19 +226,19 @@
                                 <i class="fa-solid fa-desktop"></i>
                                 <h5>Desktop</h5>
                                 <p class="theme_pra_text">Responsive design for desktop (1280px)</p>
-                                <h6>₹2,500</h6>
+                                <h6>$2,500</h6>
                             </div>
                         </div>
                     </div>
                     <div class="text-center mt-5">
-                        <h2 class="theme_headerh3">Total (All Devices): ₹7,000</h2>
+                        <h2 class="theme_headerh3">Total (All Devices): $7,000</h2>
                         <p class="theme_pra_text">(You can select individual devices based on your budget)</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

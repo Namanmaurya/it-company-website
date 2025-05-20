@@ -48,7 +48,7 @@
             </div>
         </section>
 
-        <section class="section portfolio">
+        <section class="section portfolio scroll-fade-up">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -168,7 +168,7 @@
 
 
         <!-- Case Studies -->
-        <section class="seo_case_studies">
+        <section class="seo_case_studies scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">Case Studies</h2>
                 <div class="row g-4" data-aos="fade-up">
@@ -205,7 +205,7 @@
             </div>
         </section>
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

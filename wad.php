@@ -75,25 +75,25 @@
         </section>
 
         <!-- 3. Services Section -->
-        <section class="wad_services_sec" id="services">
+        <section class="wad_services_sec " id="services">
             <div class="container" data-aos="fade-up">
                 <h2 class="text-center mb-5">Our Services</h2>
                 <div class="row g-4">
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-1">
                         <div class="web_icon-box ">
                             <i class="fa-solid fa-laptop"></i>
                             <h5 class="mt-3">Custom Web Development</h5>
                             <p>We build scalable, secure, and custom applications tailored to your business goals.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-2">
                         <div class="web_icon-box ">
                             <i class="fa-solid fa-mobile-screen-button"></i>
                             <h5 class="mt-3">Responsive UI/UX</h5>
                             <p>Mobile-first, intuitive, and user-focused design for all devices and screen sizes.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-3">
                         <div class="web_icon-box">
                             <i class="fa-solid fa-cloud"></i>
                             <h5 class="mt-3">Cloud Integration</h5>
@@ -105,7 +105,7 @@
         </section>
 
         <!-- Supported Technologies -->
-        <section class="support_techno">
+        <section class="support_techno scroll-fade-up">
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Technologies We Use</h2>
                 <div class="row justify-content-center">
@@ -143,7 +143,7 @@
             <div class="container" data-aos="fade-up">
                 <h2 class="theme_headerh2">Our Process</h2>
                 <div class="row text-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 ">
                         <h5> Planning</h5>
                         <p>Requirement analysis and roadmap.</p>
                     </div>
@@ -163,7 +163,7 @@
             </div>
         </section>
 
-          <section class="cloud_services py-5 ">
+          <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     
@@ -205,7 +205,7 @@
         </section>
 
         <!-- section portfolio -->
-        <section class="section portfolio pb-0">
+        <section class="section portfolio pb-0 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -267,7 +267,7 @@
 
         <!-- Testimonials -->
 
-        <section class="cloud_testimonials ">
+        <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
                 <div class="row g-4">
@@ -287,9 +287,7 @@
             </div>
         </section>
 
-
-
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

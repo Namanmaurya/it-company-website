@@ -69,21 +69,21 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-1">
                         <div class="card-box">
                             <h5>Tailored Solutions</h5>
                             <p class="text-muted">Each project is crafted to match your exact business goals and
                                 processes.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-2">
                         <div class="card-box">
                             <h5>Scalable Architecture</h5>
                             <p class="text-muted">Future-ready applications built with modular and scalable
                                 architecture.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-3">
                         <div class="card-box">
                             <h5>Expert Developers</h5>
                             <p class="text-muted">Our skilled team ensures on-time delivery and top-quality code on time
@@ -94,7 +94,7 @@
             </div>
         </section>
         
-        <section class="development-section py-5 bg-light">
+        <section class="development-section py-5 bg-light scroll-fade-up">
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class=" theme_headerh2">Our Development Process</h2>
@@ -136,7 +136,7 @@
             </div>
         </section>
 
-        <section class="cloud_services py-5 ">
+        <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-5">
@@ -186,7 +186,7 @@
 
 
         <!-- section portfolio -->
-        <section class="section portfolio pb-0">
+        <section class="section portfolio pb-0 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -247,7 +247,7 @@
 
 
         <!-- Supported Technologies -->
-        <section class="support_techno">
+        <section class="support_techno scroll-fade-up">
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Technologies We Use</h2>
                 <div class="row justify-content-center">
@@ -281,7 +281,7 @@
         </section>
 
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

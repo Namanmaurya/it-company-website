@@ -73,7 +73,7 @@
         </section>
 
         <!-- Services Included -->
-        <section class="seo_services">
+        <section class="seo_services scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">What’s Included in Our SEO Package</h2>
                 <div class="row g-4" data-aos="fade-up">
@@ -105,7 +105,7 @@
             </div>
         </section>
 
-         <section class="cloud_services py-5 ">
+         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-5">
@@ -169,7 +169,7 @@
         </section>
 
         <!-- Why Choose Us -->
-        <section class="seo_chose_us">
+        <section class="seo_chose_us scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2" data-aos="fade-down">Why Choose Us?</h2>
                 <div class="row text-center g-4" data-aos="fade-up">
@@ -188,11 +188,11 @@
 
 
         <!-- Case Studies -->
-        <section class="seo_case_studies">
+        <section class="seo_case_studies ">
             <div class="container">
                 <h2 class="theme_headerh2">Case Studies</h2>
                 <div class="row g-4" data-aos="fade-up">
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-1">
                         <div class="card h-100">
                             <img src="images\service\restore_website_img.jpg" class="card-img-top" alt="Case Study">
                             <div class="card-body">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-2">
                         <div class="card h-100">
                             <img src="images\service\seo_case_study_eco_img.png" class="card-img-top" alt="Case Study">
                             <div class="card-body">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-3">
                         <div class="card h-100">
                             <img src="images\service\seo_case_study_eco_img3.webp" class="card-img-top"
                                 alt="Case Study">
@@ -226,7 +226,7 @@
         </section>
 
         <!-- Tools Section -->
-        <section class="seo_tool">
+        <section class="seo_tool scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">Tools We Use</h2>
                 <div class="row text-center g-3" data-aos="zoom-in">
@@ -276,29 +276,29 @@
             </div>
         </section> -->
 
-        <section class="cloud_testimonials ">
+        <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
                 <div class="row g-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 scroll-fade-up ">
                         <blockquote class="blockquote">
                             <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
                             <footer class="blockquote-footer">Anil, CTO, abc</footer>
                         </blockquote>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 scroll-fade-up delay-1">
                         <blockquote class="blockquote">
                             <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
                             <footer class="blockquote-footer">Satyam, CEO, abc</footer>
                         </blockquote>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 scroll-fade-up delay-2">
                         <blockquote class="blockquote">
                             <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
                             <footer class="blockquote-footer">Anil, CTO, abc</footer>
                         </blockquote>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 scroll-fade-up delay-3">
                         <blockquote class="blockquote">
                             <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
                             <footer class="blockquote-footer">Satyam, CEO, abc</footer>
@@ -308,10 +308,7 @@
             </div>
         </section>
 
-
-
-
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -329,7 +326,6 @@
             </div>
 
         </section>
-
 
     </main>
 

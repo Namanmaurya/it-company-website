@@ -64,8 +64,6 @@
 			</div>
 		</section>
 
-
-
 		<section class="video-block section bg-light">
 			<div class="container">
 				<div class="row align-items-center">
@@ -87,7 +85,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-6">
+					<div class="col-lg-6 scroll-fade-up">
 						<div class="video-img">
 							<img src="images/about/img-34.png" alt="" class="img-fluid">
 							<a data-video-id="sXoKSD8QJEA" class="video-play"
@@ -99,7 +97,7 @@
 			</div>
 		</section>
 
-		<section class="team-section">
+		<section class="team-section ">
 			<div class="container">
 				<!-- Section Heading -->
 				<div class="row justify-content-center">
@@ -116,8 +114,8 @@
 
 				<!-- Team Cards -->
 				<div class="row">
-					<!-- Team Member -->
-					<div class="col-lg-3 col-md-6">
+					
+					<div class="col-lg-3 col-md-6 scroll-fade-up">
 						<div class="team-card text-center">
 							<img src="images/team/03-1.jpg" alt="Satyam Dev - Founder"
 								class="img-fluid rounded shadow-sm">
@@ -126,8 +124,7 @@
 						</div>
 					</div>
 
-					<!-- Team Member -->
-					<div class="col-lg-3 col-md-6 ">
+					<div class="col-lg-3 col-md-6 scroll-fade-up delay-1">
 						<div class="team-card text-center">
 							<img src="images/team/01-3.jpg" alt="Anil Yadav - Marketing Head"
 								class="img-fluid rounded shadow-sm">
@@ -136,8 +133,7 @@
 						</div>
 					</div>
 
-					<!-- Team Member -->
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-6 scroll-fade-up delay-2">
 						<div class="team-card text-center">
 							<img src="images/team/03-1.jpg" alt="Satyam Dev - Co-ordinator"
 								class="img-fluid rounded shadow-sm">
@@ -146,8 +142,7 @@
 						</div>
 					</div>
 
-					<!-- Team Member -->
-					<div class="col-lg-3 col-md-6 ">
+					<div class="col-lg-3 col-md-6 scroll-fade-up delay-3">
 						<div class="team-card text-center">
 							<img src="images/team/01-3.jpg" alt="Anil Yadav - Senior Developer"
 								class="img-fluid rounded shadow-sm">
@@ -223,7 +218,7 @@
 		</section>
 
 		<!-- section Counter Start -->
-		<section class="section counter">
+		<section class="section counter scroll-fade-up">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-sm-6">
@@ -254,7 +249,7 @@
 			</div>
 		</section>
 
-		<section class="section testimonial-modern py-5">
+		<section class="section testimonial-modern py-5 scroll-fade-up">
 			<div class="container">
 				<div class="text-center mb-5">
 					<h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
@@ -312,7 +307,7 @@
 			</div>
 		</section>
 
-		<section class="office-section container-fluid">
+		<section class="office-section container-fluid scroll-fade-up">
 			<h2 class="theme_headerh2">Our Office Locations</h2>
 			<p class="theme_pra_text">Select a city to view the office location on the map.</p>
 
@@ -363,7 +358,7 @@
 			</div>
 		</section>
 
-		<section id="contact" class="cta-section">
+		<section id="contact" class="cta-section scroll-fade-up">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-8">

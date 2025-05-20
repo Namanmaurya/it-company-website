@@ -55,7 +55,7 @@
         </section>
 
 
-        <section class="faq_section">
+        <section class="faq_section scroll-fade-up">
             <div class="container">
                 <div class="faq_text_center text-center">
                     <div class="faq_tittle text-center">
@@ -494,7 +494,7 @@
 
         <!-- Social Presence Section -->
 
-        <section class="social_presence ">
+        <section class="social_presence scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

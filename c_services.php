@@ -59,7 +59,7 @@
 
         <!-- cloud about -->
 
-        <section class="cloud_about py-5">
+        <section class="cloud_about py-5 scroll-fade-up">
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
 
@@ -78,7 +78,7 @@
 
         <!-- Services Offered -->
 
-        <section class="cloud_services py-5 ">
+        <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <h2 class="text-center mb-5 theme_headerh2">Our Cloud Services</h2>
                 <div class="row">
@@ -116,7 +116,7 @@
                         <img src="images\service\devops_img.jpg" alt="DevOps Support">
                     </div>
                     <div class="col-md-6">
-                        <h3 class="theme_headerh3 mt-5">DevOps Support</h3>
+                        <h3 class="theme_headerh3 mt-4">DevOps Support</h3>
                         <p class="theme_pra_text">DevOps Support refers to the various tools, practices, and processes
                             that assist in the successful implementation and management of DevOps (Development and
                             Operations) practices. DevOps is a cultural and technical movement that combines software
@@ -129,7 +129,7 @@
 
         <!-- Why Choose Us -->
 
-        <section class="cloud_why py-5">
+        <section class="cloud_why py-5 scroll-fade-up">
             <div class="container">
                 <h2 class="text-center mb-4 theme_headerh2">Why Choose Our Cloud Services?</h2>
                 <div class="row text-center g-4">
@@ -147,7 +147,7 @@
         </section>
 
         <!-- Tools & Technologies -->
-        <section class="seo_tool">
+        <section class="seo_tool scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">Technologies We Use</h2>
                 <div class="row text-center g-3" data-aos="zoom-in">
@@ -197,7 +197,7 @@
 
         <!-- Testimonials -->
 
-        <section class="cloud_testimonials ">
+        <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
                 <div class="row g-4">
@@ -232,7 +232,7 @@
 
         <!-- contact -->
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

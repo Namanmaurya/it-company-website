@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <section class="project_section">
+        <section class="project_section scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
                 <div class="row g-4">
@@ -107,7 +107,7 @@
         </section>
 
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -125,8 +125,6 @@
             </div>
 
         </section>
-
-
 
     </main>
 

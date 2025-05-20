@@ -89,6 +89,31 @@ body {
     font-weight: 300;
 }
 
+/* Scroll animation */
+.scroll-fade-up {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    will-change: opacity, transform;
+}
+
+.scroll-fade-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.delay-1 {
+    transition-delay: 0.2s;
+}
+
+.delay-2 {
+    transition-delay: 0.4s;
+}
+
+.delay-3 {
+    transition-delay: 0.6s;
+}
+
 /* Preloader */
 
 #preloader {
@@ -3353,8 +3378,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 3px solid #2878fb;
-    border-right: 3px solid #2878fb;
 }
 
 .web_icon-box::before {
@@ -3689,7 +3712,7 @@ body {
 /* social media */
 
 .social_presence {
-    padding: 60px 0;
+    padding: 50px 0;
     background-color: #2878fb;
 }
 

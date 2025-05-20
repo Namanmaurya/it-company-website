@@ -58,11 +58,11 @@
             </div>
         </section>
 
-        <section class="section about">
+        <section class="section about ">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <div class="about-item">
+                    <div class="col-lg-4 mb-4 scroll-fade-up delay-1">
+                        <div class="about-item ">
                             <div class="icon">
                                 <i class="ti-light-bulb"></i>
                             </div>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4  mb-4">
+                    <div class="col-lg-4  mb-4 scroll-fade-up delay-2">
                         <div class="about-item ">
                             <div class="icon">
                                 <i class="ti-panel"></i>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4  mb-4">
+                    <div class="col-lg-4  mb-4 scroll-fade-up delay-3">
                         <div class="about-item ">
                             <div class="icon">
                                 <i class="ti-headphone-alt"></i>
@@ -107,10 +107,10 @@
             </div>
         </section>
 
-        <section class="section process">
+        <section class="section process ">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 scroll-fade-up delay-1">
                         <div class="process-block pl-4">
                             <span class="text-uppercase text-sm letter-spacing">Why choose us</span>
                             <h2 class="mb-4 mt-3 theme_headerh2">We help you to make work easy</h2>
@@ -122,7 +122,7 @@
 
                     <div class="col-lg-7 col-xs-12 col-md-12">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 scroll-fade-up delay-1">
                                 <div class="icon-block text-center  mb-lg-0">
                                     <i class="fa-solid fa-lightbulb"></i>
                                     <h5>Data analysis</h5>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 scroll-fade-up delay-2">
                                 <div class="icon-block text-center mt-4 mb-4 mb-lg-0">
                                     <i class="fa-solid fa-laptop"></i>
                                     <h5>Web Development</h5>
@@ -138,7 +138,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 scroll-fade-up delay-3">
                                 <div class="icon-block text-center">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                     <h5>Content Mangement</h5>
@@ -146,7 +146,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 scroll-fade-up delay-3">
                                 <div class="icon-block text-center mt-4">
                                     <i class="fa-solid fa-rocket"></i>
                                     <h5>Mobility</h5>
@@ -159,10 +159,11 @@
             </div>
 
         </section>
-        <section class="section cta">
+
+        <section class="section cta ">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 scroll-fade-up">
                         <div class="cta-content bg-white p-5 rounded">
                             <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span
                                     class="text-color-primary">
@@ -178,7 +179,7 @@
             </div>
         </section>
         <!-- section portfolio -->
-        <section class="section portfolio pb-0">
+        <section class="section portfolio pb-0 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -279,7 +280,7 @@
 
 
         <!-- section Counter -->
-        <section class="section counter">
+        <section class="section counter scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -310,7 +311,7 @@
             </div>
         </section>
 
-        <section class="section testimonial-modern py-5">
+        <section class="section testimonial-modern py-5 scroll-fade-up">
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
@@ -373,7 +374,7 @@
             </div>
         </section>
 
-        <!-- Social Presence Section -->
+       <!-- Social Presence Section -->
 
         <section class="social_presence ">
             <div class="container">
@@ -427,10 +428,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
 
     </main>
 

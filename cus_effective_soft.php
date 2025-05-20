@@ -50,7 +50,7 @@
             </div>
         </section>
 
-        <section id="benefits" class="bg-light">
+        <section id="benefits" class="bg-light scroll-fade-up">
             <div class="container">
                 <div class="section-title">
                     <h2><i class="fas fa-check-circle"></i> Why Custom Software is Effective</h2>
@@ -101,7 +101,7 @@
             </div>
         </section>
 
-        <section class="cloud_services py-5 ">
+        <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-5">
@@ -149,7 +149,7 @@
             </div>
         </section>
 
-        <section id="stages">
+        <section id="stages " class="scroll-fade-up">
             <div class="container">
                 <div class="section-title">
                     <h2><i class="fas fa-project-diagram"></i> Key Stages of Development</h2>
@@ -176,8 +176,8 @@
 
             </div>
         </section>
-
-        <section id="practices" class="bg-light">
+ 
+        <section id="practices" class="bg-light scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -201,7 +201,7 @@
             </div>
         </section>
 
-        <section id="challenges">
+        <section id="challenges" class="scroll-fade-up">
             <div class="container">
                 <div class="section-title">
                     <h2><i class="fas fa-exclamation-triangle"></i> Challenges & Solutions</h2>
@@ -218,7 +218,7 @@
             </div>
         </section>
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">
@@ -236,9 +236,6 @@
             </div>
 
         </section>
-
-
-
     </main>
 
     <?php include("footer.php") ?>

@@ -56,7 +56,7 @@
             </div>
         </section>
 
-        <section class="section service-2">
+        <section class="section service-2 ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mar_bm">
@@ -64,7 +64,7 @@
                             <img src="images/service/service-1.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 mar_bm">
+                    <div class="col-lg-6 mar_bm scroll-fade-up">
                         <a href="cesd.php">
                             <div class="service-info">
                                 <span class="text-color">01</span>
@@ -83,7 +83,7 @@
 
                 <div class="content-padding position-relative">
                     <div class="row">
-                        <div class="col-lg-6 mar_bm">
+                        <div class="col-lg-6 mar_bm scroll-fade-up">
                             <a href="software_man.php">
                                 <div class="service-info">
                                     <span class="text-color font-weight-bold">02</span>
@@ -114,7 +114,7 @@
                             <img src="images/service/service-4.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 mar_bm">
+                    <div class="col-lg-6 mar_bm scroll-fade-up">
                         <a href="wad.php">
                             <div class="service-info">
                                 <span class="text-color">03</span>
@@ -135,7 +135,7 @@
 
                 <div class="content-padding position-relative">
                     <div class="row">
-                        <div class="col-lg-6 mar_bm">
+                        <div class="col-lg-6 mar_bm scroll-fade-up">
                             <a href="c_services.php">
                                 <div class="service-info">
                                     <span class="text-color">04</span>
@@ -165,7 +165,7 @@
                             <img src="images/service/service-4.jpg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 mar_bm">
+                    <div class="col-lg-6 mar_bm scroll-fade-up">
                         <a href="seo_services.php">
                             <div class="service-info">
                                 <span class="text-color">05</span>
@@ -184,7 +184,7 @@
             </div>
         </section>
 
-        <section class="section case-study">
+        <section class="section case-study scroll-fade-up">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -300,7 +300,7 @@
         </section>
 
 
-        <section class="section service">
+        <section class="section service scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10">
@@ -363,7 +363,7 @@
             </div>
         </section>
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

@@ -85,7 +85,7 @@
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Types of Software Maintenance</h2>
                 <div class="row g-4">
-                    <div class="col-md-3">
+                    <div class="col-md-3 scroll-fade-up">
                         <div class="maintenance_card">
                             <div class="maintenance_card-body">
                                 <i class="bi bi-tools feature-icon mb-3"></i>
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 scroll-fade-up delay-1">
                         <div class="maintenance_card">
                             <div class="maintenance_card-body">
                                 <i class="bi bi-arrow-repeat feature-icon mb-3"></i>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 scroll-fade-up delay-2">
                         <div class="maintenance_card">
                             <div class="maintenance_card-body">
                                 <i class="bi bi-graph-up-arrow feature-icon mb-3"></i>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 scroll-fade-up delay-3">
                         <div class="maintenance_card">
                             <div class="maintenance_card-body">
                                 <i class="bi bi-shield-check feature-icon mb-3"></i>
@@ -130,7 +130,7 @@
             <div class="container">
                 <h2 class="mb-4 text-center theme_headerh2">Our Maintenance Implementation Process</h2>
                 <div class="row g-4">
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-1">
                         <div class="main_process">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-search feature-icon"></i> Assessment & Planning</h5>
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-2">
                         <div class="main_process">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-gear-wide-connected feature-icon"></i> Fixing & Upgrading</h5>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 scroll-fade-up delay-3">
                         <div class="main_process">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-check-circle feature-icon"></i> Testing & Delivery</h5>
@@ -159,7 +159,7 @@
         </section>
 
         <!-- Supported Technologies -->
-        <section class="support_techno">
+        <section class="support_techno scroll-fade-up">
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Technologies We Support</h2>
                 <div class="row justify-content-center">
@@ -193,7 +193,7 @@
         </section>
 
         <!-- Benefits -->
-        <section class="benefits">
+        <section class="benefits scroll-fade-up">
             <div class="container"> 
                 <h2 class="text-center theme_headerh2">Why Choose Us?</h2>
                 <div class="row g-4">
@@ -265,7 +265,7 @@
             </div>
         </section>
 
-        <section id="contact" class="cta-section">
+        <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8">

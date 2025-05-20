@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section class="term_condition_text">
+        <section class="term_condition_text scroll-fade-up">
             <div class="container">
                 <p>The terms "We" / "Us" / "Our"/”Company” individually and collectively refer to Python Technologies
                     Private Limited and the terms "Visitor” ”User” refer to the users.</p>
@@ -121,7 +121,7 @@
 
         <!-- Social Presence Section -->
 
-        <section class="social_presence ">
+        <section class="social_presence scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

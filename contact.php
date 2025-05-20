@@ -141,7 +141,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 scroll-fade-up delay-1">
                         <div class="contact-content pl-lg-5 mt-2 mt-lg-0 mb-2 mb-lg-0">
                             <h4 class="mb-4">Noida Office</h4>
 
@@ -159,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 scroll-fade-up delay-2">
                         <div class="contact-info mb-2 mb-lg-0 mt-md-2 mt-lg-0">
                             <h4 class="mb-4">Pune Office</h4>
                             <ul class="address-block list-unstyled">
@@ -176,7 +176,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 scroll-fade-up delay-3">
                         <div class="contact-info ">
                             <h4 class="mb-4">Bangolore Office</h4>
                             <ul class="address-block list-unstyled">
@@ -196,7 +196,7 @@
             </div>
         </section>
 
-        <section class="office-section container-fluid">
+        <section class="office-section container-fluid ">
             <h2 class="theme_headerh2">Our Office Locations</h2>
             <p class="theme_pra_text">Select a city to view the office location on the map.</p>
 
@@ -250,7 +250,7 @@
 
         <!-- Social Presence Section -->
 
-        <section class="social_presence ">
+        <section class="social_presence scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
