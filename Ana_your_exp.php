@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
 
@@ -68,9 +68,7 @@
                         <p><strong>Improves Budgeting:</strong> With clear insights into your spending, you can create
                             realistic budgets that reflect your actual needs and help you manage your income more
                             efficiently.</p>
-                        <p><strong>Supports Financial Goals:</strong> Monitoring expenses helps you stay on track toward
-                            goals like saving, investing, or paying off debt by aligning spending habits with long-term
-                            plans.</p>
+
                     </div>
                 </div>
             </div>
@@ -99,13 +97,82 @@
             </div>
         </section>
 
-        <section class="responsive_devices">
+
+        <div class="section checkresponsiveness">
+            <div class="container-fluid text-center">
+                <h2 class="theme_headerh2">Access From Any Device</h2>
+                <p class="theme_pra_text">Whether you're on a laptop, tablet, or mobile, your data stays synced and
+                    secure.</p>
+                <div class="device-buttons">
+                    <button class="theme_button btn_bg" onclick="changeDevice('mobile')"><i
+                            class="fa-solid fa-mobile-screen-button"></i></button>
+                    <button class="theme_button btn_bg" onclick="changeDevice('tablet')"><i
+                            class="fa-solid fa-tablet-screen-button"></i></button>
+                    <button class="theme_button btn_bg" onclick="changeDevice('laptop')"><i
+                            class="fa-solid fa-laptop-code"></i></button>
+                    <button class="theme_button btn_bg" onclick="changeDevice('desktop')"><i
+                            class="fa-solid fa-desktop"></i></button>
+                </div>
+
+                <div id="devicePreview" class="device-preview mobile">
+                    <iframe src="https://www.obiculetechnologies.com/" id="previewIframe"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <section class="ty_of_main">
             <div class="container text-center">
-                <h2>Access From Any Device</h2>
-                <p>Whether you're on a laptop, tablet, or mobile, your data stays synced and secure.</p>
-                <img src="images\service\responsive_devices.jpeg" class="img-fluid" alt="Devices">
+                <h2 class="mb-5 theme_headerh2">Website Responsiveness Pricing</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="maintenance_card">
+                            <div class="maintenance_card-body">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <h5>Mobile</h5>
+                                <p class="theme_pra_text">Responsive design for mobile phones (375px)</p>
+                                <h6>₹1,000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="maintenance_card">
+                            <div class="maintenance_card-body">
+                                <i class="fa-solid fa-tablet-screen-button"></i>
+                                <h5>Tablet</h5>
+                                <p class="theme_pra_text">Responsive layout for tablets (768px)</p>
+                                <h6>₹1,500</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="maintenance_card">
+                            <div class="maintenance_card-body">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <h5>Laptop</h5>
+                                <p class="theme_pra_text">Responsive layout for laptops (1024px)</p>
+                                <h6>₹2,000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="maintenance_card">
+                            <div class="maintenance_card-body">
+                                <i class="fa-solid fa-desktop"></i>
+                                <h5>Desktop</h5>
+                                <p class="theme_pra_text">Responsive design for desktop (1280px)</p>
+                                <h6>₹2,500</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <h2 class="theme_headerh3">Total (All Devices): ₹7,000</h2>
+                        <p class="theme_pra_text">(You can select individual devices based on your budget)</p>
+                    </div>
+                </div>
             </div>
         </section>
+
+
 
         <section id="contact" class="cta-section">
             <div class="container-fluid">
@@ -150,16 +217,18 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 
     </script>
-
     
-
-
-
+    <script>
+        function changeDevice(device) {
+            const preview = document.getElementById('devicePreview');
+            preview.className = 'device-preview ' + device;
+        }
+    </script>
 
 </body>
 

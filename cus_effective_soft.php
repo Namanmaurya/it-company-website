@@ -20,16 +20,16 @@
 
 
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
 
 
@@ -101,6 +101,54 @@
             </div>
         </section>
 
+        <section class="cloud_services py-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Tailored to Needs</h3>
+                        <p class="theme_pra_text "> <strong>"Tailored to Needs"</strong> in software and mobile app development means creating customized solutions that align with specific client requirements. It involves understanding user goals, workflows, and challenges to design apps or software with personalized features, ensuring better usability, performance, and customer satisfaction compared to generic, one-size-fits-all solutions.</p>
+                       
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Planning.avif" alt="Data Backup">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Scalable & Flexible</h3>
+                        <p class="theme_pra_text"><strong>"Scalable & Flexible"</strong> in software and mobile app development refers to building systems that can grow with user demand and adapt to changing requirements. Scalable apps handle increased load without performance loss, while flexible design allows easy updates, feature additions, or integration—ensuring long-term usability and cost-effective maintenance. </p>
+                       
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Enhanced Security</h3>
+                        <p class="theme_pra_text"><strong>"Enhanced Security"</strong> in software and mobile app development means implementing advanced measures to protect user data and system integrity. This includes encryption, secure authentication, regular updates, and threat detection to prevent unauthorized access, data breaches, and cyberattacks—ensuring user trust and compliance with security standards.</p>
+                       
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Seamless Integration</h3>
+                        <p class="theme_pra_text"><strong> "Seamless Integration"</strong> in software and mobile app development refers to the smooth connection of the app with existing systems, third-party services, or APIs. It ensures efficient data flow, consistent user experience, and reduced manual work—enabling the app to function as part of a larger, unified digital ecosystem.</p>
+                       
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h3 class="theme_headerh3 ">Maintenance & Support</h3>
+                        <p class="theme_pra_text"><strong>"Maintenance & Support"</strong> in software and mobile app development involves ongoing updates, bug fixes, performance optimization, and technical assistance. It ensures the app stays secure, compatible with new technologies, and runs smoothly over time—providing users with a reliable experience and helping businesses adapt to evolving needs.</p>
+                       
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <section id="stages">
             <div class="container">
                 <div class="section-title">
@@ -123,7 +171,7 @@
                             <li class="list-group-item">6. Maintenance</li>
                         </ul>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -206,7 +254,7 @@
 
     <script src="js/script.js"></script>
 
- <script>
+    <script>
 
         window.addEventListener("load", () => {
 
@@ -215,7 +263,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
 
 
