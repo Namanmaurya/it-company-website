@@ -5,20 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -30,13 +25,10 @@
             <span>n</span>
         </div>
     </div>
-
-
-
+    <!-- include_header -->
     <?php include("header.php") ?>
-
     <main>
-
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -58,7 +50,6 @@
         </section>
 
         <!-- cloud about -->
-
         <section class="cloud_about py-5 scroll-fade-up">
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
@@ -77,7 +68,6 @@
         </section>
 
         <!-- Services Offered -->
-
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <h2 class="text-center mb-5 theme_headerh2">Our Cloud Services</h2>
@@ -128,7 +118,6 @@
         </section>
 
         <!-- Why Choose Us -->
-
         <section class="cloud_why py-5 scroll-fade-up">
             <div class="container">
                 <h2 class="text-center mb-4 theme_headerh2">Why Choose Our Cloud Services?</h2>
@@ -160,43 +149,38 @@
                 </div>
             </div>
         </section>
-
-        <!-- Pricing Plans -->
-
-        <!-- <section class="cloud_pricing py-5" id="plans">
-            <div class="container">
-                <h2 class="text-center mb-5 theme_headerh2">Flexible Pricing Plans</h2>
-                <div class="row g-4" data-aos="fade-up">
-                    <div class="col-md-4">
-                        <div class="card text-center p-4">
-                            <h4>Basic</h4>
-                            <p>$49/month</p>
-                            <p>For small teams and startups</p>
-                            <a href="#contact" class="btn btn-outline-primary">Choose Plan</a>
-                        </div>
+        <div class="container">
+            <h2 class="text-center mb-5 theme_headerh2">Flexible Pricing Plans</h2>
+            <div class="row g-4" data-aos="fade-up">
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <h4>Basic</h4>
+                        <p>$49/month</p>
+                        <p>For small teams and startups</p>
+                        <a href="#contact" class="btn btn-outline-primary">Choose Plan</a>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card text-center p-4 border border-primary">
-                            <h4>Pro</h4>
-                            <p>$149/month</p>
-                            <p>For growing businesses</p>
-                            <a href="#contact" class="btn btn-primary">Choose Plan</a>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4 border border-primary">
+                        <h4>Pro</h4>
+                        <p>$149/month</p>
+                        <p>For growing businesses</p>
+                        <a href="#contact" class="btn btn-primary">Choose Plan</a>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card text-center p-4">
-                            <h4>Enterprise</h4>
-                            <p>Custom</p>
-                            <p>Tailored to your needs</p>
-                            <a href="#contact" class="btn btn-outline-primary">Contact Us</a>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <h4>Enterprise</h4>
+                        <p>Custom</p>
+                        <p>Tailored to your needs</p>
+                        <a href="#contact" class="btn btn-outline-primary">Contact Us</a>
                     </div>
                 </div>
             </div>
+        </div>
         </section> -->
 
-        <!-- Testimonials -->
-
+        <!-- Testimonials_section -->
         <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
@@ -229,9 +213,7 @@
             </div>
         </section>
 
-
-        <!-- contact -->
-
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -251,22 +233,18 @@
 
         </section>
 
-
     </main>
 
+    <!-- include_footer -->
     <?php include("footer.php") ?>
-
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-
-
-
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- main_js -->
     <script src="js/script.js"></script>
-
     <script>
 
         window.addEventListener("load", () => {
@@ -281,8 +259,6 @@
 
 
     </script>
-
-
 </body>
 
 </html>

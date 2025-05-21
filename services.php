@@ -5,20 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -32,11 +26,11 @@
     </div>
 
 
-
+<!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-
+             <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -55,7 +49,7 @@
                 </div>
             </div>
         </section>
-
+               <!-- service-2_section -->
         <section class="section service-2 ">
             <div class="container">
                 <div class="row">
@@ -183,7 +177,7 @@
 
             </div>
         </section>
-
+              <!-- case_study_section -->
         <section class="section case-study scroll-fade-up">
             <div class="container">
                 <div class="row justify-content-center">
@@ -299,7 +293,7 @@
             </div>
         </section>
 
-
+                <!-- services_section -->
         <section class="section service scroll-fade-up">
             <div class="container">
                 <div class="row">
@@ -363,6 +357,7 @@
             </div>
         </section>
 
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -383,24 +378,23 @@
         </section>
 
     </main>
-
+<!-- include_footer -->
     <?php include("footer.php") ?>
 
+            <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
 
-
+      <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+           <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
-
             setTimeout(() => {
                 const preloader = document.getElementById("preloader");
                 preloader.style.opacity = "0";
@@ -408,11 +402,7 @@
                 preloader.style.transition = "opacity 0.5s ease";
             }, 1200);
         });
-
-
     </script>
-
-
 </body>
 
 </html>

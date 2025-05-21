@@ -14,14 +14,9 @@
 
 	<!-- AOS CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
 
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
@@ -42,9 +37,11 @@
 		</div>
 	</div>
 
+	<!-- include_header -->
 	<?php include("header.php") ?>
 
 	<main>
+		<!-- text_with_background -->
 		<section class="page-title bg-1">
 			<div class="container">
 				<div class="row">
@@ -64,6 +61,7 @@
 			</div>
 		</section>
 
+		<!-- vidoe_block -->
 		<section class="video-block section bg-light">
 			<div class="container">
 				<div class="row align-items-center">
@@ -97,6 +95,7 @@
 			</div>
 		</section>
 
+		<!-- team_section -->
 		<section class="team-section ">
 			<div class="container">
 				<!-- Section Heading -->
@@ -114,7 +113,7 @@
 
 				<!-- Team Cards -->
 				<div class="row">
-					
+
 					<div class="col-lg-3 col-md-6 scroll-fade-up">
 						<div class="team-card text-center">
 							<img src="images/team/03-1.jpg" alt="Satyam Dev - Founder"
@@ -155,7 +154,6 @@
 		</section>
 
 		<!-- award section -->
-
 		<section class="section awards bg-light">
 			<div class="container">
 				<div class="row">
@@ -249,6 +247,7 @@
 			</div>
 		</section>
 
+		<!-- testimonialsection -->
 		<section class="section testimonial-modern py-5 scroll-fade-up">
 			<div class="container">
 				<div class="text-center mb-5">
@@ -306,7 +305,7 @@
 				</div>
 			</div>
 		</section>
-
+		<!-- office_section -->
 		<section class="office-section container-fluid scroll-fade-up">
 			<h2 class="theme_headerh2">Our Office Locations</h2>
 			<p class="theme_pra_text">Select a city to view the office location on the map.</p>
@@ -357,7 +356,7 @@
 				</div>
 			</div>
 		</section>
-
+		<!-- contact_section -->
 		<section id="contact" class="cta-section scroll-fade-up">
 			<div class="container-fluid">
 				<div class="row">
@@ -379,9 +378,8 @@
 		</section>
 
 	</main>
-
+	<!-- include_footer -->
 	<?php include("footer.php") ?>
-
 
 	<!-- jQuery, Popper.js, and Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -389,11 +387,10 @@
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 
-
+	<!-- main_js -->
 	<script src="js/script.js"></script>
 
 	<script>
-
 		window.addEventListener("load", () => {
 
 			setTimeout(() => {
@@ -403,8 +400,6 @@
 				preloader.style.transition = "opacity 0.5s ease";
 			}, 1200);
 		});
-
-
 	</script>
 
 	<!-- AOS JS -->

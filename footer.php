@@ -5,18 +5,14 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
 	<title>python</title>
-
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 
 	<style>
-		/* Footer base styles */
 		.footer {
 			background-color: #1e1e2f;
 			color: #fff;
@@ -37,7 +33,6 @@
 			font-weight: 400;
 		}
 
-		/* Section title in widgets */
 		.footer h4 {
 			color: #ffffff;
 			font-size: 18px;
@@ -65,7 +60,6 @@
 			color: #ffffff;
 		}
 
-		/* Contact section styles */
 		.widget-contact h6.footerh6 {
 			font-size: 14px;
 			margin-bottom: 10px;
@@ -81,7 +75,6 @@
 			color: #ffffff;
 		}
 
-		/* Social icons */
 		.footer-socials {
 			padding-left: 0;
 		}
@@ -101,7 +94,6 @@
 			color: #ffffff;
 		}
 
-		/* Copyright section */
 		.footer-btm {
 			border-top: 1px solid #333;
 			margin-top: 30px;
@@ -113,7 +105,6 @@
 			color: #aaa;
 		}
 
-		/* Responsive adjustments */
 		@media (max-width: 768px) {
 			.footer .logo h3 {
 				font-size: 24px;
@@ -161,8 +152,7 @@
 
 <body>
 
-
-	<!-- footer Start -->
+	<!-- footer -->
 	<footer class="footer section">
 		<div class="container">
 			<div class="row">
@@ -245,12 +235,11 @@
 
 	<!-- jQuery, Popper.js, and Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 
-
+           <!-- main_js -->
 	<script src="js/script.js"></script>
 
 

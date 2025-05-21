@@ -5,37 +5,31 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
-   <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
-
-
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
+    <!-- include_footer -->
     <?php include("header.php") ?>
 
     <main>
-
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -54,7 +48,7 @@
             </div>
         </section>
 
-
+        <!-- faq_section -->
         <section class="faq_section scroll-fade-up">
             <div class="container">
                 <div class="faq_text_center text-center">
@@ -71,7 +65,9 @@
 
                 <div class="row">
                     <div class="col-md-5 my-3">
-                        <div class="faq_heading"><h2>Software development</h2></div>
+                        <div class="faq_heading">
+                            <h2>Software development</h2>
+                        </div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img1.avif" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -234,7 +230,9 @@
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-5 my-3">
-                        <div class="faq_heading"><h2>Software maintenance</h2></div>
+                        <div class="faq_heading">
+                            <h2>Software maintenance</h2>
+                        </div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img2.jpg" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -242,7 +240,9 @@
 
 
                     <div class="col-md-5 my-3">
-                        <div class="faq_heading"><h2>web application</h2></div>
+                        <div class="faq_heading">
+                            <h2>web application</h2>
+                        </div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img3.avif" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -396,13 +396,17 @@
                     </div>
                     <div class="col-md-1"></div>
                     <div class="col-md-5 my-3">
-                        <div class="faq_heading"><h2>Cloud services</h2></div>
+                        <div class="faq_heading">
+                            <h2>Cloud services</h2>
+                        </div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img4.avif" alt="faq_section_img" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-5 my-3">
-                        <div class="faq_heading"><h2>SEO Services</h2></div>
+                        <div class="faq_heading">
+                            <h2>SEO Services</h2>
+                        </div>
                         <div class="faq_img_con">
                             <img src="images\service\faq_img5.jpg" alt="faq_section_img" class="img-fluid">
                         </div>
@@ -493,7 +497,6 @@
         </section>
 
         <!-- Social Presence Section -->
-
         <section class="social_presence scroll-fade-up">
             <div class="container">
                 <div class="row">
@@ -511,7 +514,8 @@
 
                             </div>
                             <div class="icon">
-                                <a href="https://x.com/i/flow/login" class="icon twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://x.com/i/flow/login" class="icon twitter"><i
+                                        class="fa-brands fa-x-twitter"></i></a>
                                 <div class="icon_name">
                                     <p>Twitter</p>
                                 </div>
@@ -545,26 +549,20 @@
                 </div>
             </div>
         </section>
-
-
-
     </main>
-
+     <!-- include_footer -->
     <?php include("footer.php") ?>
-
+       <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+          <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
 
             setTimeout(() => {
@@ -572,10 +570,8 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
-
-
     </script>
 
     <script>
@@ -583,7 +579,6 @@
             var questions = document.querySelectorAll(".faq-question");
             var answers = document.querySelectorAll(".faq-answer");
             var icons = document.querySelectorAll(".faq-icon");
-
 
             answers.forEach((answer, i) => {
                 if (i !== index) {
@@ -603,10 +598,7 @@
                 questions[index].classList.remove("active");
             }
         }
-
     </script>
-
-
 
 </body>
 

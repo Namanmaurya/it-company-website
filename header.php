@@ -5,16 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -229,7 +225,7 @@
 </head>
 
 <body>
-
+     <!-- header -->
     <header class="sticky-nav">
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm " id="mainNavbar">
             <div class="container">
@@ -313,7 +309,6 @@
 
             let dropdownActive = false;
 
-            // Check for normal nav links
             navLinks.forEach(link => {
                 const linkPage = link.getAttribute("href");
                 if (linkPage === currentPage) {
@@ -321,7 +316,6 @@
                 }
             });
 
-            // Check for dropdown items
             dropdownItems.forEach(item => {
                 const itemPage = item.getAttribute("href");
                 if (itemPage === currentPage) {
@@ -330,15 +324,11 @@
                 }
             });
 
-            // If any dropdown item is active, mark the parent link active too
             if (dropdownActive && servicesLink) {
                 servicesLink.classList.add("active");
             }
         });
     </script>
 
-
-
 </body>
-
 </html>

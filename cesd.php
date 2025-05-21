@@ -5,20 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -30,13 +25,11 @@
             <span>n</span>
         </div>
     </div>
-
-
-
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -56,7 +49,7 @@
             </div>
         </section>
 
-
+        <!-- why_section -->
         <section class="why_section">
             <div class="container">
                 <div class="row">
@@ -93,7 +86,7 @@
                 </div>
             </div>
         </section>
-        
+        <!-- development_section -->
         <section class="development-section py-5 bg-light scroll-fade-up">
             <div class="container">
                 <div class="text-center mb-5">
@@ -135,14 +128,18 @@
                 </div>
             </div>
         </section>
-
+        <!-- cloud_services_section -->
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Discovery</h3>
-                        <p class="theme_pra_text ">Discovery in software development is the initial phase where project goals, requirements, and constraints are explored through stakeholder interviews, market research, and competitor analysis to understand user needs and business objectives.</p>
-                        <p class="theme_pra_text ">Its importance lies in identifying challenges, assessing technical feasibility, and prioritizing features, ensuring the team has a clear vision to reduce risks and deliver a product that meets user and business expectations.</p>
+                        <p class="theme_pra_text ">Discovery in software development is the initial phase where project
+                            goals, requirements, and constraints are explored through stakeholder interviews, market
+                            research, and competitor analysis to understand user needs and business objectives.</p>
+                        <p class="theme_pra_text ">Its importance lies in identifying challenges, assessing technical
+                            feasibility, and prioritizing features, ensuring the team has a clear vision to reduce risks
+                            and deliver a product that meets user and business expectations.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
@@ -152,13 +149,19 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Planning</h3>
-                        <p class="theme_pra_text">Planning in software development involves defining the project scope, setting clear objectives, estimating resources, timelines, and costs. </p>
-                        <p class="theme_pra_text">Effective planning ensures that all stakeholders have aligned expectations, helps manage risks, allocates resources efficiently.</p>
+                        <p class="theme_pra_text">Planning in software development involves defining the project scope,
+                            setting clear objectives, estimating resources, timelines, and costs. </p>
+                        <p class="theme_pra_text">Effective planning ensures that all stakeholders have aligned
+                            expectations, helps manage risks, allocates resources efficiently.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Development</h3>
-                        <p class="theme_pra_text">Development is the phase where software engineers write, test, and integrate code based on the design and requirements gathered earlier. This involves building the actual product features, implementing functionality, and fixing bugs.</p>
-                        <p class="theme_pra_text">It transforms plans and designs into a working software application through coding, unit testing, and collaboration among developers, ensuring the software meets the specified requirements and quality standards.</p>
+                        <p class="theme_pra_text">Development is the phase where software engineers write, test, and
+                            integrate code based on the design and requirements gathered earlier. This involves building
+                            the actual product features, implementing functionality, and fixing bugs.</p>
+                        <p class="theme_pra_text">It transforms plans and designs into a working software application
+                            through coding, unit testing, and collaboration among developers, ensuring the software
+                            meets the specified requirements and quality standards.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
@@ -168,22 +171,29 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Testing</h3>
-                        <p class="theme_pra_text">Testing is the process of evaluating the software to identify defects or bugs and ensure it meets the specified requirements. It involves executing the software in various scenarios to verify functionality, performance, security, and usability.</p>
-                         <p class="theme_pra_text">The goal of testing is to ensure the product is reliable, error-free, and ready for deployment by catching issues early, improving quality, and providing confidence that the software works as intended for end users.</p>
+                        <p class="theme_pra_text">Testing is the process of evaluating the software to identify defects
+                            or bugs and ensure it meets the specified requirements. It involves executing the software
+                            in various scenarios to verify functionality, performance, security, and usability.</p>
+                        <p class="theme_pra_text">The goal of testing is to ensure the product is reliable, error-free,
+                            and ready for deployment by catching issues early, improving quality, and providing
+                            confidence that the software works as intended for end users.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Deployment</h3>
-                        <p class="theme_pra_text">Deployment is the process of releasing the completed software application to the production environment where end users can access and use it. This step involves installing, configuring, and making the software live.</p>
-                        <p class="theme_pra_text">Effective deployment ensures the software runs smoothly in its intended environment, often including activities like data migration, user training, and post-release monitoring to quickly address any issues.</p>
+                        <p class="theme_pra_text">Deployment is the process of releasing the completed software
+                            application to the production environment where end users can access and use it. This step
+                            involves installing, configuring, and making the software live.</p>
+                        <p class="theme_pra_text">Effective deployment ensures the software runs smoothly in its
+                            intended environment, often including activities like data migration, user training, and
+                            post-release monitoring to quickly address any issues.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-
 
         <!-- section portfolio -->
         <section class="section portfolio pb-0 scroll-fade-up">
@@ -245,7 +255,6 @@
             </div>
         </section>
 
-
         <!-- Supported Technologies -->
         <section class="support_techno scroll-fade-up">
             <div class="container text-center">
@@ -280,7 +289,7 @@
             </div>
         </section>
 
-
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -300,20 +309,16 @@
 
         </section>
 
-
     </main>
-
+    <!-- include_footer -->
     <?php include("footer.php") ?>
-
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-
-
-
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
@@ -330,7 +335,6 @@
 
 
     </script>
-
 
 </body>
 

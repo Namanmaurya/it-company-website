@@ -5,20 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -30,12 +25,10 @@
             <span>n</span>
         </div>
     </div>
-
-
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-
         <!-- Slider Start -->
         <section class="banner d-flex align-items-center">
             <div class="container">
@@ -57,7 +50,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- homepage_aboutsection -->
         <section class="section about ">
             <div class="container">
                 <div class="row">
@@ -106,7 +99,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- homepage_processsection -->
         <section class="section process ">
             <div class="container">
                 <div class="row align-items-center">
@@ -159,7 +152,7 @@
             </div>
 
         </section>
-
+        <!-- homepage_ctasection -->
         <section class="section cta ">
             <div class="container">
                 <div class="row">
@@ -169,7 +162,8 @@
                                     class="text-color-primary">
                                     Service</span>
                             </h3>
-                            <p class="mb-30 theme_pra_text">Assurance service ensures software quality, reliability, compliance, and performance through systematic testing and process validation.</p>
+                            <p class="mb-30 theme_pra_text">Assurance service ensures software quality, reliability,
+                                compliance, and performance through systematic testing and process validation.</p>
 
                             <a href="portfolio.php" class="btn btn-main">Portfolio<i
                                     class="fa fa-angle-right ml-2"></i></a>
@@ -277,8 +271,6 @@
             </div>
 
         </section>
-
-
         <!-- section Counter -->
         <section class="section counter scroll-fade-up">
             <div class="container">
@@ -310,7 +302,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- homepage_testimonialsection -->
         <section class="section testimonial-modern py-5 scroll-fade-up">
             <div class="container">
                 <div class="text-center mb-5">
@@ -373,9 +365,7 @@
                 </div>
             </div>
         </section>
-
-       <!-- Social Presence Section -->
-
+        <!-- Social Presence Section -->
         <section class="social_presence ">
             <div class="container">
                 <div class="row">
@@ -428,24 +418,20 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <?php include("footer.php") ?>
-
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
-
-
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
 
             setTimeout(() => {
@@ -453,13 +439,9 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
-
-
     </script>
-
-
 </body>
 
 </html>

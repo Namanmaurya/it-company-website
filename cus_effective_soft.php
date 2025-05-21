@@ -5,20 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -31,12 +26,11 @@
         </div>
     </div>
 
-
-
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-
+        <!-- intro_section -->
         <section id="intro">
             <div class="container-fluid">
                 <div class="section-title">
@@ -50,6 +44,7 @@
             </div>
         </section>
 
+        <!-- benefit_section -->
         <section id="benefits" class="bg-light scroll-fade-up">
             <div class="container">
                 <div class="section-title">
@@ -100,14 +95,18 @@
                 </div>
             </div>
         </section>
-
+        <!-- cloud_services_section -->
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Tailored to Needs</h3>
-                        <p class="theme_pra_text "> <strong>"Tailored to Needs"</strong> in software and mobile app development means creating customized solutions that align with specific client requirements. It involves understanding user goals, workflows, and challenges to design apps or software with personalized features, ensuring better usability, performance, and customer satisfaction compared to generic, one-size-fits-all solutions.</p>
-                       
+                        <p class="theme_pra_text "> <strong>"Tailored to Needs"</strong> in software and mobile app
+                            development means creating customized solutions that align with specific client
+                            requirements. It involves understanding user goals, workflows, and challenges to design apps
+                            or software with personalized features, ensuring better usability, performance, and customer
+                            satisfaction compared to generic, one-size-fits-all solutions.</p>
+
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
@@ -117,13 +116,21 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Scalable & Flexible</h3>
-                        <p class="theme_pra_text"><strong>"Scalable & Flexible"</strong> in software and mobile app development refers to building systems that can grow with user demand and adapt to changing requirements. Scalable apps handle increased load without performance loss, while flexible design allows easy updates, feature additions, or integration—ensuring long-term usability and cost-effective maintenance. </p>
-                       
+                        <p class="theme_pra_text"><strong>"Scalable & Flexible"</strong> in software and mobile app
+                            development refers to building systems that can grow with user demand and adapt to changing
+                            requirements. Scalable apps handle increased load without performance loss, while flexible
+                            design allows easy updates, feature additions, or integration—ensuring long-term usability
+                            and cost-effective maintenance. </p>
+
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Enhanced Security</h3>
-                        <p class="theme_pra_text"><strong>"Enhanced Security"</strong> in software and mobile app development means implementing advanced measures to protect user data and system integrity. This includes encryption, secure authentication, regular updates, and threat detection to prevent unauthorized access, data breaches, and cyberattacks—ensuring user trust and compliance with security standards.</p>
-                       
+                        <p class="theme_pra_text"><strong>"Enhanced Security"</strong> in software and mobile app
+                            development means implementing advanced measures to protect user data and system integrity.
+                            This includes encryption, secure authentication, regular updates, and threat detection to
+                            prevent unauthorized access, data breaches, and cyberattacks—ensuring user trust and
+                            compliance with security standards.</p>
+
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
@@ -133,13 +140,20 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Seamless Integration</h3>
-                        <p class="theme_pra_text"><strong> "Seamless Integration"</strong> in software and mobile app development refers to the smooth connection of the app with existing systems, third-party services, or APIs. It ensures efficient data flow, consistent user experience, and reduced manual work—enabling the app to function as part of a larger, unified digital ecosystem.</p>
-                       
+                        <p class="theme_pra_text"><strong> "Seamless Integration"</strong> in software and mobile app
+                            development refers to the smooth connection of the app with existing systems, third-party
+                            services, or APIs. It ensures efficient data flow, consistent user experience, and reduced
+                            manual work—enabling the app to function as part of a larger, unified digital ecosystem.</p>
+
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Maintenance & Support</h3>
-                        <p class="theme_pra_text"><strong>"Maintenance & Support"</strong> in software and mobile app development involves ongoing updates, bug fixes, performance optimization, and technical assistance. It ensures the app stays secure, compatible with new technologies, and runs smoothly over time—providing users with a reliable experience and helping businesses adapt to evolving needs.</p>
-                       
+                        <p class="theme_pra_text"><strong>"Maintenance & Support"</strong> in software and mobile app
+                            development involves ongoing updates, bug fixes, performance optimization, and technical
+                            assistance. It ensures the app stays secure, compatible with new technologies, and runs
+                            smoothly over time—providing users with a reliable experience and helping businesses adapt
+                            to evolving needs.</p>
+
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
@@ -148,8 +162,8 @@
                 </div>
             </div>
         </section>
-
-        <section id="stages " class="scroll-fade-up">
+        <!-- stage_section -->
+        <section id="stages">
             <div class="container">
                 <div class="section-title">
                     <h2><i class="fas fa-project-diagram"></i> Key Stages of Development</h2>
@@ -176,7 +190,7 @@
 
             </div>
         </section>
- 
+        <!-- practices_sectioin -->
         <section id="practices" class="bg-light scroll-fade-up">
             <div class="container">
                 <div class="row">
@@ -200,7 +214,7 @@
 
             </div>
         </section>
-
+        <!-- challenges_section -->
         <section id="challenges" class="scroll-fade-up">
             <div class="container">
                 <div class="section-title">
@@ -217,7 +231,7 @@
                 </ul>
             </div>
         </section>
-
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -237,22 +251,19 @@
 
         </section>
     </main>
-
+    <!-- include_footer -->
     <?php include("footer.php") ?>
-
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
 
             setTimeout(() => {
@@ -262,12 +273,7 @@
                 preloader.style.transition = "opacity 0.5s ease";
             }, 1200);
         });
-
-
     </script>
-
-
-
 
 </body>
 

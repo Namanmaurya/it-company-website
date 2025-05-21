@@ -5,11 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>python</title>
 
     <!-- Main Stylesheet -->
@@ -17,8 +15,6 @@
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -31,11 +27,11 @@
         </div>
     </div>
 
-
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-        <!-- bg -->
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -163,22 +159,29 @@
             </div>
         </section>
 
-          <section class="cloud_services py-5 scroll-fade-up">
+        <!-- cloud_services -->
+        <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Planning.avif" alt="Data Backup">
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Planning</h3>
-                        <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps needed to achieve them. It involves organizing resources, managing time, and anticipating potential challenges to ensure successful outcomes.</p>
-                        <p class="theme_pra_text">Effective planning helps guide decision-making, improves efficiency, reduces risks, and provides a roadmap that keeps projects and activities on track toward their objectives.</p>
+                        <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps
+                            needed to achieve them. It involves organizing resources, managing time, and anticipating
+                            potential challenges to ensure successful outcomes.</p>
+                        <p class="theme_pra_text">Effective planning helps guide decision-making, improves efficiency,
+                            reduces risks, and provides a roadmap that keeps projects and activities on track toward
+                            their objectives.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Design</h3>
-                        <p class="theme_pra_text">Design is the creative process of planning and shaping the structure, appearance, and functionality of a product, system, or experience.</p>
-                        <p class="theme_pra_text">It combines aesthetics, usability, and practicality to solve problems and meet user needs effectively.</p>
+                        <p class="theme_pra_text">Design is the creative process of planning and shaping the structure,
+                            appearance, and functionality of a product, system, or experience.</p>
+                        <p class="theme_pra_text">It combines aesthetics, usability, and practicality to solve problems
+                            and meet user needs effectively.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Development.webp" alt="Disaster Recovery">
@@ -188,18 +191,25 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Development</h3>
-                        <p class="theme_pra_text">Development is the process of creating, improving, or expanding something over time, whether it’s a product, skill, system, or idea. It involves stages like designing, building, testing, and refining to achieve desired goals.</p>
-                         <p class="theme_pra_text">This process drives progress by turning concepts into tangible results, fostering growth, innovation, and enhanced functionality across various fields such as technology, education, business, and personal growth.</p>
+                        <p class="theme_pra_text">Development is the process of creating, improving, or expanding
+                            something over time, whether it’s a product, skill, system, or idea. It involves stages like
+                            designing, building, testing, and refining to achieve desired goals.</p>
+                        <p class="theme_pra_text">This process drives progress by turning concepts into tangible
+                            results, fostering growth, innovation, and enhanced functionality across various fields such
+                            as technology, education, business, and personal growth.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Deployment</h3>
-                        <p class="theme_pra_text">Deployment is the process of releasing and making a software application, system, or product available for use in a live environment.</p>
-                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product operates smoothly for end users, marking the transition from development to practical use.</p>
+                        <p class="theme_pra_text">Deployment is the process of releasing and making a software
+                            application, system, or product available for use in a live environment.</p>
+                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product
+                            operates smoothly for end users, marking the transition from development to practical use.
+                        </p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Deployment.jpeg" alt="Disaster Recovery">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -266,7 +276,6 @@
         </section>
 
         <!-- Testimonials -->
-
         <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
                 <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
@@ -287,6 +296,7 @@
             </div>
         </section>
 
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -305,25 +315,24 @@
             </div>
 
         </section>
-
-
     </main>
 
+    <!-- include_footer -->
     <?php include("footer.php") ?>
 
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
 
-
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
 
             setTimeout(() => {
@@ -333,11 +342,6 @@
                 preloader.style.transition = "opacity 0.5s ease";
             }, 1200);
         });
-
-
     </script>
-
-
 </body>
-
 </html>

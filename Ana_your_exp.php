@@ -17,8 +17,6 @@
 </head>
 
 <body>
-
-
     <!-- Preloader -->
     <div id="preloader">
         <div class="typewriter">
@@ -31,12 +29,11 @@
         </div>
     </div>
 
-
-
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-
+        <!-- intro_section -->
         <section id="intro">
             <div class="container-fluid">
                 <div class="section-title">
@@ -46,7 +43,7 @@
 
             </div>
         </section>
-
+        <!-- exp_main_section -->
         <section class="Why_analyze_exp scroll-fade-up">
             <div class="container">
                 <div class="row">
@@ -68,9 +65,7 @@
             </div>
 
         </section>
-
-
-
+        <!-- feature_section -->
         <section class="features_section scroll-fade-up">
             <div class="container">
                 <h2>Key Features</h2>
@@ -90,8 +85,7 @@
                 </div>
             </div>
         </section>
-
-
+        <!-- check_respons_section -->
         <div class="section checkresponsiveness scroll-fade-up">
             <div class="container-fluid text-center">
                 <h2 class="theme_headerh2">Access From Any Device</h2>
@@ -113,9 +107,7 @@
                 </div>
             </div>
         </div>
-
         <!-- mobile_app_pricing-section -->
-
         <section class="pricing-section text-center scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh2">Our Pricing Plans for Mobile App Development</h2>
@@ -185,7 +177,7 @@
 
             </div>
         </section>
-
+        <!-- website_pricing_section -->
         <section class="ty_of_main scroll-fade-up">
             <div class="container text-center">
                 <h2 class="mb-5 theme_headerh2">Website Responsiveness Pricing</h2>
@@ -237,7 +229,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -258,22 +250,19 @@
         </section>
 
     </main>
-
+        <!-- include_footer -->
     <?php include("footer.php") ?>
-
+         <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-
+          <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
-
         window.addEventListener("load", () => {
 
             setTimeout(() => {
@@ -283,10 +272,8 @@
                 preloader.style.transition = "opacity 0.5s ease";
             }, 1200);
         });
-
-
     </script>
-
+     
     <script>
         function changeDevice(device) {
             const preview = document.getElementById('devicePreview');
