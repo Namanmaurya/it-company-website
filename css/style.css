@@ -4821,6 +4821,132 @@ body {
 }
 
 
+/* web_project_detailed_exp_page */
+.project_detail {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.project_detail_main_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.project_detailed_exp {
+    padding: 40px 0px;
+}
+
+.project_detailed_exp_logo {
+    padding: 30px 20px;
+    background-color: #f0f8ff;
+    border: 1px solid rgb(128, 127, 127);
+}
+
+.project_detailed_exp_logo img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.project_detailed_exp_text {
+    padding-left: 20px;
+}
+
+.project_detailed_exp_text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.project_feature_section {
+    margin-top: 40px;
+}
+
+.project_feature_section h3 {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.feature_box {
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+
+.feature_box h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.feature_box p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+    .project_detailed_exp_text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .feature_box {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project_detail {
+        padding: 30px 15px;
+    }
+
+    .project_detailed_exp_logo img {
+        max-width: 120px;
+    }
+
+    .project_feature_section h3 {
+        font-size: 1.5rem;
+    }
+
+    .feature_box h5 {
+        font-size: 1.1rem;
+    }
+
+    .feature_box p {
+        font-size: 0.9rem;
+    }
+
+    .project_detailed_exp {
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature_box {
+        padding: 15px;
+    }
+
+    .project_detailed_exp_text p {
+        font-size: 0.95rem;
+    }
+
+     .project_detailed_exp {
+        padding: 20px 0px;
+    }
+}
+
+
 
 @media (max-width: 992px) {
     .term_condition_text h2 {
