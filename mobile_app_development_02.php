@@ -12,24 +12,25 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
 
     <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-                 <!-- bg-1 -->
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -41,7 +42,8 @@
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
                                 <li class="list-inline-item"><span class="text-white">/</span></li>
-                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Mobile App
+                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Mobile
+                                        App
                                         Development</a>
                                 </li>
                             </ul>
@@ -50,57 +52,49 @@
                 </div>
             </div>
         </section>
-                 <!-- project_section -->
+
+       <!-- project_section -->
         <section class="project_section scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
                 <div class="row g-4">
                     <!-- Project 1 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_skill.webp" class="card-img-top" alt="Project 1">
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (1).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">SkillSwap— Peer-to-Peer Learning Exchange</h5>
-                                <p class="card-text">A platform where users can teach a skill in exchange for learning another. For example, someone who knows guitar can teach it to someone who can help them learn English.</p>
-                                 <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
-                     <!-- Project 2 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_jaurnal.avif" class="card-img-top" alt="Project 1">
+                    <!-- Project 2 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (5).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">DailyMood Journal — Emotion-Based Diary with AI Insights</h5>
-                                <p class="card-text">A journaling app that allows users to log their mood daily using emojis or colors, and optionally write text. The app uses AI to analyze trends and provides emotional well-being insights.</p>
-                                    <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
-                     <!-- Project 3 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_group.png" class="card-img-top" alt="Project 1">
+                    <!-- Project 3 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (4).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">EventEase — Micro Event Planner for Small Groups</h5>
-                                <p class="card-text">An app for planning hangouts, study groups, weekend trips, or casual meetups with minimal friction.</p>
-                                     <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-              <!-- contact_section -->
+        <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
                 <div class="row">
@@ -120,17 +114,17 @@
 
         </section>
     </main>
-             <!-- include_footer -->
+    <!-- include_footer -->
     <?php include("footer.php") ?>
 
-            <!-- scrollup_btn -->
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
-        <!-- bootstrap_js -->
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-        <!-- main_js -->
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
@@ -140,8 +134,9 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
     </script>
 </body>
+
 </html>

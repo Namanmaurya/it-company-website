@@ -59,7 +59,7 @@
                 <div class="row g-4">
                     <!-- Project 1 -->
                     <div class="col-md-4 mt-5">
-                        <a href="#">
+                        <a href="web_project_detail_01.php">
                             <div class="project_card">
                                 <div class="project_card_img">
                                     <img src="images\service\bicule_logo.png" class="card-img-top" alt="Project 1">
@@ -70,7 +70,7 @@
 
                     <!-- Project 2 -->
                     <div class="col-md-4 mt-5">
-                        <a href="#">
+                        <a href="web_project_detail_02.php">
                             <div class="project_card">
                                 <div class="project_card_img">
                                     <img src="images\service\gnk_logo.png" class="card-img-top" alt="Project 1">
@@ -81,7 +81,7 @@
 
                     <!-- Project 3 -->
                     <div class="col-md-4 mt-5">
-                        <a href="#">
+                        <a href="web_project_detail_03.php">
                             <div class="project_card">
                                 <div class="project_card_img">
                                     <img src="images\service\pss_logo.png" class="card-img-top" alt="Project 1">
@@ -89,38 +89,7 @@
                             </div>
                         </a>
                     </div>
-                    <!-- Project 4 -->
-                    <div class="col-md-4 mt-5">
-                        <a href="#">
-                            <div class="project_card">
-                                <div class="project_card_img">
-                                    <img src="images\service\bicule_logo.png" class="card-img-top" alt="Project 1">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Project 5 -->
-                    <div class="col-md-4 mt-5">
-                        <a href="#">
-                            <div class="project_card">
-                                <div class="project_card_img">
-                                    <img src="images\service\gnk_logo.png" class="card-img-top" alt="Project 1">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Project 6 -->
-                    <div class="col-md-4 mt-5">
-                        <a href="#">
-                            <div class="project_card">
-                                <div class="project_card_img">
-                                    <img src="images\service\pss_logo.png" class="card-img-top" alt="Project 1">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                   
                 </div>
             </div>
         </section>

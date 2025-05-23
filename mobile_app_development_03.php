@@ -52,56 +52,43 @@
                 </div>
             </div>
         </section>
+       
         <!-- project_section -->
         <section class="project_section scroll-fade-up">
             <div class="container">
                 <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
                 <div class="row g-4">
                     <!-- Project 1 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_skill.webp" class="card-img-top" alt="Project 1">
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (1).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">SkillSwap— Peer-to-Peer Learning Exchange</h5>
-                                <p class="card-text">A platform where users can teach a skill in exchange for learning
-                                    another. For example, someone who knows guitar can teach it to someone who can help
-                                    them learn English.</p>
-                                <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_jaurnal.avif" class="card-img-top" alt="Project 1">
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (5).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">DailyMood Journal — Emotion-Based Diary with AI Insights</h5>
-                                <p class="card-text">A journaling app that allows users to log their mood daily using
-                                    emojis or colors, and optionally write text. The app uses AI to analyze trends and
-                                    provides emotional well-being insights.</p>
-                                <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="col-md-12">
-                        <div class="project_card">
-                            <div class="project_card_img">
-                                <img src="images\service\mobile_app_group.png" class="card-img-top" alt="Project 1">
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (4).png" class="card-img-top" alt="Project 1">
+                                </div>
                             </div>
-                            <div class="project_card_text">
-                                <h5 class="card-title">EventEase — Micro Event Planner for Small Groups</h5>
-                                <p class="card-text">An app for planning hangouts, study groups, weekend trips, or
-                                    casual meetups with minimal friction.</p>
-                                <a href="#">See Project</a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
