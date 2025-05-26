@@ -107,9 +107,9 @@
                         <div class="process-block pl-4">
                             <span class="text-uppercase text-sm letter-spacing">Why choose us</span>
                             <h2 class="mb-4 mt-3 theme_headerh2">We help you to make work easy</h2>
-                            <p class="mb-4 theme_pra_text">We understand what your business means to you,your
+                            <p class="mb-4 theme_pra_text">We understand what your business means to your
                                 requirements considering
-                                trends.Smet nemo excepturi voluptas eligendi .</p>
+                                trends. Smet nemo excepturi voluptas eligendi.</p>
                         </div>
                     </div>
 
@@ -172,105 +172,85 @@
                 </div>
             </div>
         </section>
-        <!-- section portfolio -->
-        <section class="section portfolio pb-0 scroll-fade-up">
+        
+        <!-- project_section -->
+        <section class="project_section scroll-fade-up">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="heading">
-                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
-                            </h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
-                                level, try us and you will
-                                see! We have the best experts to elevate your business.</p>
-                        </div>
+                <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
+                <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\bicule_logo.png" class="card-img-top" alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
                     </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\gnk_logo.png" class="card-img-top" alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\pss_logo.png" class="card-img-top" alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (1).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (5).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (4).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="container-fluid">
-                <div class="row portfolio-gallery">
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_01.php">
-                                <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_02.php">
-                                <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_03.php">
-                                <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_01.php">
-                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_02.php">
-                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_03.php">
-                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
+
         <!-- section Counter -->
         <section class="section counter scroll-fade-up">
             <div class="container">

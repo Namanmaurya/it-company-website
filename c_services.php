@@ -54,10 +54,11 @@
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
 
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="images\service\cloud_about_img.webp" alt="Cloud Infrastructure"
                             class="img-fluid rounded">
                     </div>
+                    <div class="col-md-1"></div>
                     <div class="col-md-6">
                         <h2 class="theme_headerh2">About Our Cloud Platform</h2>
                         <p>We offer robust, secure, and cost-effective cloud services tailored to your needs — from
@@ -72,26 +73,26 @@
             <div class="container">
                 <h2 class="text-center mb-5 theme_headerh2">Our Cloud Services</h2>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Cloud Hosting</h3>
                         <p class="theme_pra_text ">In cloud hosting, your data and applications are distributed across a
                             network of virtual and physical cloud servers. These servers work together to balance the
                             load and maximize uptime.</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <img src="images\service\cloud_hosting_img.webp" alt="cloud hosting">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <img src="images\service\data_backup_img.jpg" alt="Data Backup">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Data Backup</h3>
                         <p class="theme_pra_text">Data Backup refers to the process of making copies of data, files, or
                             databases, and storing them in a safe location to ensure they can be restored in case of
                             data loss, corruption, or system failure. It is an essential part of data protection and
                             disaster recovery plans.</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Disaster Recovery</h3>
                         <p class="theme_pra_text">Disaster Recovery (DR) refers to the strategies, policies, and
                             procedures that are put in place to recover and protect data, applications, and IT
@@ -99,13 +100,13 @@
                             is to minimize downtime, maintain business continuity, and protect critical business data
                             and operations.</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <img src="images\service\di_recovery_img.jpg" alt="Disaster Recovery">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <img src="images\service\devops_img.jpg" alt="DevOps Support">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-4">DevOps Support</h3>
                         <p class="theme_pra_text">DevOps Support refers to the various tools, practices, and processes
                             that assist in the successful implementation and management of DevOps (Development and
@@ -149,7 +150,8 @@
                 </div>
             </div>
         </section>
-        <div class="container">
+
+        <!-- <div class="container">
             <h2 class="text-center mb-5 theme_headerh2">Flexible Pricing Plans</h2>
             <div class="row g-4" data-aos="fade-up">
                 <div class="col-md-4">
@@ -178,7 +180,7 @@
                 </div>
             </div>
         </div>
-        </section> -->
+        </section>  -->
 
         <!-- Testimonials_section -->
         <section class="cloud_testimonials scroll-fade-up">

@@ -195,66 +195,46 @@
             </div>
         </section>
 
-        <!-- section portfolio -->
-        <section class="section portfolio pb-0 scroll-fade-up">
+        <!-- project_section -->
+        <section class="project_section scroll-fade-up">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="heading">
-                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
-                            </h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
-                                level, try us and you will
-                                see! We have the best experts to elevate your business.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row portfolio-gallery">
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_01.php">
-                                <img src="images/portfolio/1.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web Development</p>
+                <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
+                <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\bicule_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_02.php">
-                                <img src="images/portfolio/2.jpg" alt="" class="img-fluid">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web Development</p>
+                    <!-- Project 2 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\gnk_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="web_project_03.php">
-                                <img src="images/portfolio/3.jpg" alt="" class="img-fluid ">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-                                <div class="portfolio-item-content">
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web Development</p>
+                    <!-- Project 3 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\pss_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Supported Technologies -->
         <section class="support_techno scroll-fade-up">
             <div class="container text-center">

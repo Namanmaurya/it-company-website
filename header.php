@@ -247,7 +247,7 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                <li><a class="dropdown-item" href="cesd.php">Custom Softwae Development</a></li>
+                                <li><a class="dropdown-item" href="cesd.php">Custom Software Development</a></li>
                                 <li><a class="dropdown-item" href="wad.php">Web App Development</a></li>
                                 <li><a class="dropdown-item" href="software_man.php">Software Maintenance</a></li>
                                 

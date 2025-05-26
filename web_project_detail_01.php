@@ -56,12 +56,14 @@
         <section class="project_detail">
             <div class="container">
                 <div class="row">
+                    <!-- Project Main Image -->
                     <div class="col-md-12">
                         <div class="project_detail_main_img">
                             <img src="images/service/project_noida_01.png" alt="project_image">
                         </div>
                     </div>
 
+                    <!-- Project Overview & Logo -->
                     <div class="col-md-12">
                         <div class="project_detailed_exp">
                             <div class="row">
@@ -70,50 +72,55 @@
                                         <img src="images/service/bicule_logo.png" alt="project_logo">
                                     </div>
                                 </div>
-
                                 <div class="col-md-9">
                                     <div class="project_detailed_exp_text">
-                                        <p class="theme_pra_text">Our objective is to provide aspirant companies with quality-focused software products and AI services. We are committed to gaining the trust of our clients by delivering innovative, reliable, and efficient solutions at an affordable cost. Our goal is to empower businesses through technology, enabling them to achieve their full potential and succeed in a competitive market.</p>
+                                        <p class="theme_pra_text">
+                                            Our objective is to provide aspirant companies with quality-focused software
+                                            products and AI services. We deliver innovative, reliable, and efficient
+                                            solutions at an affordable cost to empower businesses through modern
+                                            technology.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Website Features -->
                             <div class="project_feature_section mt-4">
-                                <h3>Website Features</h3>
+                                <h3 class="theme_headerh3">Website Features</h3>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>User Authentication</h5>
                                             <p>Secure login and registration system for different types of users.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>Responsive Design</h5>
                                             <p>Optimized for desktops, tablets, and mobile phones with clean UI.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>Project Portfolio</h5>
                                             <p>Dynamic listing of company projects with images and detailed
                                                 descriptions.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>Contact Integration</h5>
                                             <p>Users can reach out via integrated forms or contact details.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>SEO Optimized</h5>
                                             <p>Improved discoverability with meta tags and structured content.</p>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="feature_box">
+                                        <div class="feature_box text-center">
                                             <h5>Performance Focused</h5>
                                             <p>Fast loading speed and efficient resource usage using optimized assets.
                                             </p>
@@ -122,7 +129,34 @@
                                 </div>
                             </div>
 
-                        </div> 
+                            <!-- Technologies Used -->
+                            <div class="project_tech_section">
+                                <h3 class="theme_headerh3">Technologies Used</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="tech_list">
+                                            <li><strong>Frontend:</strong> HTML5, CSS3, Bootstrap 5, JavaScript (ES6)
+                                            </li>
+                                            <li><strong>Backend:</strong> PHP 8 (with MVC architecture)</li>
+                                            <li><strong>Database:</strong> MySQL 8 for data storage and management</li>
+                                            <li><strong>Security:</strong> Password hashing, CSRF tokens, and input
+                                                sanitization</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="tech_list">
+                                            <li><strong>SEO & Performance:</strong> Meta tags, lazy loading images,
+                                                minified assets</li>
+                                            <li><strong>Tools:</strong> VS Code, Git, XAMPP for local development</li>
+                                            <li><strong>APIs:</strong> Google Maps API (for location-based services)
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

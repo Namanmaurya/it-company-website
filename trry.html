@@ -3,180 +3,413 @@
 
 <head>
     <meta charset="UTF-8" />
+    <title>Explore Our Mobile App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mobile App Development Pricing</title>
+    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
     <style>
         body {
-            background-color: #f9f9f9;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            scroll-behavior: smooth;
         }
 
-        .pricing-section {
-            padding: 60px 0;
-        }
-
-        .pricing-card {
-            border: 1px solid #ddd;
-            border-radius: 15px;
-            transition: all 0.3s ease-in-out;
-        }
-
-        .pricing-card:hover {
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            transform: translateY(-5px);
-        }
-
-        .badge-popular {
-            background-color: #0d6efd;
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #0072ff 0%, #00c6ff 100%);
             color: white;
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            padding: 5px 10px;
+            padding: 100px 15px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .app-logo {
+            width: 130px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0 8px 20px rgba(0, 114, 255, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .app-logo:hover {
+            transform: scale(1.1);
+        }
+
+        .section-title {
+            font-size: 3.75rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: 1.2px;
+            text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            color: #cceeff;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* Carousel Section */
+        .carousel-container {
+            max-width: 900px;
+            margin: -80px auto 80px;
+            position: relative;
             border-radius: 20px;
-            font-size: 0.75rem;
+            overflow: hidden;
+            box-shadow: 0 14px 40px rgba(0, 114, 255, 0.3);
+            background: white;
         }
 
-        /* Scroll animation styles */
-        .scroll-fade-up {
+        .carousel-slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .carousel-slide {
+            min-width: 100%;
+            position: relative;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            height: 520px;
+            object-fit: cover;
+            border-radius: 20px;
+            display: block;
+            user-select: none;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 25px;
+            left: 30px;
+            color: white;
+            background: rgba(0, 114, 255, 0.85);
+            padding: 12px 25px;
+            border-radius: 12px;
+            font-size: 1.4rem;
+            font-weight: 600;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            user-select: none;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 25px;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .carousel-btn {
+            background-color: rgba(0, 114, 255, 0.7);
+            border: none;
+            padding: 14px 20px;
+            border-radius: 50%;
+            font-size: 28px;
+            color: white;
+            cursor: pointer;
+            pointer-events: all;
+            box-shadow: 0 6px 20px rgba(0, 114, 255, 0.5);
+            transition: background-color 0.3s ease;
+            user-select: none;
+        }
+
+        .carousel-btn:hover {
+            background-color: #0051b8;
+        }
+
+        /* Features Cards Grid */
+        .features-grid {
+            max-width: 1100px;
+            margin: 0 auto 80px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 18px;
+            box-shadow: 0 12px 30px rgba(0, 114, 255, 0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: default;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 114, 255, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 3.4rem;
+            color: #0072ff;
+            margin-bottom: 18px;
+            user-select: none;
+        }
+
+        .feature-title {
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+
+        .feature-desc {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        /* Detailed Explanation Section */
+        .detail-section {
+            max-width: 1000px;
+            margin: 0 auto 100px;
+            padding: 0 15px;
+        }
+
+        .detail-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #004aad;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            user-select: none;
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 35px;
+        }
+
+        .detail-card {
+            background: #f0f7ff;
+            padding: 28px 25px;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0, 114, 255, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .detail-card:hover {
+            box-shadow: 0 16px 40px rgba(0, 114, 255, 0.2);
+        }
+
+        .detail-card h4 {
+            font-weight: 600;
+            margin-bottom: 14px;
+            color: #004aad;
+            user-select: none;
+        }
+
+        .detail-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background: #0072ff;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 0.9px;
+            user-select: none;
+        }
+
+        /* Animations on scroll */
+        .fade-in {
             opacity: 0;
-            transform: translateY(50px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-            will-change: opacity, transform;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
         }
 
-        .scroll-fade-up.active {
+        .fade-in.show {
             opacity: 1;
             transform: translateY(0);
-        }
-
-        /* Optional staggered delays */
-        .delay-1 {
-            transition-delay: 0.2s;
-        }
-
-        .delay-2 {
-            transition-delay: 0.4s;
-        }
-
-        .delay-3 {
-            transition-delay: 0.6s;
         }
     </style>
 </head>
 
 <body>
-    <section class="pricing-section text-center">
-        <div class="container">
-            <h2 class="mb-4 scroll-fade-up">💼 Our Pricing Plans for Mobile App Development</h2>
-            <p class="mb-5 text-muted scroll-fade-up">Choose the plan that fits your business needs. All plans include expert
-                consultation, modern UI/UX design, and post-launch support.</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <img src="logo.png" alt="App Logo" class="app-logo" />
+        <h1 class="section-title">Discover Our Mobile App</h1>
+        <p class="lead">
+            Built for modern users, our app combines design, speed, and functionality to simplify your life on the
+            go.
+        </p>
+    </section>
 
-            <div class="row g-4">
-                <!-- Starter Plan -->
-                <div class="col-md-4 scroll-fade-up delay-1">
-                    <div class="card pricing-card p-4 h-100">
-                        <h4 class="card-title">🔹 Starter Plan</h4>
-                        <h2 class="my-3 text-primary">$1,999</h2>
-                        <ul class="list-unstyled text-start">
-                            <li>✔ 1 Platform (iOS or Android)</li>
-                            <li>✔ Up to 5 App Screens</li>
-                            <li>✔ Basic UI/UX Design</li>
-                            <li>✔ 2 Revisions</li>
-                            <li>✔ Basic Backend Integration</li>
-                            <li>✔ 2 Weeks Delivery</li>
-                            <li>✔ Email Support</li>
-                        </ul>
-                        <p class="mt-3 text-muted">✅ Great for startups looking to test an idea!</p>
-                        <a href="#" class="btn btn-outline-primary mt-3">Choose Plan</a>
-                    </div>
-                </div>
-
-                <!-- Professional Plan -->
-                <div class="col-md-4 scroll-fade-up delay-2">
-                    <div class="card pricing-card p-4 h-100 position-relative border-primary">
-                        <span class="badge-popular">Most Popular</span>
-                        <h4 class="card-title">🔷 Professional Plan</h4>
-                        <h2 class="my-3 text-primary">$4,999</h2>
-                        <ul class="list-unstyled text-start">
-                            <li>✔ Both iOS & Android</li>
-                            <li>✔ Up to 12 App Screens</li>
-                            <li>✔ Custom UI/UX Design</li>
-                            <li>✔ 5 Revisions</li>
-                            <li>✔ API & Database Integration</li>
-                            <li>✔ Admin Panel</li>
-                            <li>✔ Push Notifications</li>
-                            <li>✔ 1 Month Delivery</li>
-                            <li>✔ Priority Support</li>
-                        </ul>
-                        <p class="mt-3 text-muted">⭐ Most popular choice for scaling!</p>
-                        <a href="#" class="btn btn-primary mt-3">Choose Plan</a>
-                    </div>
-                </div>
-
-                <!-- Enterprise Plan -->
-                <div class="col-md-4 scroll-fade-up delay-3">
-                    <div class="card pricing-card p-4 h-100">
-                        <h4 class="card-title">🔶 Enterprise Plan</h4>
-                        <h2 class="my-3 text-primary">$9,999+</h2>
-                        <ul class="list-unstyled text-start">
-                            <li>✔ Unlimited Screens</li>
-                            <li>✔ Advanced Custom UI/UX</li>
-                            <li>✔ Scalable Cloud Backend</li>
-                            <li>✔ Custom Admin Dashboard</li>
-                            <li>✔ Real-Time Features</li>
-                            <li>✔ Security & Compliance</li>
-                            <li>✔ Performance Optimization</li>
-                            <li>✔ Dedicated Project Manager</li>
-                            <li>✔ Ongoing Maintenance & Support</li>
-                        </ul>
-                        <p class="mt-3 text-muted">🚀 Tailored to enterprises or high-growth apps!</p>
-                        <a href="#" class="btn btn-outline-primary mt-3">Choose Plan</a>
-                    </div>
-                </div>
+    <!-- App Screens Carousel -->
+    <section class="carousel-container fade-in" id="carouselSection">
+        <div class="carousel-slides" id="carouselSlides">
+            <div class="carousel-slide">
+                <img src="images/service/mobile_app_group.png" alt="Screen 1" />
+                <div class="carousel-caption">Welcome to Our App</div>
             </div>
+            <div class="carousel-slide">
+                <img src="images/service/mobile_app_jaurnal.avif" alt="Screen 2" />
+                <div class="carousel-caption">Fast and Intuitive</div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/service/mobile_app_skill.webp" alt="Screen 3" />
+                <div class="carousel-caption">Secure & Reliable</div>
+            </div>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-btn" aria-label="Previous Slide" onclick="moveSlide(-1)">❮</button>
+            <button class="carousel-btn" aria-label="Next Slide" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
 
-            <!-- Add-ons Section -->
-            <div class="mt-5 scroll-fade-up">
-                <h5 class="mb-3">✅ Add-ons Available:</h5>
-                <p>
-                    App Store & Play Store Publishing, Marketing Website, In-App Purchases / Subscriptions, Third-party
-                    Integrations (e.g., Firebase, Stripe)
-                </p>
-                <p class="mt-4">📞 <strong>Need help choosing?</strong> <a href="#">Contact us</a> for a free
-                    consultation.</p>
+    <!-- Features Overview -->
+    <section class="container fade-in features-grid" id="featuresOverview">
+        <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <div class="feature-title">Sleek UI/UX</div>
+            <div class="feature-desc">Visually engaging and intuitive experience designed for all users.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <div class="feature-title">Fast Performance</div>
+            <div class="feature-desc">Optimized for smooth and fast loading, even on low-end devices.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <div class="feature-title">Secure & Private</div>
+            <div class="feature-desc">Top-grade encryption ensures your data is always safe and private.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🌙</div>
+            <div class="feature-title">Dark Mode</div>
+            <div class="feature-desc">Switch between light and dark themes for comfort and style.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔔</div>
+            <div class="feature-title">Real-Time Notifications</div>
+            <div class="feature-desc">Stay updated instantly with push and in-app alerts.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <div class="feature-title">Offline Functionality</div>
+            <div class="feature-desc">Use essential features even without an internet connection.</div>
+        </div>
+    </section>
+
+    <!-- Detailed Features Explanation -->
+    <section class="detail-section fade-in" id="detailedFeatures">
+        <h2 class="detail-title">Detailed Feature Explanation</h2>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h4>Sleek UI/UX</h4>
+                <p>Our app features a modern and intuitive design, carefully crafted to ensure that users of all ages
+                    can navigate easily and accomplish tasks with minimal effort. Responsive layouts adapt to
+                    different screen sizes, providing a seamless experience on phones, tablets, and desktops.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Fast Performance</h4>
+                <p>We optimized every asset and coded backend endpoints to reduce loading times drastically. This means
+                    you get lightning-fast responses, less waiting, and smoother transitions, even on slower network
+                    connections or older devices.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Secure & Private</h4>
+                <p>Security is our top priority. We use industry-standard encryption protocols (AES-256, TLS 1.3)
+                    combined with secure authentication methods. Your data is never shared without consent and is
+                    stored following best privacy practices.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Dark Mode</h4>
+                <p>Reduce eye strain with our dark mode feature, ideal for use in low-light conditions. You can switch
+                    seamlessly between light and dark themes anytime via the settings, improving battery life on OLED
+                    displays as well.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Real-Time Notifications</h4>
+                <p>Stay up to date with push notifications that alert you instantly about important events, messages,
+                    or updates. Notifications are customizable so you control what alerts you receive and when.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Offline Functionality</h4>
+                <p>Our app retains core functionality even when your device is offline or on intermittent connectivity.
+                    You can continue working on important tasks, and all changes sync automatically once the network
+                    is restored.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Accessibility</h4>
+                <p>Designed with inclusivity in mind, our app supports screen readers, adjustable font sizes, high
+                    contrast modes, and easy navigation for users with disabilities.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Cross-Platform Sync</h4>
+                <p>Seamlessly switch devices without losing your data. Our cloud sync keeps your preferences, history,
+                    and progress consistent across Android, iOS, and web versions.</p>
+            </div>
+            <div class="detail-card">
+                <h4>Customizable Settings</h4>
+                <p>Tailor the app to your liking with customizable themes, notification preferences, language options,
+                    and privacy settings.</p>
             </div>
         </div>
     </section>
 
-    <!-- Scroll animation script -->
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Your App Name. All rights reserved.
+    </footer>
+
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const scrollElements = document.querySelectorAll(".scroll-fade-up");
+        // Carousel logic
+        const slides = document.getElementById('carouselSlides');
+        const totalSlides = slides.children.length;
+        let index = 0;
 
-            const elementInView = (el, offset = 100) => {
-                const elementTop = el.getBoundingClientRect().top;
-                return elementTop <= (window.innerHeight - offset);
-            };
+        function showSlide(i) {
+            if (i < 0) index = totalSlides - 1;
+            else if (i >= totalSlides) index = 0;
+            else index = i;
+            slides.style.transform = `translateX(-${index * 100}%)`;
+        }
 
-            const displayScrollElement = (element) => {
-                element.classList.add("active");
-            };
+        function moveSlide(direction) {
+            showSlide(index + direction);
+        }
 
-            const handleScrollAnimation = () => {
-                scrollElements.forEach((el) => {
-                    if (elementInView(el)) {
-                        displayScrollElement(el);
-                    }
-                });
-            };
+        // Initialize first slide
+        showSlide(0);
 
-            window.addEventListener("scroll", handleScrollAnimation);
-            handleScrollAnimation(); // run on load
-        });
+        // Fade-in animation on scroll
+        function revealOnScroll() {
+            const faders = document.querySelectorAll('.fade-in');
+            const windowBottom = window.innerHeight + window.scrollY;
+
+            faders.forEach(fader => {
+                const elementTop = fader.offsetTop;
+                if (windowBottom > elementTop + 100) {
+                    fader.classList.add('show');
+                }
+            });
+        }
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
     </script>
 
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

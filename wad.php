@@ -57,10 +57,11 @@
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
 
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="images\service\cloud_about_img.webp" alt="Cloud Infrastructure"
                             class="img-fluid rounded">
                     </div>
+                    <div class="col-md-1"></div>
                     <div class="col-md-6">
                         <h2 class="theme_headerh2">About Our Team</h2>
                         <p>We are a creative group of full-stack developers, UI/UX experts, and project managers
@@ -214,65 +215,50 @@
             </div>
         </section>
 
-        <!-- section portfolio -->
-        <section class="section portfolio pb-0 scroll-fade-up">
+        <!-- project_section -->
+        <section class="project_section scroll-fade-up">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="heading">
-                            <h2 class="mb-4 theme_headerh2">We've done a lot of work—take a look at some of it here!
-                            </h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
-                                level, try us and you will
-                                see! We have the best experts to elevate your business.</p>
-                        </div>
+                <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
+                <div class="row g-4">
+                   
+                    <!-- Project 4 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (1).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
                     </div>
+
+                    <!-- Project 5 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (5).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (4).png" class="card-img-top"
+                                        alt="Project 1">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="container-fluid">
-                <div class="row portfolio-gallery">
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_01.php">
-                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_02.php">
-                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="portflio-item position-relative">
-                            <a href="mobile_app_development_03.php">
-                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid ">
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
 
         <!-- Testimonials -->
@@ -344,4 +330,5 @@
         });
     </script>
 </body>
+
 </html>

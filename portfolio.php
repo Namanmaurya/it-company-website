@@ -50,124 +50,85 @@
                 </div>
             </div>
         </section>
-        <!-- section_portfolio -->
-        <section class="section portfolio scroll-fade-up">
+
+        <!-- project_section -->
+        <section class="project_section scroll-fade-up">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="heading text-center">
-                            <h2 class="mb-4 theme_headerh2">Let’s Check Some Works</h2>
-                            <p class="theme_pra_text">We have the best experts to elevate your business to the next
-                                level, try is and you will
-                                see! We have the best experts to elevate your </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative mb-4">
-                            <a href="web_project_01.php">
-                                <img src="images/portfolio/1.jpg" alt="" class="img-fluid w-100">
-                                <div class="overlay-item"><i class="ti-link"></i></div>
-
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web Development</p>
+                <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
+                <h3 class="theme_headerh4 ">Web Development Projects</h3>
+                <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="web_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\bicule_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative mb-4">
-                            <a href="web_project_02.php">
-                                <img src="images/portfolio/2.jpg" alt="" class="img-fluid w-100">
-                                <div class="overlay-item">
-                                    <i class="ti-link"></i>
+                    <!-- Project 2 -->
+                    <div class="col-md-4 mt-5 mb-5">
+                        <a href="web_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\gnk_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web Development</p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative mb-4">
-                            <a href="web_project_03.php">
-                                <img src="images/portfolio/3.jpg" alt="" class="img-fluid w-100">
-
-                                <div class="overlay-item">
-                                    <i class="ti-link"></i>
+                    <!-- Project 3 -->
+                    <div class="col-md-4 mt-5 mb-5">
+                        <a href="web_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\pss_logo.png" class="card-img-top" alt="Project 1">
                                 </div>
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web Development</p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative mb-4">
-                            <a href="mobile_app_development_01.php">
-                                <img src="images/portfolio/4.jpg" alt="" class="img-fluid w-100">
 
-                                <div class="overlay-item">
-                                    <i class="ti-link"></i>
+                    <h3 class="theme_headerh4 ">Mobile App Development Projects</h3>
+                    <!-- Project 4 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_01.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (1).png" class="card-img-top" alt="Project 1">
                                 </div>
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Noida</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative  mb-4">
-                            <a href="mobile_app_development_02.php">
-                                <img src="images/portfolio/5.jpg" alt="" class="img-fluid w-100">
-
-                                <div class="overlay-item">
-                                    <i class="ti-link"></i>
+                    <!-- Project 5 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_02.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (5).png" class="card-img-top" alt="Project 1">
                                 </div>
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Pune</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portflio-item position-relative mb-4">
-                            <a href="mobile_app_development_03.php">
-                                <img src="images/portfolio/6.jpg" alt="" class="img-fluid w-100">
-
-                                <div class="overlay-item">
-                                    <i class="ti-link"></i>
+                    <!-- Project 6 -->
+                    <div class="col-md-4 mt-5">
+                        <a href="mobile_app_development_project_detail_03.php">
+                            <div class="project_card">
+                                <div class="project_card_img">
+                                    <img src="images\service\skill_swao_logo (4).png" class="card-img-top" alt="Project 1">
                                 </div>
-                                <div class="portfolio-item-content">
-                                    <i class="fa-solid fa-link"></i>
-                                    <h3 class="mb-0 text-white theme_headerh3">Project Bangalore</h3>
-                                    <p class="text-white-50">Web App Development</p>
-                                </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </section>
+
         <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
@@ -195,12 +156,12 @@
     <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
-       <!-- bootstrap_js -->
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-        <!-- main_js -->
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
