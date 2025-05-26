@@ -38,7 +38,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">WAD</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Web App Development</h1>
+                            <h1 class="text-capitalize text-lg theme_headerh1">Web App Development</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="services.php" class="text-white">Services</a></li>
@@ -53,7 +53,7 @@
         </section>
 
         <!-- about section -->
-        <section class="cloud_about py-5">
+        <!-- <section class="cloud_about py-5">
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
 
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- 3. Services Section -->
         <section class="wad_services_sec " id="services">

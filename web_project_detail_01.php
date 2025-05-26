@@ -37,7 +37,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Web Project Details</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Project Noida</h1>
+                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Obicule Technologies</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
@@ -150,10 +150,16 @@
                                             <li><strong>Tools:</strong> VS Code, Git, XAMPP for local development</li>
                                             <li><strong>APIs:</strong> Google Maps API (for location-based services)
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="See_project_btn text-center mt-4">
+                                <a href="https://www.obiculetechnologies.com/" target="_blank"
+                                    class="theme_button">
+                                    <i class="fas fa-eye me-2"></i> See Project
+                                </a>
                             </div>
 
                         </div>

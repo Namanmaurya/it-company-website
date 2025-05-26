@@ -37,7 +37,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Our services</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">What We Do</h1>
+                            <h1 class="text-capitalize text-lg theme_headerh1">What We Do</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
@@ -184,9 +184,7 @@
                     <div class="col-lg-8">
                         <div class="case-study-content text-center mb-5">
                             <h2 class="mb-4 theme_headerh2">How we works</h2>
-                            <p class="theme_pra_text">There are many variations of lorem passages of Lorem Ipsum
-                                available, but the majority
-                                have suffered. All the Lorem Ipsum generators.</p>
+                            <p class="theme_pra_text">We are work in five step 1. Competitive Analysis , 2. Making Functional Strategy, 3. Project Outline, 4. Final Delivery</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +203,7 @@
                         <div class="col-lg-6 mar_bm">
                             <div class="case-content">
                                 <h4 class="mb-3">Competitive Analysis</h4>
-                                <p class="theme_pra_text">Competitive analysis involves assessing competitors'
+                                <p class="theme_pra_text">Competitive analysis involves assessing competitor's,
                                     strategies, strengths, and
                                     weaknesses to identify opportunities, threats, and areas for improvement, helping
                                     businesses refine their own strategies and gain advantage.</p>
@@ -226,7 +224,7 @@
                                 <h4 class="mb-3">Making Functional Strategy</h4>
                                 <p class="theme_pra_text">Making a Functional Strategy involves developing specific
                                     plans for each department
-                                    (e.g., marketing, finance, operations) within an organization to align with overall
+                                    (e.g. marketing, finance, operations) within an organization to align with overall
                                     business goals and objectives.
 
                                 </p>

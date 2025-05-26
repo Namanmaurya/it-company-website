@@ -158,7 +158,7 @@
                 <div class="row">
                     <div class="col-lg-5 scroll-fade-up">
                         <div class="cta-content bg-white p-5 rounded">
-                            <h3 class="mb-4 theme_headerh3">Assurance Service In Software<span
+                            <h3 class="mb-4 theme_headerh4">Assurance Service In Software<span
                                     class="text-color-primary">
                                     Service</span>
                             </h3>
@@ -172,7 +172,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- project_section -->
         <section class="project_section scroll-fade-up">
             <div class="container">

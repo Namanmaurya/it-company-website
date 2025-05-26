@@ -34,7 +34,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">SM</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Software Maintenance</h1>
+                            <h1 class="text-capitalize text-lg theme_headerh1">Software Maintenance</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="services.php" class="text-white">Services</a></li>

@@ -37,7 +37,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">Web Project Details</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Project Noida</h1>
+                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">GNK Solutions</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
@@ -155,7 +155,11 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="See_project_btn text-center mt-4">
+                                <a href="https://www.gnksolution.in/" target="_blank" class="theme_button">
+                                    <i class="fas fa-eye me-2"></i> See Project
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

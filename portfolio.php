@@ -58,7 +58,7 @@
                 <h3 class="theme_headerh4 ">Web Development Projects</h3>
                 <div class="row g-4">
                     <!-- Project 1 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up">
                         <a href="web_project_detail_01.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -69,7 +69,7 @@
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="col-md-4 mt-5 mb-5">
+                    <div class="col-md-4 mt-5 mb-5 scroll-fade-up delay-1">
                         <a href="web_project_detail_02.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -80,7 +80,7 @@
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="col-md-4 mt-5 mb-5">
+                    <div class="col-md-4 mt-5 mb-5 scroll-fade-up delay-2">
                         <a href="web_project_detail_03.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -93,7 +93,7 @@
 
                     <h3 class="theme_headerh4 ">Mobile App Development Projects</h3>
                     <!-- Project 4 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up">
                         <a href="mobile_app_development_project_detail_01.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -104,7 +104,7 @@
                     </div>
 
                     <!-- Project 5 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-1">
                         <a href="mobile_app_development_project_detail_02.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -115,7 +115,7 @@
                     </div>
 
                     <!-- Project 6 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-2">
                         <a href="mobile_app_development_project_detail_03.php">
                             <div class="project_card">
                                 <div class="project_card_img">

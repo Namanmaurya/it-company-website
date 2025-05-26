@@ -36,13 +36,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="block text-center">
-                            <span class="text-white">Web Project Details</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Project Noida</h1>
+                            <span class="text-white">Mobile App Project Details</span>
+                            <h1 class="text-capitalize text-lg theme_headerh1">Mood Journal</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
                                 <li class="list-inline-item"><span class="text-white">/</span></li>
-                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Web
+                                <li class="list-inline-item"><a href="web_project_01.php" class="text-white-50">Mobile App
                                         Development</a>
                                 </li>
                             </ul>
@@ -56,12 +56,14 @@
         <section class="project_detail">
             <div class="container">
                 <div class="row">
+                    <!-- Project Main Image -->
                     <div class="col-md-12">
                         <div class="project_detail_main_img">
-                            <img src="images\service\mobile_app_jaurnal.avif" alt="project_image">
+                            <img src="images\service\mood_jaurnal_img.png" alt="project_image">
                         </div>
                     </div>
 
+                    <!-- Project Overview & Logo -->
                     <div class="col-md-12">
                         <div class="project_detailed_exp">
                             <div class="row">
@@ -70,59 +72,95 @@
                                         <img src="images\service\skill_swao_logo (5).png" alt="project_logo">
                                     </div>
                                 </div>
-
                                 <div class="col-md-9">
                                     <div class="project_detailed_exp_text">
-                                        <p class="theme_pra_text">Mood Journal is a mobile app designed to help you track, understand, and improve your emotional well-being. With a simple and intuitive interface, Mood Journal lets you record your daily moods, thoughts, and experiences, turning them into insightful patterns over time. Whether you're feeling happy, anxious, stressed, or relaxed, you can log your emotions with notes, tags, and emojis. The app offers mood trends, personalized insights, and reminders to encourage consistent journaling. Ideal for self-care and mental health awareness, Mood Journal empowers you to reflect, grow, and take control of your emotional journey—one day at a time.</p>
+                                        <p class="theme_pra_text">
+                                            Mood Journal is a mobile app designed to help you track, understand, and improve your emotional well-being. With a simple and intuitive interface, Mood Journal lets you record your daily moods, thoughts, and experiences, turning them into insightful patterns over time. Whether you're feeling happy, anxious, stressed, or relaxed, you can log your emotions with notes, tags, and emojis. The app offers mood trends, personalized insights, and reminders to encourage consistent journaling. Ideal for self-care and mental health awareness, Mood Journal empowers you to reflect, grow, and take control of your emotional journey—one day at a time.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- App Features -->
                             <div class="project_feature_section mt-4">
-                                <h3>Mobile App Features</h3>
+                                <h3 class="theme_headerh3">App Features</h3>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>User Authentication</h5>
-                                            <p>Secure login and registration system for different types of users.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>Responsive Design</h5>
-                                            <p>Optimized for desktops, tablets, and mobile phones with clean UI.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>Project Portfolio</h5>
-                                            <p>Dynamic listing of company projects with images and detailed
-                                                descriptions.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>Contact Integration</h5>
-                                            <p>Users can reach out via integrated forms or contact details.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>SEO Optimized</h5>
-                                            <p>Improved discoverability with meta tags and structured content.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="feature_box">
-                                            <h5>Performance Focused</h5>
-                                            <p>Fast loading speed and efficient resource usage using optimized assets.
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-user-lock me-2"></i>User Authentication</h5>
+                                            <p>Secure sign-up, login, and OTP-based authentication to protect user data.
                                             </p>
                                         </div>
                                     </div>
+                                    <div class="col-md-4">
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-user-friends me-2"></i>Skill Matchmaking</h5>
+                                            <p>AI-driven matching system to connect users with complementary skills.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-comments me-2"></i>In-App Chat</h5>
+                                            <p>Private, secure messaging system for users to communicate and coordinate
+                                                skill exchanges.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-id-badge me-2"></i>Profile Customization</h5>
+                                            <p>Users can showcase their bio, skillset, location, and availability in
+                                                dynamic profiles.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-globe me-2"></i>Location-Based Search</h5>
+                                            <p>Geo-location integration to discover skill matches nearby or globally.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="feature_box text-center">
+                                            <h5><i class="fas fa-bell me-2"></i>Real-Time Notifications</h5>
+                                            <p>Push notifications for new matches, chat messages, and profile views.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                        </div> 
+                            <!-- Technologies Used -->
+                            <div class="project_tech_section">
+                                <h3 class="theme_headerh3">Technologies Used</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="tech_list">
+                                            <li><strong>Frontend:</strong> Flutter (Dart) for cross-platform development
+                                            </li>
+                                            <li><strong>Backend:</strong> Node.js with Express.js</li>
+                                            <li><strong>Authentication:</strong> Firebase Auth & OTP verification</li>
+                                            <li><strong>Messaging:</strong> Firebase Realtime Database for chat module
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="tech_list">
+                                            <li><strong>Database:</strong> Firestore (NoSQL) for fast and scalable data
+                                                storage</li>
+                                            <li><strong>Push Notifications:</strong> Firebase Cloud Messaging (FCM)</li>
+                                            <li><strong>APIs:</strong> Google Maps API for location-based services</li>
+                                            <li><strong>Tools:</strong> Android Studio, Firebase Console, Git, Postman
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="See_project_btn text-center mt-4">
+                                <a href="#" target="_blank" class="theme_button">
+                                    <i class="fas fa-eye me-2"></i> See Project
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
