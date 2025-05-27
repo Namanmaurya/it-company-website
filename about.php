@@ -102,7 +102,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-8 text-center">
 						<div class="section-heading">
-							<h2 class=" theme_headerh2">Meet Our Team</h2>
+							<h2 class="theme_headerh2">Meet Our Team</h2>
 							<p class="theme_pra_text">
 								Today’s users expect effortless experiences. Don’t let essential people and processes
 								stay stuck in the past. Speed it up, skip the hassles.

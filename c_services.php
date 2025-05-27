@@ -35,7 +35,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">CS</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Cloud Services</h1>
+                            <h1 class="text-capitalize text-lg theme_headerh1">Cloud Services</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="services.php" class="text-white">Services</a></li>
@@ -50,7 +50,7 @@
         </section>
 
         <!-- cloud about -->
-        <section class="cloud_about py-5 scroll-fade-up">
+        <section class="cloud_about scroll-fade-up">
             <div class="container">
                 <div class="row align-items-center" data-aos="fade-up">
 
