@@ -2,6 +2,7 @@
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -416,27 +417,30 @@ body {
 
 .video-img {
     position: relative;
+    
 }
 
 .video-img img {
     width: 100%;
+    height: 450px;
+    object-fit: contain;
 }
 
 .video-img .video-play {
     position: absolute;
     background-color: #007bff;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
-    top: 42%;
-    left: 42%;
+    top: 36%;
+    left: 43%;
     text-align: center;
-    padding: 25px 35px;
+    padding: 22px 30px;
 }
 
 .video-img .video-play i {
     color: white;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .video-img .video-play:hover {
@@ -804,7 +808,7 @@ body {
 /* mapsection */
 
 .office-section {
-    padding: 40px 15px;
+    padding: 0px 15px 15px 40px;
     background-color: #f8f9fa;
     text-align: center;
     margin: auto;
@@ -1064,7 +1068,7 @@ body {
 
 .team-section {
     background-color: #f9f9f9;
-    padding: 60px 20px;
+    padding: 30px 20px;
 }
 
 .section-heading h2 {
@@ -2094,6 +2098,10 @@ body {
     background: #f8f9fa;
 }
 
+.development-section a{
+    text-decoration: none;
+    color: #000000;
+}
 .development-section h2 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -2416,7 +2424,7 @@ body {
 }
 
 .ty_of_main {
-    padding: 60px 0;
+    padding: 30px 0;
     background-color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -3247,7 +3255,7 @@ body {
 
 .cloud_why {
     background-color: #ffffff;
-    padding: 60px 0;
+    padding: 0px 0px 60px 0px;
 }
 
 .cloud_why .border {
@@ -3328,7 +3336,7 @@ body {
 
 .cloud_testimonials {
     background-color: #f8f9fa;
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .cloud_testimonials .blockquote {
@@ -3503,7 +3511,7 @@ body {
     padding: 40px 0;
 }
 
-.ourProcess .theme_headerh2::after {
+/* .ourProcess .theme_headerh2::after {
     content: "";
     width: 80px;
     height: 4px;
@@ -3511,7 +3519,7 @@ body {
     display: block;
     margin: 12px auto 0;
     border-radius: 2px;
-}
+} */
 
 .ourProcess .col-md-3 {
     padding: 20px;
@@ -3664,7 +3672,7 @@ body {
 }
 
 .faq_heading h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: black;
 }
 

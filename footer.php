@@ -31,6 +31,7 @@
 			line-height: 1.8;
 			color: #ccc;
 			font-weight: 400;
+
 		}
 
 		.footer h4 {
@@ -125,12 +126,12 @@
 
 		@media (max-width: 576px) {
 			.footer {
-				padding: 40px 0 20px;
+				padding: 20px 0 20px;
 				text-align: center;
 			}
 
 			.footer .row>div {
-				margin-bottom: 30px;
+				margin-bottom: 10px;
 			}
 
 			.footer ul.footer-menu {
@@ -144,6 +145,11 @@
 			.footer-btm .copyright {
 				font-size: 13px;
 				text-align: center;
+			}
+
+			.footer p {
+				margin-bottom: 0px;
+
 			}
 		}
 	</style>
@@ -239,7 +245,7 @@
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 		crossorigin="anonymous"></script>
 
-           <!-- main_js -->
+	<!-- main_js -->
 	<script src="js/script.js"></script>
 
 

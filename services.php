@@ -147,7 +147,7 @@
                         </div>
                         <div class="col-lg-6 mar_bm">
                             <div class="service-img">
-                                <img src="images/service/service-3.jpg" alt="service_image" class="img-fluid">
+                                <img src="images/service/service-5.avif" alt="service_image" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                 <div class="row">
                     <div class="col-lg-6 mar_bm">
                         <div class="service-img">
-                            <img src="images/service/service-4.jpg" alt="service_image" class="img-fluid">
+                            <img src="images/service/service-6.jpeg" alt="service_image" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 mar_bm scroll-fade-up">

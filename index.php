@@ -174,12 +174,12 @@
         </section>
 
         <!-- project_section -->
-        <section class="project_section scroll-fade-up">
+        <section class="project_section ">
             <div class="container">
                 <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
                 <div class="row g-4">
                     <!-- Project 1 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up">
                         <a href="web_project_detail_01.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -190,7 +190,7 @@
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-1">
                         <a href="web_project_detail_02.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -201,7 +201,7 @@
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-2">
                         <a href="web_project_detail_03.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -212,7 +212,7 @@
                     </div>
 
                     <!-- Project 4 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up">
                         <a href="mobile_app_development_project_detail_01.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -224,7 +224,7 @@
                     </div>
 
                     <!-- Project 5 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-1">
                         <a href="mobile_app_development_project_detail_02.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -236,7 +236,7 @@
                     </div>
 
                     <!-- Project 6 -->
-                    <div class="col-md-4 mt-5">
+                    <div class="col-md-4 mt-5 scroll-fade-up delay-2">
                         <a href="mobile_app_development_project_detail_03.php">
                             <div class="project_card">
                                 <div class="project_card_img">
@@ -285,7 +285,7 @@
         <!-- homepage_testimonialsection -->
         <section class="section testimonial-modern py-5 scroll-fade-up">
             <div class="container">
-                <div class="text-center mb-5">
+                <div class="text-center">
                     <h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
                     <p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable,
                         and

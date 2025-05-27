@@ -86,6 +86,7 @@
                 </div>
             </div>
         </section>
+
         <!-- development_section -->
         <section class="development-section py-5 bg-light scroll-fade-up">
             <div class="container">
@@ -96,34 +97,43 @@
 
                 <div class="row justify-content-center g-4 text-center">
                     <div class="col-md-2">
-                        <div class="process-step animate-step delay-1">
-                            <h6 class="fw-semibold">Discovery</h6>
-
-                        </div>
+                        <a href="#discovery">
+                            <div class="process-step animate-step delay-1">
+                                <h6 class="fw-semibold">Discovery</h6>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <div class="process-step animate-step delay-2">
-                            <h6 class="fw-semibold">Planning</h6>
+                        <a href="#planning">
+                            <div class="process-step animate-step delay-2">
+                                <h6 class="fw-semibold">Planning</h6>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <div class="process-step animate-step delay-3">
-                            <h6 class="fw-semibold"> Development</h6>
+                        <a href="#development">
+                            <div class="process-step animate-step delay-3">
+                                <h6 class="fw-semibold"> Development</h6>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <div class="process-step animate-step delay-4">
-                            <h6 class="fw-semibold">Testing</h6>
+                        <a href="#testing">
+                            <div class="process-step animate-step delay-4">
+                                <h6 class="fw-semibold">Testing</h6>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-2">
-                        <div class="process-step animate-step delay-5">
-                            <h6 class="fw-semibold">Deployment</h6>
+                        <a href="#deployment">
+                            <div class="process-step animate-step delay-5">
+                                <h6 class="fw-semibold">Deployment</h6>
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -132,7 +142,7 @@
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="discovery">
                         <h3 class="theme_headerh3 ">Discovery</h3>
                         <p class="theme_pra_text ">Discovery in software development is the initial phase where project
                             goals, requirements, and constraints are explored through stakeholder interviews, market
@@ -147,14 +157,14 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Planning.avif" alt="Data Backup">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="planning">
                         <h3 class="theme_headerh3 ">Planning</h3>
                         <p class="theme_pra_text">Planning in software development involves defining the project scope,
                             setting clear objectives, estimating resources, timelines, and costs. </p>
                         <p class="theme_pra_text">Effective planning ensures that all stakeholders have aligned
                             expectations, helps manage risks, allocates resources efficiently.</p>
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="development">
                         <h3 class="theme_headerh3 ">Development</h3>
                         <p class="theme_pra_text">Development is the phase where software engineers write, test, and
                             integrate code based on the design and requirements gathered earlier. This involves building
@@ -169,7 +179,7 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="testing">
                         <h3 class="theme_headerh3 ">Testing</h3>
                         <p class="theme_pra_text">Testing is the process of evaluating the software to identify defects
                             or bugs and ensure it meets the specified requirements. It involves executing the software
@@ -178,7 +188,7 @@
                             and ready for deployment by catching issues early, improving quality, and providing
                             confidence that the software works as intended for end users.</p>
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="deployment">
                         <h3 class="theme_headerh3 ">Deployment</h3>
                         <p class="theme_pra_text">Deployment is the process of releasing the completed software
                             application to the production environment where end users can access and use it. This step

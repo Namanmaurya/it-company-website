@@ -136,7 +136,7 @@
 						<div class="team-card text-center">
 							<img src="images/team/03-1.jpg" alt="Satyam Dev - Co-ordinator"
 								class="img-fluid rounded shadow-sm">
-							<h4 class="mt-3 mb-1">Satyam Dev</h4>
+							<h4 class="mt-3 mb-1">Sunil Kumar</h4>
 							<p class="theme_pra_text">Co-ordinator</p>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 						<div class="team-card text-center">
 							<img src="images/team/01-3.jpg" alt="Anil Yadav - Senior Developer"
 								class="img-fluid rounded shadow-sm">
-							<h4 class="mt-3 mb-1">Anil Yadav</h4>
+							<h4 class="mt-3 mb-1">Mohan Kumar</h4>
 							<p class="theme_pra_text">Senior Developer</p>
 						</div>
 					</div>
@@ -250,7 +250,7 @@
 		<!-- testimonialsection -->
 		<section class="section testimonial-modern py-5 scroll-fade-up">
 			<div class="container">
-				<div class="text-center mb-5">
+				<div class="text-center">
 					<h2 class="mb-3 theme_headerh2">What They Say About Us</h2>
 					<p class="text-muted theme_pra_text">They are truly amazing in the industry. Honest, reliable, and
 						efficient!</p>
@@ -311,7 +311,7 @@
 			<p class="theme_pra_text">Select a city to view the office location on the map.</p>
 
 			<!-- Nav tabs -->
-			<ul class="nav nav-tabs justify-content-center mb-3" id="locationTabs" role="tablist">
+			<ul class="nav nav-tabs justify-content-center" id="locationTabs" role="tablist">
 				<li class="nav-item" role="presentation">
 					<button class="nav-link active" id="noida-tab" data-bs-toggle="tab" data-bs-target="#noida"
 						type="button" role="tab" aria-controls="noida" aria-selected="true">

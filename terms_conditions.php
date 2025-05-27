@@ -37,7 +37,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">T&C</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">Terms and Conditions</h1>
+                            <h1 class="text-capitalize text-lg theme_headerh1">Terms and Conditions</h1>
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
                                 <li class="list-inline-item"><span class="text-white">/</span></li>

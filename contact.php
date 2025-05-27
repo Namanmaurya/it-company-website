@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <span class="text-color">Send a message</span>
-                        <h3 class="text-md mb-5 theme_headerh3">Contact Form</h3>
+                        <h3 class="text-md mb-5 theme_headerh4">Contact Form</h3>
 
                         <div class="row">
                             <div class="col-lg-8">
@@ -195,7 +195,7 @@
             <p class="theme_pra_text">Select a city to view the office location on the map.</p>
 
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs justify-content-center mb-3" id="locationTabs" role="tablist">
+            <ul class="nav nav-tabs justify-content-center" id="locationTabs" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="noida-tab" data-bs-toggle="tab" data-bs-target="#noida"
                         type="button" role="tab" aria-controls="noida" aria-selected="true">

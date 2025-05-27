@@ -138,7 +138,7 @@
         <!-- 5. Our Process -->
         <section class="ourProcess" id="process">
             <div class="container" data-aos="fade-up">
-                <h2 class="theme_headerh2">Our Process</h2>
+                <h2 class="theme_headerh4">Our Process</h2>
                 <div class="row text-center">
                     <div class="col-md-3 ">
                         <h5> Planning</h5>
@@ -264,7 +264,7 @@
         <!-- Testimonials -->
         <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
-                <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
+                <h2 class="text-center theme_headerh2 mb-4">What Our Clients Say</h2>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <blockquote class="blockquote">

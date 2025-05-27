@@ -119,7 +119,7 @@
         </section>
 
         <!-- Why Choose Us -->
-        <section class="cloud_why py-5 scroll-fade-up">
+        <section class="cloud_why scroll-fade-up">
             <div class="container">
                 <h2 class="text-center mb-4 theme_headerh2">Why Choose Our Cloud Services?</h2>
                 <div class="row text-center g-4">
@@ -185,7 +185,7 @@
         <!-- Testimonials_section -->
         <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
-                <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
+                <h2 class="text-center theme_headerh2 mb-4">What Our Clients Say</h2>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <blockquote class="blockquote">

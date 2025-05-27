@@ -36,7 +36,7 @@
                     <div class="col-md-12">
                         <div class="block text-center">
                             <span class="text-white">SEO</span>
-                            <h1 class="text-capitalize mb-5 text-lg theme_headerh1">SEO Services</h1>
+                            <h1 class="text-capitalize  text-lg theme_headerh1">SEO Services</h1>
 
                             <ul class="list-inline breadcumb-nav">
                                 <li class="list-inline-item"><a href="services.php" class="text-white">Services</a></li>
@@ -69,7 +69,7 @@
         <!-- Services Included -->
         <section class="seo_services scroll-fade-up">
             <div class="container">
-                <h2 class="theme_headerh2">What’s Included in Our SEO Package</h2>
+                <h2 class="theme_headerh2 mb-4">What’s Included in Our SEO Package</h2>
                 <div class="row g-4" data-aos="fade-up">
                     <div class="col-md-3">
                         <div class="card p-3 h-100 text-center">Keyword Research</div>
@@ -268,40 +268,10 @@
             </div>
         </section>
 
-        <div class="container">
-            <h2 class="theme_headerh2">Pricing Plans</h2>
-            <div class="row g-4" data-aos="fade-up">
-                <div class="col-md-4">
-                    <div class="card h-100 text-center p-4">
-                        <h4>Starter Plan</h4>
-                        <p>$299/month</p>
-                        <p>Perfect for local businesses</p>
-                        <a href="#contact" class="btn btn-primary">Get Started</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 text-center p-4 border border-primary">
-                        <h4>Growth Plan</h4>
-                        <p>$599/month</p>
-                        <p>Best for mid-size companies</p>
-                        <a href="#contact" class="btn btn-primary">Choose Plan</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 text-center p-4">
-                        <h4>Enterprise Plan</h4>
-                        <p>Custom Pricing</p>
-                        <p>Tailored SEO strategy</p>
-                        <a href="#contact" class="btn btn-primary">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section> -->
         <!-- cloud_testimonials_section -->
         <section class="cloud_testimonials scroll-fade-up">
             <div class="container">
-                <h2 class="text-center theme_headerh2">What Our Clients Say</h2>
+                <h2 class="text-center theme_headerh2 mb-4">What Our Clients Say</h2>
                 <div class="row g-4">
                     <div class="col-md-6 scroll-fade-up ">
                         <blockquote class="blockquote">
@@ -318,13 +288,13 @@
                     <div class="col-md-6 scroll-fade-up delay-2">
                         <blockquote class="blockquote">
                             <p>"Their cloud migration was seamless and fast. We saved 40% in costs."</p>
-                            <footer class="blockquote-footer">Anil, CTO, abc</footer>
+                            <footer class="blockquote-footer">Nancy, CTO, abc</footer>
                         </blockquote>
                     </div>
                     <div class="col-md-6 scroll-fade-up delay-3">
                         <blockquote class="blockquote">
                             <p>"Reliable support and rock-solid uptime. Highly recommended!"</p>
-                            <footer class="blockquote-footer">Satyam, CEO, abc</footer>
+                            <footer class="blockquote-footer">Jyoti, CEO, abc</footer>
                         </blockquote>
                     </div>
                 </div>
