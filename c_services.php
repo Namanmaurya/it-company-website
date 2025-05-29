@@ -75,9 +75,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Cloud Hosting</h3>
-                        <p class="theme_pra_text ">In cloud hosting, your data and applications are distributed across a
-                            network of virtual and physical cloud servers. These servers work together to balance the
-                            load and maximize uptime.</p>
+                        <p class="theme_pra_text ">In cloud hosting, data and applications are distributed across a network of interconnected virtual and physical cloud servers. These servers collaborate to balance workloads, optimize performance, and ensure high availability. This setup enhances reliability, scalability, and uptime, allowing seamless access to resources regardless of hardware failures or traffic surges.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cloud_hosting_img.webp" alt="cloud hosting">
@@ -87,10 +85,7 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Data Backup</h3>
-                        <p class="theme_pra_text">Data Backup refers to the process of making copies of data, files, or
-                            databases, and storing them in a safe location to ensure they can be restored in case of
-                            data loss, corruption, or system failure. It is an essential part of data protection and
-                            disaster recovery plans.</p>
+                        <p class="theme_pra_text">Regular backups can be performed manually or automatically, using local storage devices, external drives, or cloud-based services. Backup frequency depends on data sensitivity and business needs. Encryption and secure access controls further protect backup data from unauthorized access. Testing and validating backups periodically ensures they function correctly during recovery scenarios.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 mt-5">Disaster Recovery</h3>

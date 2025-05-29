@@ -122,7 +122,7 @@
                 <h2 class="mb-4 text-center theme_headerh2">Our Maintenance Implementation Process</h2>
                 <div class="row g-4">
                     <div class="col-md-4 scroll-fade-up delay-1">
-                        <div class="main_process">
+                        <div class="main_process ">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-search feature-icon"></i> Assessment & Planning</h5>
                                 <p class="theme_pra_text">We evaluate your existing system, gather requirements, and define a roadmap.</p>

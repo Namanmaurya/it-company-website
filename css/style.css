@@ -89,7 +89,7 @@ body {
     font-weight: 400;
     color: #222;
     margin: 10px 0px;
-    
+
 }
 
 .theme_pra_text {
@@ -417,7 +417,7 @@ body {
 
 .video-img {
     position: relative;
-    
+
 }
 
 .video-img img {
@@ -1099,7 +1099,7 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.team_card_img{
+.team_card_img {
     height: 280px;
     width: auto;
     overflow: hidden;
@@ -1191,6 +1191,7 @@ body {
     color: #666;
     font-size: 1rem;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .award-img-block {
@@ -1282,6 +1283,7 @@ body {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .mar_bm {
@@ -1343,6 +1345,10 @@ body {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
+}
+
+.case-content p{
+    text-align: justify;
 }
 
 .case-timeline {
@@ -2102,10 +2108,11 @@ body {
     background: #f8f9fa;
 }
 
-.development-section a{
+.development-section a {
     text-decoration: none;
     color: #000000;
 }
+
 .development-section h2 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -2369,6 +2376,7 @@ body {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .why_soft_main ul {
@@ -2587,7 +2595,7 @@ body {
 .main_process-body {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .main_process h5 {
@@ -2609,6 +2617,7 @@ body {
     font-size: 1rem;
     color: #666;
     margin: 0;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -2778,6 +2787,7 @@ body {
 .benefits p {
     font-size: 1rem;
     color: #555;
+    text-align: justify;
 }
 
 .benefit_image img {
@@ -2871,6 +2881,7 @@ body {
     font-size: 1.1rem;
     color: #555;
     line-height: 1.7;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -3232,6 +3243,10 @@ body {
 
 .cloud_services {
     padding: 60px 0;
+}
+
+.cloud_services p{
+    text-align: justify;
 }
 
 .cloud_services img {
@@ -3657,6 +3672,7 @@ body {
     line-height: 1.6;
     transition: all 0.3s ease-in-out;
     padding: 0px 15px;
+    text-align: justify;
 }
 
 .faq_heading {
@@ -4297,6 +4313,7 @@ body {
     line-height: 1.7;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    text-align: justify;
 }
 
 .why_analyze_img img {

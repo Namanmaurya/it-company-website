@@ -179,8 +179,7 @@
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Design</h3>
-                        <p class="theme_pra_text">Design is the creative process of planning and shaping the structure,
-                            appearance, and functionality of a product, system, or experience.</p>
+                        <p class="theme_pra_text">Design is the creative and strategic process of planning, conceptualizing, and shaping the structure, appearance, and functionality of a product, system, or experience. It involves translating requirements into visual and functional elements, ensuring usability, aesthetics, and performance align with user needs and project goals for an effective solution.</p>
                         <p class="theme_pra_text">It combines aesthetics, usability, and practicality to solve problems
                             and meet user needs effectively.</p>
                     </div>
@@ -195,16 +194,13 @@
                         <p class="theme_pra_text">Development is the process of creating, improving, or expanding
                             something over time, whether it’s a product, skill, system, or idea. It involves stages like
                             designing, building, testing, and refining to achieve desired goals.</p>
-                        <p class="theme_pra_text">This process drives progress by turning concepts into tangible
-                            results, fostering growth, innovation, and enhanced functionality across various fields such
-                            as technology, education, business, and personal growth.</p>
+                        <p class="theme_pra_text">This process drives meaningful progress by transforming abstract ideas into tangible outcomes. It encourages innovation, supports continuous improvement, and enhances functionality across multiple domains, including technology, education, business, healthcare, and personal development. Through effective design, solutions become more accessible, efficient, and impactful, ultimately benefiting users and society as a whole.</p>
                     </div>
                     <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Deployment</h3>
                         <p class="theme_pra_text">Deployment is the process of releasing and making a software
                             application, system, or product available for use in a live environment.</p>
-                        <p class="theme_pra_text">It involves installation, configuration, and ensuring the product
-                            operates smoothly for end users, marking the transition from development to practical use.
+                        <p class="theme_pra_text">It involves the installation, configuration, and fine-tuning of the software or system to ensure it operates smoothly and efficiently for end users. This phase marks the critical transition from development to real-world application, ensuring the product meets user needs, functions correctly, and delivers the intended value in practical use.
                         </p>
                     </div>
                     <div class="col-md-6 mb-5">

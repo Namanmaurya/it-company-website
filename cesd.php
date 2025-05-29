@@ -159,10 +159,8 @@
                     </div>
                     <div class="col-md-6 mb-5" id="planning">
                         <h3 class="theme_headerh3 ">Planning</h3>
-                        <p class="theme_pra_text">Planning in software development involves defining the project scope,
-                            setting clear objectives, estimating resources, timelines, and costs. </p>
-                        <p class="theme_pra_text">Effective planning ensures that all stakeholders have aligned
-                            expectations, helps manage risks, allocates resources efficiently.</p>
+                        <p class="theme_pra_text">Planning in software development defines the project scope, sets objectives, and estimates time, resources, costs, risks, and deliverables to ensure successful execution and delivery. </p>
+                        <p class="theme_pra_text">Effective planning ensures stakeholder alignment, sets clear expectations, identifies potential risks early, allocates resources efficiently, and provides a structured roadmap for achieving project goals successfully.</p>
                     </div>
                     <div class="col-md-6 mb-5" id="development">
                         <h3 class="theme_headerh3 ">Development</h3>

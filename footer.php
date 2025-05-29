@@ -31,7 +31,7 @@
 			line-height: 1.8;
 			color: #ccc;
 			font-weight: 400;
-
+			text-align: justify;
 		}
 
 		.footer h4 {

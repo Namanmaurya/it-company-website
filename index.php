@@ -60,7 +60,7 @@
                                 <i class="ti-light-bulb"></i>
                             </div>
                             <div class="content">
-                                <h4 class="">Custom Effective Software development</h4>
+                                <h4 class="">Custom Effective Software Development</h4>
                                 <p class=" theme_pra_text">Custom effective software development builds tailored,
                                     efficient, scalable business solutions.</p>
                                 <a href="cus_effective_soft.php"> Read More </a>
@@ -118,7 +118,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 scroll-fade-up delay-1">
                                 <div class="icon-block text-center  mb-lg-0">
                                     <i class="fa-solid fa-lightbulb"></i>
-                                    <h5>Data analysis</h5>
+                                    <h5>Data Analysis</h5>
                                     <p class="theme_pra_text">A complete web app solution for business</p>
                                 </div>
                             </div>
