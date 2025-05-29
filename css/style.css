@@ -808,7 +808,7 @@ body {
 /* mapsection */
 
 .office-section {
-    padding: 0px 15px 15px 40px;
+    padding: 20px 15px 15px 40px;
     background-color: #f8f9fa;
     text-align: center;
     margin: auto;
@@ -1099,11 +1099,17 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.team-card img {
+.team_card_img{
+    height: 280px;
+    width: auto;
+    overflow: hidden;
+}
+
+.team_card_img img {
     width: 100%;
     height: auto;
     border-radius: 12px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .team-card h4 {

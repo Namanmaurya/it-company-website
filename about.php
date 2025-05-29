@@ -116,8 +116,10 @@
 
 					<div class="col-lg-3 col-md-6 scroll-fade-up">
 						<div class="team-card text-center">
-							<img src="images/team/03-1.jpg" alt="Satyam Dev - Founder"
-								class="img-fluid rounded shadow-sm">
+							<div class="team_card_img">
+								<img src="images/team/03-1.jpg" alt="Satyam Dev - Founder"
+									class="img-fluid rounded">
+							</div>
 							<h4 class="mt-3 mb-1">Satyam Dev</h4>
 							<p class="theme_pra_text">Founder</p>
 						</div>
@@ -125,8 +127,10 @@
 
 					<div class="col-lg-3 col-md-6 scroll-fade-up delay-1">
 						<div class="team-card text-center">
-							<img src="images/team/01-3.jpg" alt="Anil Yadav - Marketing Head"
-								class="img-fluid rounded shadow-sm">
+							<div class="team_card_img">
+								<img src="images/team/01-3.jpg" alt="Anil Yadav - Marketing Head"
+									class="img-fluid rounded">
+							</div>
 							<h4 class="mt-3 mb-1">Anil Yadav</h4>
 							<p class="theme_pra_text">Marketing Head</p>
 						</div>
@@ -134,8 +138,11 @@
 
 					<div class="col-lg-3 col-md-6 scroll-fade-up delay-2">
 						<div class="team-card text-center">
-							<img src="images/team/03-1.jpg" alt="Satyam Dev - Co-ordinator"
-								class="img-fluid rounded shadow-sm">
+							<div class="team_card_img">
+								<img src="images\service\employee_img3.jpg" alt="Satyam Dev - Co-ordinator"
+									class="img-fluid rounded">
+							</div>
+
 							<h4 class="mt-3 mb-1">Sunil Kumar</h4>
 							<p class="theme_pra_text">Co-ordinator</p>
 						</div>
@@ -143,9 +150,10 @@
 
 					<div class="col-lg-3 col-md-6 scroll-fade-up delay-3">
 						<div class="team-card text-center">
-							<img src="images/team/01-3.jpg" alt="Anil Yadav - Senior Developer"
-								class="img-fluid rounded shadow-sm">
-							<h4 class="mt-3 mb-1">Mohan Kumar</h4>
+							<div class="team_card_img"><img src="images\service\employee_img4.avif"
+									alt="Anil Yadav - Senior Developer" class="img-fluid rounded"></div>
+
+							<h4 class="mt-3 mb-1">Lisa</h4>
 							<p class="theme_pra_text">Senior Developer</p>
 						</div>
 					</div>
