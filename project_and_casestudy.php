@@ -25,6 +25,7 @@
             <span>n</span>
         </div>
     </div>
+
     <!-- include_header -->
     <?php include("header.php") ?>
 
@@ -122,7 +123,6 @@
             </div>
         </section>
 
-
         <!-- Case Studies -->
         <section class="seo_case_studies scroll-fade-up">
             <div class="container">
@@ -160,6 +160,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">

@@ -300,6 +300,7 @@
                 </div>
             </div>
         </section>
+
         <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">
@@ -319,6 +320,7 @@
             </div>
 
         </section>
+        
     </main>
          <!-- include_footer -->
     <?php include("footer.php") ?>

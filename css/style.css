@@ -2882,8 +2882,6 @@ body {
     transform: scale(1.03);
 }
 
-
-
 .seo_about p {
     font-size: 1.1rem;
     color: #555;
@@ -2931,8 +2929,6 @@ body {
     padding: 80px 0;
     background-color: #ffffff;
 }
-
-
 
 .seo_services .card {
     background-color: #f9f9f9;
@@ -4407,7 +4403,6 @@ body {
     }
 }
 
-
 @media (max-width: 480px) {
     .responsive_devices h2 {
         font-size: 1.4rem;
@@ -4532,8 +4527,6 @@ body {
     transform: scale(1);
 }
 
-
-
 .project_card_img {
     padding: 30px 20px;
 }
@@ -4622,7 +4615,6 @@ body {
     border: none;
 }
 
-
 .checkresponsiveness .mobile {
     max-width: 375px;
 }
@@ -4682,7 +4674,6 @@ body {
     color: #0d6efd;
     margin-bottom: 20px;
 }
-
 
 .pricing-card ul {
     padding: 0;

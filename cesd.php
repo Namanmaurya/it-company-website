@@ -138,6 +138,7 @@
                 </div>
             </div>
         </section>
+
         <!-- cloud_services_section -->
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
@@ -247,6 +248,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Supported Technologies -->
         <section class="support_techno scroll-fade-up">
             <div class="container text-center">
@@ -300,7 +302,7 @@
             </div>
 
         </section>
-
+        
     </main>
     <!-- include_footer -->
     <?php include("footer.php") ?>

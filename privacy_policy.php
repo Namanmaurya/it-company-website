@@ -47,6 +47,7 @@
                 </div>
             </div>
         </section>
+
         <!-- term_condition_section -->
         <section class="term_condition_text scroll-fade-up">
             <div class="container">
@@ -207,6 +208,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
     <!-- include_footer -->
     <?php include("footer.php") ?>

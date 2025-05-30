@@ -124,7 +124,7 @@
                     <div class="col-md-6 mb-5" id="scalable_flexible">
                         <img src="images\service\cest_Planning.avif" alt="Data Backup">
                     </div>
-                    <div class="col-md-6 mb-5" >
+                    <div class="col-md-6 mb-5">
                         <h3 class="theme_headerh3 ">Scalable & Flexible</h3>
                         <p class="theme_pra_text"><strong>"Scalable & Flexible"</strong> in software and mobile app
                             development refers to building systems that can grow with user demand and adapt to changing

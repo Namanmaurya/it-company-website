@@ -175,8 +175,6 @@
             </div>
         </section>
 
-
-
         <!-- contact_section -->
         <section id="contact" class="cta-section scroll-fade-up">
             <div class="container-fluid">

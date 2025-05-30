@@ -18,7 +18,6 @@
 
 <body>
 
-
     <!-- Preloader -->
 	<div id="preloader">
 		<div class="typewriter">
@@ -30,9 +29,7 @@
 			<span>n</span>
 		</div>
 	</div>
-
-
-
+    
     <?php include("header.php") ?>
 
     <main>

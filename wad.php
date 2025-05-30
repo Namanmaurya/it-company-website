@@ -177,9 +177,6 @@
             </div>
         </section>
 
-
-
-
         <!-- cloud_services -->
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">

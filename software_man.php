@@ -12,22 +12,23 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Preloader -->
-	<div id="preloader">
-		<div class="typewriter">
-			<span>P</span>
-			<span>y</span>
-			<span>t</span>
-			<span>h</span>
-			<span>o</span>
-			<span>n</span>
-		</div>
-	</div>
-<!-- include_header -->
+    <div id="preloader">
+        <div class="typewriter">
+            <span>P</span>
+            <span>y</span>
+            <span>t</span>
+            <span>h</span>
+            <span>o</span>
+            <span>n</span>
+        </div>
+    </div>
+    <!-- include_header -->
     <?php include("header.php") ?>
     <main>
-           <!-- bg-1 -->
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -54,7 +55,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <h2 class="mb-4 theme_headerh2">Why is Software Maintenance Important?</h2>
-                        <p class="theme_pra_text">Software maintenance is crucial for resolving issues, enhancing performance, and adapting to
+                        <p class="theme_pra_text">Software maintenance is crucial for resolving issues, enhancing
+                            performance, and adapting to
                             ever-changing technology. It minimizes downtime and ensures your business stays competitive.
                         </p>
                         <ul>
@@ -90,7 +92,8 @@
                             <div class="maintenance_card-body">
                                 <i class="bi bi-arrow-repeat feature-icon mb-3"></i>
                                 <h5>Adaptive</h5>
-                                <p class="theme_pra_text">Modifying software to run in a new environment (OS, hardware, etc.).</p>
+                                <p class="theme_pra_text">Modifying software to run in a new environment (OS, hardware,
+                                    etc.).</p>
                             </div>
                         </div>
                     </div>
@@ -125,7 +128,8 @@
                         <div class="main_process ">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-search feature-icon"></i> Assessment & Planning</h5>
-                                <p class="theme_pra_text">We evaluate your existing system, gather requirements, and define a roadmap.</p>
+                                <p class="theme_pra_text">We evaluate your existing system, gather requirements, and
+                                    define a roadmap.</p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +137,8 @@
                         <div class="main_process">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-gear-wide-connected feature-icon"></i> Fixing & Upgrading</h5>
-                                <p class="theme_pra_text">Our developers work to fix bugs, improve features, and update technologies.</p>
+                                <p class="theme_pra_text">Our developers work to fix bugs, improve features, and update
+                                    technologies.</p>
                             </div>
                         </div>
                     </div>
@@ -141,7 +146,8 @@
                         <div class="main_process">
                             <div class="main_process-body">
                                 <h5><i class="bi bi-check-circle feature-icon"></i> Testing & Delivery</h5>
-                                <p class="theme_pra_text">We thoroughly test the software and deploy changes with minimal downtime.</p>
+                                <p class="theme_pra_text">We thoroughly test the software and deploy changes with
+                                    minimal downtime.</p>
                             </div>
                         </div>
                     </div>
@@ -185,18 +191,22 @@
 
         <!-- Benefits -->
         <section class="benefits scroll-fade-up">
-            <div class="container"> 
+            <div class="container">
                 <h2 class="text-center theme_headerh2">Why Choose Us?</h2>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <h3 class="theme_headerh3">Fast Response</h3>
-                        <p class="theme_pra_text">Fast response allows development teams to rapidly adjust to new client requirements or market
+                        <p class="theme_pra_text">Fast response allows development teams to rapidly adjust to new client
+                            requirements or market
                             demands, ensuring the product stays relevant and competitive.</p>
-                        <p class="theme_pra_text">Swift identification and resolution of bugs help maintain system stability, reduce user
+                        <p class="theme_pra_text">Swift identification and resolution of bugs help maintain system
+                            stability, reduce user
                             frustration, and build trust in the software's reliability.</p>
-                        <p class="theme_pra_text">A fast response cycle supports frequent updates and the quick rollout of new features, which
+                        <p class="theme_pra_text">A fast response cycle supports frequent updates and the quick rollout
+                            of new features, which
                             keeps users engaged and meets business goals.</p>
-                        <p class="theme_pra_text">Fast response is a core principle in Agile and DevOps methodologies, enabling continuous
+                        <p class="theme_pra_text">Fast response is a core principle in Agile and DevOps methodologies,
+                            enabling continuous
                             integration, delivery, and improvement through quick iterations.</p>
                     </div>
                     <div class="col-md-6">
@@ -212,26 +222,34 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        
+
                         <h3 class="theme_headerh3">Expert Developers</h3>
-                        <p class="theme_pra_text">Expert developers have strong command over programming languages, frameworks, and software
+                        <p class="theme_pra_text">Expert developers have strong command over programming languages,
+                            frameworks, and software
                             design principles. They write clean, efficient, and scalable code based on best practices.
                         </p>
-                        <p class="theme_pra_text">They excel at analyzing complex issues, breaking them down logically, and crafting effective,
+                        <p class="theme_pra_text">They excel at analyzing complex issues, breaking them down logically,
+                            and crafting effective,
                             optimized solutions, even under pressure or time constraints.</p>
-                        <p class="theme_pra_text">They understand every stage of the Software Development Life Cycle (SDLC), including
+                        <p class="theme_pra_text">They understand every stage of the Software Development Life Cycle
+                            (SDLC), including
                             planning, development, testing, deployment, and maintenance.</p>
-                        <p class="theme_pra_text">Expert developers work well in teams, clearly communicate ideas, give and receive feedback
+                        <p class="theme_pra_text">Expert developers work well in teams, clearly communicate ideas, give
+                            and receive feedback
                             constructively, and often mentor junior developers.</p>
                     </div>
 
 
                     <div class="col-md-6">
                         <h3 class="theme_headerh3">Cost-Effective</h3>
-                        <p class="theme_pra_text">Cost-effective development ensures efficient use of time, tools, and talent, reducing unnecessary spending without compromising quality.</p>
-                        <p class="theme_pra_text">Leveraging open-source libraries and reusable code components cuts down development time and expenses significantly.</p>
-                        <p class="theme_pra_text">Using Agile methods helps identify issues early, avoid rework, and deliver value incrementally—saving time and costs in the long run.</p>
-                        <p class="theme_pra_text">Automation reduces manual errors, speeds up processes, and lowers ongoing maintenance and operational costs.</p>
+                        <p class="theme_pra_text">Cost-effective development ensures efficient use of time, tools, and
+                            talent, reducing unnecessary spending without compromising quality.</p>
+                        <p class="theme_pra_text">Leveraging open-source libraries and reusable code components cuts
+                            down development time and expenses significantly.</p>
+                        <p class="theme_pra_text">Using Agile methods helps identify issues early, avoid rework, and
+                            deliver value incrementally—saving time and costs in the long run.</p>
+                        <p class="theme_pra_text">Automation reduces manual errors, speeds up processes, and lowers
+                            ongoing maintenance and operational costs.</p>
                     </div>
                     <div class="col-md-6">
                         <div class="benefit_image">
@@ -247,10 +265,14 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="theme_headerh3">Proven Track Record</h3>
-                        <p class="theme_pra_text">A proven track record shows a history of successfully delivered projects, meeting deadlines, budgets, and client expectations consistently.</p>
-                        <p class="theme_pra_text">Positive testimonials, repeat clients, and long-term partnerships indicate reliability and trustworthiness in delivering quality software solutions.</p>
-                        <p class="theme_pra_text">It reflects deep domain knowledge and the ability to handle diverse challenges across multiple technologies and industries.</p>
-                        <p class="theme_pra_text">A solid track record includes a diverse portfolio of live, functional software products that showcase capability and innovation.</p>
+                        <p class="theme_pra_text">A proven track record shows a history of successfully delivered
+                            projects, meeting deadlines, budgets, and client expectations consistently.</p>
+                        <p class="theme_pra_text">Positive testimonials, repeat clients, and long-term partnerships
+                            indicate reliability and trustworthiness in delivering quality software solutions.</p>
+                        <p class="theme_pra_text">It reflects deep domain knowledge and the ability to handle diverse
+                            challenges across multiple technologies and industries.</p>
+                        <p class="theme_pra_text">A solid track record includes a diverse portfolio of live, functional
+                            software products that showcase capability and innovation.</p>
                     </div>
                 </div>
             </div>
@@ -284,12 +306,12 @@
     <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
-      <!-- bootstrap_js -->
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-       <!-- main_js -->
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>
@@ -299,7 +321,7 @@
                 preloader.style.opacity = "0";
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
-            }, 1200); 
+            }, 1200);
         });
     </script>
 </body>

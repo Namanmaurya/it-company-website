@@ -12,6 +12,7 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Preloader -->
     <div id="preloader">
@@ -26,11 +27,11 @@
     </div>
 
 
-<!-- include_header -->
+    <!-- include_header -->
     <?php include("header.php") ?>
 
     <main>
-             <!-- bg-1 -->
+        <!-- bg-1 -->
         <section class="page-title bg-1">
             <div class="container">
                 <div class="row">
@@ -49,7 +50,8 @@
                 </div>
             </div>
         </section>
-               <!-- service-2_section -->
+        
+        <!-- service-2_section -->
         <section class="section service-2 ">
             <div class="container">
                 <div class="row">
@@ -177,14 +179,15 @@
 
             </div>
         </section>
-              <!-- case_study_section -->
+        <!-- case_study_section -->
         <section class="section case-study scroll-fade-up">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="case-study-content text-center mb-5">
                             <h2 class="mb-4 theme_headerh2">How we works</h2>
-                            <p class="theme_pra_text">We are work in five step 1. Competitive Analysis , 2. Making Functional Strategy, 3. Project Outline, 4. Final Delivery</p>
+                            <p class="theme_pra_text">We are work in five step 1. Competitive Analysis , 2. Making
+                                Functional Strategy, 3. Project Outline, 4. Final Delivery</p>
                         </div>
                     </div>
                 </div>
@@ -291,7 +294,7 @@
             </div>
         </section>
 
-                <!-- services_section -->
+        <!-- services_section -->
         <section class="section service scroll-fade-up">
             <div class="container">
                 <div class="row">
@@ -376,19 +379,19 @@
         </section>
 
     </main>
-<!-- include_footer -->
+    <!-- include_footer -->
     <?php include("footer.php") ?>
 
-            <!-- scrollup_btn -->
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
 
-      <!-- bootstrap_js -->
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-           <!-- main_js -->
+    <!-- main_js -->
     <script src="js/script.js"></script>
 
     <script>

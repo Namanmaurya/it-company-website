@@ -48,6 +48,7 @@
                 </div>
             </div>
         </section>
+
         <!-- term_condition_section -->
         <section class="term_condition_text scroll-fade-up">
             <div class="container">
@@ -167,19 +168,20 @@
                 </div>
             </div>
         </section>
+
     </main>
-             <!-- include_footer -->
+    <!-- include_footer -->
     <?php include("footer.php") ?>
 
-            <!-- scrollup_btn -->
+    <!-- scrollup_btn -->
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
 
-           <!-- bootstrap_js -->
+    <!-- bootstrap_js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-             <!-- main_js -->
+    <!-- main_js -->
     <script src="js/script.js"></script>
     <script>
         window.addEventListener("load", () => {
