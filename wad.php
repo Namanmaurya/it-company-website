@@ -138,27 +138,47 @@
         <!-- 5. Our Process -->
         <section class="ourProcess" id="process">
             <div class="container" data-aos="fade-up">
-                <h2 class="theme_headerh4">Our Process</h2>
-                <div class="row text-center">
-                    <div class="col-md-3 ">
-                        <h5> Planning</h5>
-                        <p>Requirement analysis and roadmap.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Design</h5>
-                        <p>Wireframing and UI/UX design.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Development</h5>
-                        <p>Frontend & backend coding.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Deployment</h5>
-                        <p>Testing, launch, and support.</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="theme_headerh4">Our Process</h2>
+                        <div class="row text-center">
+
+                            <div class="col-md-3">
+                                <a href="#planning" class="scroll-link text-decoration-none text-dark">
+                                    <h5>Planning</h5>
+                                    <p>Requirement analysis and roadmap.</p>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3">
+                                <a href="#design" class="scroll-link text-decoration-none text-dark">
+                                    <h5>Design</h5>
+                                    <p>Wireframing and UI/UX design.</p>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3">
+                                <a href="#development" class="scroll-link text-decoration-none text-dark">
+                                    <h5>Development</h5>
+                                    <p>Frontend & backend coding.</p>
+                                </a>
+                            </div>
+
+                            <div class="col-md-3">
+                                <a href="#deployment" class="scroll-link text-decoration-none text-dark">
+                                    <h5>Deployment</h5>
+                                    <p>Testing, launch, and support.</p>
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
 
         <!-- cloud_services -->
         <section class="cloud_services py-5 scroll-fade-up">
@@ -168,7 +188,7 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cest_Planning.avif" alt="Data Backup">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="planning">
                         <h3 class="theme_headerh3 ">Planning</h3>
                         <p class="theme_pra_text">Planning is the process of setting clear goals and outlining the steps
                             needed to achieve them. It involves organizing resources, managing time, and anticipating
@@ -177,9 +197,13 @@
                             reduces risks, and provides a roadmap that keeps projects and activities on track toward
                             their objectives.</p>
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5 " id="design">
                         <h3 class="theme_headerh3 ">Design</h3>
-                        <p class="theme_pra_text">Design is the creative and strategic process of planning, conceptualizing, and shaping the structure, appearance, and functionality of a product, system, or experience. It involves translating requirements into visual and functional elements, ensuring usability, aesthetics, and performance align with user needs and project goals for an effective solution.</p>
+                        <p class="theme_pra_text">Design is the creative and strategic process of planning,
+                            conceptualizing, and shaping the structure, appearance, and functionality of a product,
+                            system, or experience. It involves translating requirements into visual and functional
+                            elements, ensuring usability, aesthetics, and performance align with user needs and project
+                            goals for an effective solution.</p>
                         <p class="theme_pra_text">It combines aesthetics, usability, and practicality to solve problems
                             and meet user needs effectively.</p>
                     </div>
@@ -189,18 +213,27 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="development">
                         <h3 class="theme_headerh3 ">Development</h3>
                         <p class="theme_pra_text">Development is the process of creating, improving, or expanding
                             something over time, whether it’s a product, skill, system, or idea. It involves stages like
                             designing, building, testing, and refining to achieve desired goals.</p>
-                        <p class="theme_pra_text">This process drives meaningful progress by transforming abstract ideas into tangible outcomes. It encourages innovation, supports continuous improvement, and enhances functionality across multiple domains, including technology, education, business, healthcare, and personal development. Through effective design, solutions become more accessible, efficient, and impactful, ultimately benefiting users and society as a whole.</p>
+                        <p class="theme_pra_text">This process drives meaningful progress by transforming abstract ideas
+                            into tangible outcomes. It encourages innovation, supports continuous improvement, and
+                            enhances functionality across multiple domains, including technology, education, business,
+                            healthcare, and personal development. Through effective design, solutions become more
+                            accessible, efficient, and impactful, ultimately benefiting users and society as a whole.
+                        </p>
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="deployment">
                         <h3 class="theme_headerh3 ">Deployment</h3>
                         <p class="theme_pra_text">Deployment is the process of releasing and making a software
                             application, system, or product available for use in a live environment.</p>
-                        <p class="theme_pra_text">It involves the installation, configuration, and fine-tuning of the software or system to ensure it operates smoothly and efficiently for end users. This phase marks the critical transition from development to real-world application, ensuring the product meets user needs, functions correctly, and delivers the intended value in practical use.
+                        <p class="theme_pra_text">It involves the installation, configuration, and fine-tuning of the
+                            software or system to ensure it operates smoothly and efficiently for end users. This phase
+                            marks the critical transition from development to real-world application, ensuring the
+                            product meets user needs, functions correctly, and delivers the intended value in practical
+                            use.
                         </p>
                     </div>
                     <div class="col-md-6 mb-5">
@@ -216,7 +249,7 @@
             <div class="container">
                 <h2 class="theme_headerh1 text-center">Our Live Projects</h2>
                 <div class="row g-4">
-                   
+
                     <!-- Project 4 -->
                     <div class="col-md-4 mt-5">
                         <a href="mobile_app_development_project_detail_01.php">
@@ -313,6 +346,27 @@
 
     <!-- main_js -->
     <script src="js/script.js"></script>
+
+    <script>
+        document.querySelectorAll('.scroll-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+
+                // height of the fixed navbar
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+                // calculate the top position with offset
+                const topPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10; // 10px extra margin
+
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
     <script>
         window.addEventListener("load", () => {

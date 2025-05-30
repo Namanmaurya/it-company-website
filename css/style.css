@@ -211,6 +211,8 @@ body {
     }
 }
 
+
+
 /* scrollar */
 
 #scrollTopBtn {
@@ -3530,7 +3532,7 @@ body {
     padding: 40px 0;
 }
 
-.ourProcess .col-md-3 {
+.ourProcess  .col-md-3 {
     padding: 20px;
     background: #ffffff;
     border-radius: 12px;
@@ -3539,13 +3541,13 @@ body {
     margin-bottom: 30px;
 }
 
-.ourProcess .col-md-3:hover {
+.ourProcess  .col-md-3:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     border: 3px solid #2878fb;
 }
 
-.ourProcess p {
+.ourProcess  p {
     font-size: 15px;
     color: #6c757d;
     margin: 0;
@@ -3671,7 +3673,7 @@ body {
     margin-top: 10px;
     line-height: 1.6;
     transition: all 0.3s ease-in-out;
-    padding: 0px 15px;
+    padding: 0px 15px 10px 15px;
     text-align: justify;
 }
 

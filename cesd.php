@@ -97,14 +97,14 @@
 
                 <div class="row justify-content-center g-4 text-center">
                     <div class="col-md-2">
-                        <a href="#discovery">
+                        <a href="#discovery" class="scroll-link" >
                             <div class="process-step animate-step delay-1">
                                 <h6 class="fw-semibold">Discovery</h6>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#planning">
+                        <a href="#planning" class="scroll-link">
                             <div class="process-step animate-step delay-2">
                                 <h6 class="fw-semibold">Planning</h6>
 
@@ -112,7 +112,7 @@
                         </a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#development">
+                        <a href="#development" class="scroll-link">
                             <div class="process-step animate-step delay-3">
                                 <h6 class="fw-semibold"> Development</h6>
 
@@ -120,7 +120,7 @@
                         </a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#testing">
+                        <a href="#testing" class="scroll-link">
                             <div class="process-step animate-step delay-4">
                                 <h6 class="fw-semibold">Testing</h6>
 
@@ -128,7 +128,7 @@
                         </a>
                     </div>
                     <div class="col-md-2">
-                        <a href="#deployment">
+                        <a href="#deployment" class="scroll-link">
                             <div class="process-step animate-step delay-5">
                                 <h6 class="fw-semibold">Deployment</h6>
 
@@ -159,8 +159,12 @@
                     </div>
                     <div class="col-md-6 mb-5" id="planning">
                         <h3 class="theme_headerh3 ">Planning</h3>
-                        <p class="theme_pra_text">Planning in software development defines the project scope, sets objectives, and estimates time, resources, costs, risks, and deliverables to ensure successful execution and delivery. </p>
-                        <p class="theme_pra_text">Effective planning ensures stakeholder alignment, sets clear expectations, identifies potential risks early, allocates resources efficiently, and provides a structured roadmap for achieving project goals successfully.</p>
+                        <p class="theme_pra_text">Planning in software development defines the project scope, sets
+                            objectives, and estimates time, resources, costs, risks, and deliverables to ensure
+                            successful execution and delivery. </p>
+                        <p class="theme_pra_text">Effective planning ensures stakeholder alignment, sets clear
+                            expectations, identifies potential risks early, allocates resources efficiently, and
+                            provides a structured roadmap for achieving project goals successfully.</p>
                     </div>
                     <div class="col-md-6 mb-5" id="development">
                         <h3 class="theme_headerh3 ">Development</h3>
@@ -322,6 +326,27 @@
         });
 
 
+    </script>
+
+    <script>
+        document.querySelectorAll('.scroll-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+
+                // height of the fixed navbar
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+                // calculate the top position with offset
+                const topPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10; // 10px extra margin
+
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 
 </body>
