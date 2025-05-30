@@ -97,8 +97,6 @@
 
 		.footer-btm {
 			border-top: 1px solid #333;
-			margin-top: 30px;
-			padding-top: 20px;
 		}
 
 		.footer .copyright {
@@ -163,7 +161,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="widget mb-5 mb-lg-0">
+					<div class="widget  mb-lg-0">
 						<div class="logo mb-4">
 							<h3>Python</h3>
 						</div>

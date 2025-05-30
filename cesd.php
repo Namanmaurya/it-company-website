@@ -335,11 +335,9 @@
                 const targetId = this.getAttribute('href');
                 const target = document.querySelector(targetId);
 
-                // height of the fixed navbar
                 const navbarHeight = document.querySelector('.navbar').offsetHeight;
 
-                // calculate the top position with offset
-                const topPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10; // 10px extra margin
+                const topPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10; 
 
                 window.scrollTo({
                     top: topPosition,

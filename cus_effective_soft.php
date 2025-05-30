@@ -53,43 +53,51 @@
                 </div>
                 <div class="row ">
                     <div class="col-md-4">
-                        <div class="banefits_cards">
-                            <i class="fas fa-bullseye fa-2x"></i>
-                            <h5>Tailored to Needs</h5>
-                            <p>Built to solve your specific problems efficiently.</p>
-                        </div>
+                        <a href="#tailored_to_needs" class="scroll-link">
+                            <div class="banefits_cards">
+                                <i class="fas fa-bullseye fa-2x"></i>
+                                <h5>Tailored to Needs</h5>
+                                <p>Built to solve your specific problems efficiently.</p>
+                            </div>
+                        </a>
 
                     </div>
                     <div class="col-md-4">
-                        <div class="banefits_cards">
-                            <i class="fas fa-expand-arrows-alt fa-2x"></i>
-                            <h5>Scalable & Flexible</h5>
-                            <p>Grows as your business grows.</p>
-                        </div>
+                        <a href="#scalable_flexible" class="scroll-link">
+                            <div class="banefits_cards">
+                                <i class="fas fa-expand-arrows-alt fa-2x"></i>
+                                <h5>Scalable & Flexible</h5>
+                                <p>Grows as your business grows.</p>
+                            </div>
+                        </a>
 
                     </div>
                     <div class="col-md-4">
-                        <div class="banefits_cards">
-                            <i class="fas fa-shield-alt fa-2x"></i>
-                            <h5>Enhanced Security</h5>
-                            <p>Focused security measures for your domain.</p>
-                        </div>
-
+                        <a href="#enhanced_security" class="scroll-link">
+                            <div class="banefits_cards">
+                                <i class="fas fa-shield-alt fa-2x"></i>
+                                <h5>Enhanced Security</h5>
+                                <p>Focused security measures for your domain.</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="banefits_cards">
-                            <i class="fas fa-link fa-2x"></i>
-                            <h5>Seamless Integration</h5>
-                            <p>Works well with your existing tools.</p>
-                        </div>
-
+                        <a href="#seamless_integration" class="scroll-link">
+                            <div class="banefits_cards">
+                                <i class="fas fa-link fa-2x"></i>
+                                <h5>Seamless Integration</h5>
+                                <p>Works well with your existing tools.</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <div class="banefits_cards">
-                            <i class="fas fa-tools fa-2x"></i>
-                            <h5>Maintenance & Support</h5>
-                            <p>Continued updates and dedicated support.</p>
-                        </div>
+                        <a href="#maintenance_support" class="scroll-link">
+                            <div class="banefits_cards">
+                                <i class="fas fa-tools fa-2x"></i>
+                                <h5>Maintenance & Support</h5>
+                                <p>Continued updates and dedicated support.</p>
+                            </div>
+                        </a>
 
                     </div>
                 </div>
@@ -99,7 +107,7 @@
         <section class="cloud_services py-5 scroll-fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="tailored_to_needs">
                         <h3 class="theme_headerh3 ">Tailored to Needs</h3>
                         <p class="theme_pra_text "> <strong>"Tailored to Needs"</strong> in software and mobile app
                             development means creating customized solutions that align with specific client
@@ -113,10 +121,10 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Discovery.webp" alt="cloud hosting">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="scalable_flexible">
                         <img src="images\service\cest_Planning.avif" alt="Data Backup">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" >
                         <h3 class="theme_headerh3 ">Scalable & Flexible</h3>
                         <p class="theme_pra_text"><strong>"Scalable & Flexible"</strong> in software and mobile app
                             development refers to building systems that can grow with user demand and adapt to changing
@@ -127,7 +135,7 @@
                             overall maintenance costs for sustainable growth.</p>
 
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="enhanced_security">
                         <h3 class="theme_headerh3 ">Enhanced Security</h3>
                         <p class="theme_pra_text"><strong>"Enhanced Security"</strong> in software and mobile app
                             development means implementing advanced measures to protect user data and system integrity.
@@ -144,7 +152,7 @@
                     <div class="col-md-6 mb-5">
                         <img src="images\service\cesd_Testing.jpeg" alt="DevOps Support">
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5" id="seamless_integration">
                         <h3 class="theme_headerh3 ">Seamless Integration</h3>
                         <p class="theme_pra_text"><strong> "Seamless Integration"</strong> in software and mobile app
                             development refers to the smooth connection of the app with existing systems, third-party
@@ -155,11 +163,15 @@
                             ecosystem.</p>
 
                     </div>
-                    <div class="col-md-6 mb-5">
+                    <div class="col-md-6 mb-5 " id="maintenance_support">
                         <h3 class="theme_headerh3 ">Maintenance & Support</h3>
                         <p class="theme_pra_text"><strong>"Maintenance & Support"</strong> in software and mobile app
                             development involves ongoing updates, bug fixes, performance optimization, and technical
-                            assistance. It guarantees the app remains secure against emerging threats, stays compatible with the latest technologies and platforms, and maintains smooth, uninterrupted performance over time. This ongoing support provides users with a reliable experience and enables businesses to adapt quickly and efficiently to changing market demands and evolving customer needs.</p>
+                            assistance. It guarantees the app remains secure against emerging threats, stays compatible
+                            with the latest technologies and platforms, and maintains smooth, uninterrupted performance
+                            over time. This ongoing support provides users with a reliable experience and enables
+                            businesses to adapt quickly and efficiently to changing market demands and evolving customer
+                            needs.</p>
 
                     </div>
                     <div class="col-md-6 mb-5">
@@ -279,6 +291,25 @@
                 preloader.style.visibility = "hidden";
                 preloader.style.transition = "opacity 0.5s ease";
             }, 1200);
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('.scroll-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+                const topPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight - 10;
+
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
+            });
         });
     </script>
 
